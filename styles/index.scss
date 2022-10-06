@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+/* abstracts */
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+/* core */
+@import 'core/global';
+@import 'core/typography';
+
+/* components */
+@import 'components/buttons';
+@import 'components/hamburger';
+@import 'components/abouthero';
+@import 'components/techcarousel';
+@import 'components/productslider';
+@import 'components/contactform';
+@import 'components/googlemap';
+
+/* layout */
+@import 'layout/navbar';
+@import 'layout/footer';
+@import 'layout/searchbar';
+@import 'layout/rewards';
+
+/* pages */
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/help';
+@import 'pages/products';
+@import 'pages/technology';
+
+@import "swiper/scss";
+@import "swiper/scss/navigation";
+@import "swiper/scss/pagination";
+@import "swiper/scss/free-mode";
+@import "swiper/scss/thumbs";
+@import "swiper/css/scrollbar";

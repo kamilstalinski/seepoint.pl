@@ -1,0 +1,41 @@
+.footer {
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    background-color: #194895;
+    height: 150px;
+    color: #fff;
+
+    .footer__logo--container {
+        background-color: #fff;
+        align-self: flex-end;
+        padding: 3rem 2rem;
+        border-radius: 36px 36px 0 0;
+    }
+
+    .footer__contact--container {
+        .email,
+        .call {
+            display: flex;
+            gap: 1rem;
+
+            img {
+                width: 24px;
+            }
+        }
+    }
+
+    @include md {
+        height: auto;
+        padding-top: 4rem;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+
+        .footer__logo--container {
+            align-self: center;
+        }
+    }
+}

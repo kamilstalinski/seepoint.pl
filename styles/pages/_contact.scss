@@ -1,0 +1,149 @@
+.contact {
+    .contact__info {
+        margin-bottom: 8rem;
+        display: flex;
+        .img-container {
+            width: 50%;
+            min-height: 100%;
+            background-image: url('../../public/contact.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .contact__details--right {
+            width: 50%;
+            padding: 10rem;
+            color: #586574;
+            
+            h2 {
+                color: #2B64AD;
+                
+            }
+
+            p {
+                max-width: 500px;
+            }
+
+            
+        }
+    }
+
+    .location__info {
+        display: flex;
+        margin-bottom: 8rem;
+        color: #586574;
+
+        .contact__details--left {
+            h2 {
+                color: #2B64AD;
+            }
+    
+            p {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+            width: 50%;
+            padding: 10rem;
+        }
+    }
+}
+
+.contact__details {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+     width: 400px;
+     margin-top: 2rem;
+     padding: 0 8rem 0 4rem;
+     border-left: #586574 solid 2px;
+     align-self: flex-start;
+
+     .contact__details--container {
+        .description {
+            font-size: 2rem;
+            font-weight: normal;
+        }
+
+        .email,
+        .call {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+
+            img {
+                width: 24px;
+                filter: invert(48%) sepia(23%) saturate(267%) hue-rotate(173deg) brightness(91%) contrast(91%);
+            }
+        }
+    }
+ }
+
+ @include lg {
+    .contact {
+        .contact__info,
+        .location__info {
+            .contact__details--right,
+            .contact__details--left {
+                padding: 5rem;
+            }
+        }
+    }
+ }
+
+ @include md {
+    .contact {
+        .contact__info,
+        .location__info {
+            .contact__details--right,
+            .contact__details--left {
+                text-align: center;
+                padding: 2rem;
+
+                p {
+                    max-width: none;
+                }
+
+                .contact__details {
+                    padding: 0;
+
+                    .call,
+                    .email {
+                       justify-content: center;
+                    }
+                }
+            }
+        }
+
+        .contact__info {
+
+            .contact__details--right {
+                width: 100%;
+
+                .contact__details {
+                    margin: 2rem auto
+                }
+            }
+            .img-container {
+                display: none;
+            }
+        }
+
+        .location__info {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .contact__details--left {
+                width: 100%;
+
+                .contact__details {
+                    margin: 2rem auto
+                }
+            }
+
+            .google-map {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+ }
