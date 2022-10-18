@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const ContactForm = ({children}) => {
     return (
         <div className="form">
@@ -17,22 +19,22 @@ const ContactForm = ({children}) => {
                         <div className="contact__details--container">
                             <p className='description'>Lub skontaktuj się z nami mailowo/telefonicznie</p>
                             <div className="call">
-                                <img src='/call.png' alt="" />
+                                <img src='/call.png' alt="call icon" />
                                 <p>t+48 91 418 11 91</p>
                             </div>
                             <div className="email">
-                                <img src='/email.png' alt="" />
+                                <img src='/email.png' alt="mail icon" />
                                 <p>biuro@seepoint.pl</p>
                             </div>
                         </div>
                         <div className="contact__details--container">
                             <p className='description'>Dział handlowy</p>
                             <div className="call">
-                                <img src='/call.png' alt="" />
+                                <img src='/call.png' alt="call icon" />
                                 <p>+48 667 114 119</p>
                             </div>
                             <div className="email">
-                            <   img src='/email.png' alt="" />
+                                <img src='/email.png' alt="mail icon" />
                                 <p>rm@seepoint.pl</p>
                             </div>
                         </div>

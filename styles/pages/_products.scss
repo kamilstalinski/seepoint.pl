@@ -1,0 +1,195 @@
+.products {
+    .products__hero {
+        height: calc(100vh - 170px);
+        max-height: 75rem;
+        background-image: url('../../public/product-hero.png');
+        background-position: center;
+        background-size: cover;
+
+        .products__hero--info {
+            max-width: 1440px;
+            margin: 0 auto;
+            height: 100%;
+            padding: 6rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            gap: 2rem;
+
+            h1 {
+                color: #fff;
+                width: 400px;
+            }
+        }
+    }
+
+    .wrapper {
+        padding: 8rem 6rem;
+        display: flex;
+        position: relative;
+
+        .products__links {
+            max-width: 30rem;
+            margin-right: 6rem;
+
+            .links {
+                position: sticky;
+                top: 120px;
+                left: 0;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+            }
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            a {
+                color: #20201F;
+                text-decoration: none;
+
+                &.animal {
+                    color: #fff;
+                    font-weight: 700;
+                    padding: 1.5rem 3rem;
+                    background-image: url('../../public/animal.png');
+                    background-size: cover;
+                    background-position: center;
+                    text-align: center;
+                    align-self: flex-start;
+                    transition: .2s;
+
+                    &:hover {
+                        scale: 1.04;
+                    }
+                }
+            }
+        }
+
+        @include md {
+            flex-direction: column;
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+
+            .products__links {
+                display: none;
+            }
+        }
+
+        @include sm {
+            padding: 6rem 4rem;
+        }
+    }
+
+    section {
+        h2 {
+            margin-bottom: 4rem;
+        }
+
+        .banner-container {
+
+            .text-container {
+                height: auto;
+                width: 50%;
+                margin-left: 6rem;
+                padding: 2rem;
+                background-color: #fff;
+                border-radius: 19px;
+                box-shadow: 7px 7px 5px #0404051F;
+                translate: 0 -100px;
+            }
+
+            @include lg {
+                .text-container {
+                    width: 80%;
+                    margin: 0 auto;
+                    translate: 0 -5rem;
+                }
+            }
+        }
+
+        .products-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 4rem;
+            margin-bottom: 8rem;
+
+            .product-item {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 280px;
+                height: 380px;
+                background-color: #fff;
+                box-shadow: 7px 7px 5px #0404051F;
+                border-radius: 18px;
+                text-align: center;
+                transition: .2s;
+                cursor: pointer;
+                text-decoration: none;
+                color: #20201F;
+
+                h3 {
+                    font-size: 2rem;
+                    padding-top: 4rem;
+                    color: rgb(107, 119, 134);
+                }
+
+                .img-container {
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    
+                    span {
+                        border-radius: 18px;
+                    }
+                }
+
+                &:hover {
+                    scale: 1.05;
+                    box-shadow: 7px 7px 5px rgba(25, 72, 149, .2);
+                }
+                
+            }
+
+            @include lg {
+                gap: 3rem;
+
+                .product-item {
+                    width: 200px;
+                    height: 300px;
+                }
+            }
+
+            @include sm {
+                gap: 2rem;
+
+                .product-item {
+                    width: 170px;
+                    height: 240px;
+
+                    h3 {
+                        font-size: 1.4rem;
+                    }
+
+                }
+            }
+
+            
+        }
+    }
+
+
+}

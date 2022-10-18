@@ -18,7 +18,7 @@ const ProductSwiper = () => {
           className="product-swiper"
       >
         <SwiperSlide style={{maxWidth: '310px'}}>
-            <Link href='/beachflags'>
+            <Link href='/products/beachflags'>
                 <a className="link-container">
                     <img src='/beachflag.svg' alt="" />
                     <h3>Beach Flagi</h3>
@@ -28,7 +28,7 @@ const ProductSwiper = () => {
             </Link>
         </SwiperSlide>
         <SwiperSlide style={{maxWidth: '310px'}}> 
-            <Link href='/rollups'>
+            <Link href='/products/rollups'>
                 <a className="link-container">
                     <img src='/rollups.svg' alt="" />
                     <h3>Rollupy</h3>
@@ -38,7 +38,7 @@ const ProductSwiper = () => {
             </Link>
         </SwiperSlide>
         <SwiperSlide style={{maxWidth: '310px'}}>
-            <Link href='/banners'>
+            <Link href='/products/banners'>
                 <a className="link-container">
                     <img src='banners.svg' alt="" />
                     <h3>Banery</h3>
@@ -48,7 +48,7 @@ const ProductSwiper = () => {
             </Link>
         </SwiperSlide>
         <SwiperSlide style={{maxWidth: '310px'}}>
-            <Link href='/paintings'>
+            <Link href='/products/paintings'>
                 <a className="link-container">
                     <img src='paintings.svg' alt="" />
                     <h3>Obrazy</h3>
@@ -58,7 +58,7 @@ const ProductSwiper = () => {
             </Link>
         </SwiperSlide>
         <SwiperSlide style={{maxWidth: '310px'}}>
-            <Link href='/alu-banners'>
+            <Link href='/products/alu-banners'>
                 <a className="link-container">
                     <img src='paintings.svg' alt="" />
                     <h3>Obrazy</h3>
@@ -68,9 +68,9 @@ const ProductSwiper = () => {
             </Link>
         </SwiperSlide>
         <SwiperSlide style={{maxWidth: '310px'}}>
-            <Link href='/beachflag' className="link-container">
+            <Link href='/products/animalpillows' className="link-container">
                 <a className="link-container">
-                    <img src="" alt="" />
+                    <img src="/banners.svg" alt="" />
                     <h3>Poduszkozwierzaki</h3>
                     <div className="div"></div>
                     <p>Sprawdź produkt</p>

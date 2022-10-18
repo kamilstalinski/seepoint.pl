@@ -1,6 +1,6 @@
-import Navbar from '../components/Navbar';
-import Searchbar from '../components/Searchbar';
-import Footer from '../components/Footer';
+import Navbar from './Navbar';
+import Searchbar from './Searchbar';
+import Footer from './Footer';
 
 const Layout = ({children}) => {
     return ( 

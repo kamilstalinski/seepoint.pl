@@ -16,6 +16,18 @@
         border-radius: 50%;
         scale: 1.5;
     }
+    .hero__img-container2 {
+        background-image: url('../../public/technology.png');
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        top: 15%;
+        right: -10%;
+        border-radius: 50%;
+        scale: 1.5;
+    }
 
     .container {
         display: flex;

@@ -29,3 +29,36 @@
         }
     }
 }
+
+.white-button {
+    display: inline-block;
+    width: 350px;
+    background-color: #FFFFFF;
+    border-radius: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: #20201F;
+    padding: 2rem 0;
+    box-shadow: 0px 3px 6px #00000029;
+    transition: .2s ease-in-out;
+
+    &:hover {
+        background-color: #194895;
+        color: #fff;
+    }
+
+
+
+    @include sm {
+        width: 290px;
+        margin: 0 auto;
+    }
+
+    @include ssm {
+        width: 200px;
+
+        a {
+            font-size: 14px;
+        }
+    }
+}
