@@ -4,16 +4,25 @@ import ProductSlider from "../components/ProductSlider";
 import ContactForm from "../components/ContactForm";
 import Rewards from "../components/Rewards";
 
-import Head from "next/head"
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-
+import Head from "next/head";
+import { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      delay: 1000,
+    });
+  }, []);
+
   return (
-    <div className="about">
+    <div className='about'>
       <AboutHero />
-      <div className="container about__info">
-        <div className="about__description">
+      <div className='container about__info'>
+        <div className='about__description'>
           <h2>O nas</h2>
           <p>
             Dzięki otwartemu podejściu i satysfakcji odczuwanej z realizacji
@@ -28,27 +37,42 @@ const About = () => {
             ponieważ:
           </p>
         </div>
-        <div className="about__pros">
-          <div className="about__pros-item">
-            <img src='/work.svg' alt="" />
+        <div className='about__pros'>
+          <div
+            data-aos='fade-up'
+            data-aos-delay='50'
+            className='about__pros-item'>
+            <img src='/work.svg' alt='' />
             <p>
               mamy wieloletnie doświadczenie w zakresie prowadzonej działalności
             </p>
           </div>
-          <div className="about__pros-item">
-            <img src='/date.svg' alt="" />
+          <div
+            data-aos='fade-up'
+            data-aos-delay='150'
+            className='about__pros-item'>
+            <img src='/date.svg' alt='' />
             <p>jesteśmy dokładni, rzetelni i terminowi</p>
           </div>
-          <div className="about__pros-item">
-            <img src='task.svg' alt="" />
+          <div
+            data-aos='fade-up'
+            data-aos-delay='250'
+            className='about__pros-item'>
+            <img src='task.svg' alt='' />
             <p>zapewniamy kompleksową obsługę</p>
           </div>
-          <div className="about__pros-item">
-            <img src='/people.svg' alt="" />
+          <div
+            data-aos='fade-up'
+            data-aos-delay='350'
+            className='about__pros-item'>
+            <img src='/people.svg' alt='' />
             <p>elastycznie dostosowujemy się do wymagań Klienta</p>
           </div>
-          <div className="about__pros-item">
-            {<img src='/pricetag.svg' alt="" />}
+          <div
+            data-aos='fade-up'
+            data-aos-delay='450'
+            className='about__pros-item'>
+            <img src='/pricetag.svg' alt='' />
             <p>
               oferujemy korzystne ceny, a dla stałych klientów specjalne rabaty
               na cenę m2.
@@ -56,12 +80,12 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="about__us">
-        <div className="img-container">
-          <img src='/team.png' alt="" />
+      <div className='about__us'>
+        <div data-aos='fade-right' className='img-container'>
+          <img src='/team.png' alt='' />
         </div>
-        <div className="about__us-description">
-          <div className="wrapper">
+        <div data-aos='fade-left' className='about__us-description'>
+          <div className='wrapper'>
             <h1>Nasz zespół</h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
@@ -80,6 +104,6 @@ const About = () => {
       <Rewards />
     </div>
   );
-}
+};
 
 export default About;

@@ -3,10 +3,10 @@ import Image from "next/image";
 const Help = () => {
   return (
     <div className='help'>
-      <h1>Pomoc</h1>
-      <div className='help__section'>
-        <div className='help__section-wrapper container'>
-          <div className='help__section-details'>
+      <div className='help-wrapper'>
+        <div className='help-container container'>
+          <div className='help-info '>
+            <h1>Pomoc</h1>
             <h2>Ogólne</h2>
             <ul>
               <li>
@@ -33,7 +33,7 @@ const Help = () => {
               </li>
             </ul>
           </div>
-          <div className='help__section-details'>
+          <div className='help-info'>
             <h2>Kolorystyka</h2>
             <ul>
               <li>
@@ -53,9 +53,12 @@ const Help = () => {
               </li>
             </ul>
           </div>
+          <div className='image-container'>
+            <Image src='/help1.png' layout='fill' objectFit='contain' />
+          </div>
         </div>
-        <div className='help__section-wrapper container'>
-          <div className='help__section-details'>
+        <div className='help-container2 container'>
+          <div className='help-info'>
             <h2>Ogólne</h2>
             <ul>
               <li>
@@ -82,7 +85,7 @@ const Help = () => {
               </li>
             </ul>
           </div>
-          <div className='help__section-details'>
+          <div className='help-info'>
             <h2>Kolorystyka</h2>
             <ul>
               <li>
@@ -102,12 +105,9 @@ const Help = () => {
               </li>
             </ul>
           </div>
-        </div>
-        <div className='circle1'>
-          <Image src='/help1.png' layout='fill' objectFit='cover' />
-        </div>
-        <div className='circle2'>
-          <Image src='/help2.png' layout='fill' objectFit='cover' />
+          <div className='image-container2'>
+            <Image src='/help2.png' layout='fill' objectFit='contain' />
+          </div>
         </div>
       </div>
     </div>
@@ -115,3 +115,5 @@ const Help = () => {
 };
 
 export default Help;
+
+//
