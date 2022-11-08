@@ -16,6 +16,10 @@
             h1 {
                 font-size: 5rem;
                 margin-bottom: 4rem;
+
+                @include lg {
+                    font-size: 4rem;
+                }
             }
 
             h2 {
@@ -23,6 +27,10 @@
                 margin-top: 4rem;
                 margin-bottom: 2rem;
                 color: #2B64AD;
+
+                @include lg {
+                    font-size: 2.8rem;
+                }
             }
     
             ul {
@@ -61,6 +69,10 @@
             padding-left: 35%;
             
         }
+
+        @include lg {
+            margin-top: 8rem;
+        }
     }
 
     .image-container,
@@ -68,7 +80,7 @@
         position: absolute;
         width: 40%;
         height: inherit;
-        scale: 2;
+        scale: 1.8;
     }
 
     .image-container {
@@ -82,6 +94,27 @@
         top: 10%;
         left: -5%;
         transform: translateX(-30%);
-        scale: 1.8;
+        scale: 1.6;
     }
+    
+    @include md {
+
+        padding: 4rem 0;
+        .image-container,
+        .image-container2{
+            display: none;
+        }
+
+        .help-container,
+        .help-container2 {
+            width: 100%;
+            padding-left: 0;
+
+            .help-info {
+                width: inherit;
+                padding: 0 2rem;
+            }
+        }
+    }
+    
 }
