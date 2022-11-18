@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "Banery",
+    "path": "banners",
+    "linkImage": "/banner2.png"
+  },
+  {
+    "id": 1,
+    "name": "Rollupy",
+    "path": "rollups",
+    "linkImage": "/rollups2.png"
+  },
+  {
+    "id": 2,
+    "name": "Banery na aluframe",
+    "path": "alu-banners",
+    "linkImage": "/alu-banner.png"
+  },
+  {
+    "id": 3,
+    "name": "Poduszkozwierzaki",
+    "path": "animal-pillows",
+    "linkImage": "/animals.png"
+  },
+  {
+    "id": 4,
+    "name": "Obrazy",
+    "path": "paintings",
+    "linkImage": "/paintings2.png"
+  },
+  {
+    "id": 5,
+    "name": "Beach flagi",
+    "path": "beachflags",
+    "linkImage": "/beachflags2.png"
+  }
+]

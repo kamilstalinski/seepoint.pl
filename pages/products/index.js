@@ -3,6 +3,7 @@ import Image from "next/image";
 import ProductSwiper from "../../components/ProductSwiper";
 import ContactForm from "../../components/ContactForm";
 import Rewards from "../../components/Rewards";
+import ProductLink from "../../components/ProductLink";
 
 const Products = () => {
   return (
@@ -19,7 +20,7 @@ const Products = () => {
         <aside className='products__links'>
           <div className='links'>
             <h3>Nasze produkty</h3>
-            <Link href='/'>
+            <Link href='products/beachflags'>
               <a>Beach flagi</a>
             </Link>
             <Link href='/'>
@@ -60,66 +61,7 @@ const Products = () => {
           </div>
           <h2>Wszystkie produkty</h2>
           <div className='products-container'>
-            <Link href='products/rollups'>
-              <a className='product-item'>
-                <h3>Rollupy</h3>
-                <div className='img-container'>
-                  <Image src='/rollups2.png' layout='fill' objectFit='cover' />
-                </div>
-              </a>
-            </Link>
-            <Link href='products/rollups'>
-              <a className='product-item'>
-                <h3>Banery</h3>
-                <div className='img-container'>
-                  <Image src='/banner2.png' layout='fill' objectFit='cover' />
-                </div>
-              </a>
-            </Link>
-            <Link href='products/rollups'>
-              <a className='product-item'>
-                <h3>Banery na aluframe</h3>
-                <div className='img-container'>
-                  <Image
-                    src='/alu-banner.png'
-                    layout='fill'
-                    objectFit='cover'
-                  />
-                </div>
-              </a>
-            </Link>
-            <Link href='products/rollups'>
-              <a className='product-item'>
-                <h3>Poduszkozwierzaki</h3>
-                <div className='img-container'>
-                  <Image src='/animals.png' layout='fill' objectFit='cover' />
-                </div>
-              </a>
-            </Link>
-            <Link href='products/rollups'>
-              <a className='product-item'>
-                <h3>Obrazy</h3>
-                <div className='img-container'>
-                  <Image
-                    src='/paintings2.png'
-                    layout='fill'
-                    objectFit='cover'
-                  />
-                </div>
-              </a>
-            </Link>
-            <Link href='products/rollups'>
-              <a className='product-item'>
-                <h3>Beach flagi</h3>
-                <div className='img-container'>
-                  <Image
-                    src='/beachflags2.png'
-                    layout='fill'
-                    objectFit='cover'
-                  />
-                </div>
-              </a>
-            </Link>
+            <ProductLink />
           </div>
           <h2>Nasza technologia</h2>
           <div className='banner-container'>
