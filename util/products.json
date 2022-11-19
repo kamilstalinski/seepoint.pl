@@ -3,7 +3,9 @@
     "id": 0,
     "name": "Banery",
     "path": "banners",
-    "linkImage": "/banner2.png"
+    "linkImage": "/banner2.png",
+    "heroImage": "",
+    "type": ""
   },
   {
     "id": 1,

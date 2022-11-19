@@ -23,19 +23,19 @@ const Products = () => {
             <Link href='products/beachflags'>
               <a>Beach flagi</a>
             </Link>
-            <Link href='/'>
+            <Link href='productss/rollups'>
               <a>Rollupy</a>
             </Link>
-            <Link href='/'>
+            <Link href='products/banners'>
               <a>Banery</a>
             </Link>
-            <Link href='/'>
+            <Link href='products/alu-banners'>
               <a>Banery na aluframe</a>
             </Link>
-            <Link href='/'>
+            <Link href='products/paintings'>
               <a>Obrazy</a>
             </Link>
-            <Link href='/'>
+            <Link href='products/animal-pillows'>
               <a className='animal'>Poduszkozwierzaki</a>
             </Link>
           </div>
