@@ -1,7 +1,10 @@
 .product-hero {
-    height: calc(100vh - 175px);
+    height: 100vh;
+    max-height: 60rem;
     padding: 0 6rem;
     display: flex;
+    gap: 2rem;
+    
     
 
     .product-info {
@@ -16,11 +19,15 @@
             font-size: 2.4rem;
             color: #586574;
             margin-bottom: 2rem;
+
+            cursor: pointer;
+
+                &:hover {
+                    color: #000;
+                }
         }
 
         .breadcrumbs {
-            color: #586574;
-
             .fa {
                 margin: 0 1rem;
                 font-size: 1.2rem;
@@ -30,6 +37,16 @@
                 font-weight: 700;
                 color: #000;
             }
+
+            a {
+                color: #586574;
+                text-decoration: none;
+                font-size: inherit;
+
+                &:hover {
+                    color: #000
+                }
+            }
         }
     }
 
@@ -37,5 +54,196 @@
         position: relative;
         width: 60%;
         height: 100%;
+    }
+
+    @include md {
+        flex-direction: column-reverse;
+        max-height: 80rem;
+        margin-top: 6rem;
+        padding: 0 3rem;
+        gap: 0;
+
+        .product-info {
+            width: 100%;
+            justify-content: center;
+            height: 30rem;
+
+            .left-icon {
+                position: absolute;
+                top: 12rem;
+                left: 6rem;
+            }
+
+            .breadcrumbs {
+                position: absolute;
+                top: 12.3rem;
+                left: 15rem;
+            }
+
+            .primary-button {
+                width: 100%;
+            }
+        }
+
+        .product-image {
+            width: 100%;
+            margin-top: 2rem;
+        }
+    }
+
+    @include sm {
+        max-height: 50rem;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.product-type {
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8rem;
+    height: 60rem;
+    position: relative;
+    margin: 8rem auto;
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    
+
+ .type-image {
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+    &>div {
+        border-radius: 50px;
+    }
+ }
+
+    .product-type-info {
+        width: 50%;
+
+        h2 {
+            font-size: 2.8rem;
+        }
+    }
+
+    .type-btns {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+
+        .type-btn {
+            margin: 2rem 0 4rem 0;
+            padding: 1.2rem 2rem;
+            border: none;
+            background: #DADADB;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: .2s all ease-in-out;
+
+            &.active {
+                background-color: #194895;
+                color: #fff;
+            }
+        }
+    }
+
+    .specs {
+        margin-bottom: 4rem;
+
+        p {
+            margin-top: 2rem;
+        }
+    }
+
+    .params {
+
+        h2 {
+            border-bottom: #000 1px dashed;
+            padding-bottom: 2rem;
+        }
+        
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 500;
+        }
+
+        .dropdown-title {
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+            margin-top: 1rem;
+            cursor: pointer;
+            
+            .fa2 {
+                font-size: 2rem;
+            }
+
+            transition: .2 all ease-in-out;
+        }
+        
+        .dropdown{
+            
+            height: 0;
+            opacity: 0;
+            
+        }
+
+        .dropdown-active {
+            margin-top: 2rem;
+            height: auto;
+            opacity: 1;
+            
+        }
+    }
+
+    .doc-btn {
+        margin-top: 4rem;
+        background-color: transparent;
+        color: #194895;
+        border: 2px solid #194895;
+        box-shadow: none;
+        font-weight: 700;
+        transition: .2s all ease-in-out;
+
+        &:hover {
+            background-color: #194895;
+            color: #fff;
+        }
+    }
+
+    @include md {
+        .type-image {
+            display: none;
+        }
+
+        .product-type-info {
+            width: 100%;
+        }
+
+        .doc-btn {
+            width: 100%;
+        }
+        padding: 0 3rem;
+    }
+
+    @include sm {
+        h2 {
+            font-size: 1.2rem;
+        }
     }
 }

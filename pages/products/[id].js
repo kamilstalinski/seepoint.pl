@@ -1,9 +1,8 @@
-import { useEffect } from "react";
 import { useRouter } from "next/router";
-import Image from "next/image";
+import ProductHero from "../../components/ProductHero";
+import ProductParams from "../../components/ProductParams";
+import ProductSlider from "../../components/ProductSlider";
 import products from "../../util/products.json";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 export async function getStaticPaths() {
   const paths = products.map((product) => {
@@ -32,29 +31,13 @@ export async function getStaticProps({ params }) {
 const Product = ({ product }) => {
   const router = useRouter();
 
+  const goBack = () => router.back();
+
   return (
     <div className='product container'>
-      <div className='product-hero'>
-        <div className='product-info'>
-          <div className='left-icon' onClick={() => router.back()}>
-            <FontAwesomeIcon icon={faAngleLeft} />
-          </div>
-          <p className='breadcrumbs'>
-            Produkty {<FontAwesomeIcon className='fa' icon={faAngleRight} />}{" "}
-            <span style={{ fontWeight: "700" }}>{product.name}</span>
-          </p>
-          <h1>{product.name}</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            quos, corporis asperiores ipsum nesciunt temporibus nam nihil ab
-            beatae fugit.
-          </p>
-          <button className='primary-button'>Przejdź do sklepu</button>
-        </div>
-        <div className='product-image'>
-          <Image src='/beachflag-hero.png' layout='fill' objectFit='cover' />
-        </div>
-      </div>
+      <ProductHero product={product} goBack={goBack} />
+      <ProductParams product={product} />
+      <ProductSlider />
     </div>
   );
 };

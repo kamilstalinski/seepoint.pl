@@ -4,37 +4,119 @@
     "name": "Banery",
     "path": "banners",
     "linkImage": "/banner2.png",
-    "heroImage": "",
-    "type": ""
+    "heroImage": "/banner-hero.png",
+    "type": [
+      {
+        "name": "Frontilt",
+        "description": "Jeden z najpopularniejszych i najtańszych materiałów banerowych stosowanych w reklamie zewnętrznej. Doskonale znosi wilgoć, jest odporny na promieniowanie słoneczne, wiatr o średnim natężeniu i zmiany temperatur. Aby otrzymać większą powierzchnię, możliwe jest zgrzewanie mniejszych kawałków, zyskujemy wtedy bardzo dużą powierzchnię reklamy.",
+        "parameter": ["Baner Frontilt 440g"]
+      },
+      {
+        "name": "Mesh",
+        "description": "Siatka mesh to materiał lekki i bardzo wytrzymały. Materiał ten przepuszcza powietrze, światło i dźwięk. Z powodzeniem może być instalowany na elewacjach budynków, ogrodzeniach i konstrukcjach.",
+        "parameter": ["Mesh 280g", "Eco 370g"]
+      },
+      {
+        "name": "Trico",
+        "description": "Wszędzie tam, gdzie wymagana jest wysoka jakość, solidność, trwałość i głębia kolorów, proponujemy zastosowanie dzianin poliestrowych. Dzięki sublimacji jako technice druku otrzymujemy produkty o dużej wytrzymałości, odporne na zmienne warunki pogodowe. Znajdują one bardzo szerokie zastosowanie zarówno w reklamie zewnętrznej jak i wewnętrznej m.in. flagi, banery na witrynach sklepowych, dekoracje w galeriach handlowych, wystawach, targach i konferencjach.",
+        "parameter": ["Trico 115g", "Trico 250g"]
+      }
+    ]
   },
   {
     "id": 1,
     "name": "Rollupy",
     "path": "rollups",
-    "linkImage": "/rollups2.png"
+    "linkImage": "/rollups2.png",
+    "heroImage": "/rollup-hero.png",
+    "type": [
+      {
+        "name": "80 Compact",
+        "description": "Model Compact lekki, poręczny,funkcjonalny, wykonany z wysokiej jakości aluminium anodowego. Lider cenowy wśród rollup'ów. Listwa EXPRESS CLIP - błyskawiczny montaż wydruku.",
+        "parameter": ["Trico 205g", "Semi Mat Blockout"]
+      },
+      {
+        "name": "85 Compact",
+        "description": "Model Compact lekki, poręczny,funkcjonalny, wykonany z wysokiej jakości aluminium anodowego. Lider cenowy wśród rollup'ów. Listwa EXPRESS CLIP - błyskawiczny montaż wydruku.",
+        "parameter": ["Trico 205g", "Semi Mat Blockout"]
+      },
+      {
+        "name": "100 Compact",
+        "description": "Model Compact lekki, poręczny,funkcjonalny, wykonany z wysokiej jakości aluminium anodowego. Lider cenowy wśród rollup'ów. Listwa EXPRESS CLIP - błyskawiczny montaż wydruku.",
+        "parameter": ["Trico 205g", "Semi Mat Blockout"] 
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Banery na aluframe",
     "path": "alu-banners",
-    "linkImage": "/alu-banner.png"
+    "linkImage": "/alu-banner.png",
+    "heroImage": "/alu-banner-hero.png",
+    "type": [
+      {
+        "name": "80 Compact",
+        "description": "Ramy tekstylne wykonane z wysokiej jakości aluminium. Grafika drukowana jest na materiale tekstylnym. Nadruk obszywany jest silikonową taśmą, którą wsuwa się w krawędzie aluminiowego profilu. Uzyskujemy bardzo atrakcyjny efekt wizualny. Zastosowane profile są praktycznie niewidoczne od frontu, wydruk nie marszczy się ani nie faluje.",
+        "parameter": ["Trico 205 + Keder płaski do ram", "Do podświetleń + Keder płaski"]
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Poduszkozwierzaki",
     "path": "animal-pillows",
-    "linkImage": "/animals.png"
+    "linkImage": "/animals.png",
+    "heroImage": "/animals-hero.png",
+    "type": [
+      {
+        "name": "Poduszkozwierzak",
+        "description": "Poduszka Dekoracyjna z orginalnym nadrukiem w kształcie głowy Twojego Zwierzaka! Możliwość zamówienia poduszki z podobizną głowy swojego zwierzaka. Dostępne w rozmiarze 50x50cm. *Produkty z własnym wzorem nie podlegają zwrotom.",
+        "material": ["Poduszkozwierzak"],
+        "parameter": ["50x50cm"]
+      }
+    ]
   },
   {
     "id": 4,
     "name": "Obrazy",
     "path": "paintings",
-    "linkImage": "/paintings2.png"
+    "linkImage": "/paintings2.png",
+    "heroImage": "/paintings-hero.png",
+    "type": [
+      {
+        "name": "Obraz",
+        "description": "Dekoracyjny obraz z modnym nadrukiem. Montowany na drewnianą ramę od wewnątrz. Dostępne w rozmiarach 50x50cm, 60x40cm, 75x50cm, 100x80cm.",
+        "parameter": ["50x50cm", "40x60cm", "60x40cm", "75x50cm", "100x80cm"]
+      }
+    ]
   },
   {
     "id": 5,
     "name": "Beach flagi",
     "path": "beachflags",
-    "linkImage": "/beachflags2.png"
+    "linkImage": "/beachflags2.png",
+    "heroImage": "/beachflag-hero.png",
+    "type": [
+      {
+        "name": "Normal",
+        "description": "Beachflagi mogą być wyeksponowane do maksymalnej siły wiatru 10m/s. Wykończenie z tunelem z drukowanego materiału. Dostępne na materiałach Trico (dzianina) 115g.",
+        "parameter": ["M (260x65cm)", "L (340x86cm)"]
+      },
+      {
+        "name": "Prostokąt",
+        "description": "Beachflagi mogą być wyeksponowane do maksymalnej siły wiatru 10m/s. Wykończenie z tunelem z drukowanego materiału. Dostępne na materiałach Trico (dzianina) 115g.",
+        "parameter": ["M (284x73cm)", "L (384x73cm)"]
+      },
+      {
+        "name": "Shark",
+        "description": "Beachflagi mogą być wyeksponowane do maksymalnej siły wiatru 10m/s. Wykończenie z tunelem z drukowanego materiału. Dostępne na materiałach Trico (dzianina) 115g.",
+        "parameter": ["M (260x65cm)", "L (340x86cm)"]
+      },
+      {
+        "name": "Drop",
+        "description": "Beachflagi mogą być wyeksponowane do maksymalnej siły wiatru 10m/s. Wykończenie z tunelem z drukowanego materiału. Dostępne na materiałach Trico (dzianina) 115g.",
+        "parameter": ["M (226x103cm)", "L (290x210cm)"]
+      }
+    ]
   }
 ]
