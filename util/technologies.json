@@ -1,0 +1,70 @@
+[
+  {
+    "id": 0,
+    "path": "sublimation",
+    "image": "/billboard.svg",
+    "name": "Druk sublimacyjny",
+    "imageHero": "/sublimation-hero.png",
+    "description": "Wykonujemy m.in flagi, dywany, maty, banery reklamowe",
+    "description2":
+      "Technika druku wykorzystująca zjawisko sublimacji. Wydruk (CMYK) wykonywany jest specjalnymi atramentami na papierze transferowym, a następnie w warunkach wysokiego ciśnienia i temperatury przenoszony jest na materiał. Wydruk o dużej wytrzymałości, możliwość prania wydruków przy zachowaniu kolorów w temp. około 30 stopni. Sublimacja pozwala uzyskać szeroki gamut kolorystyczny i bardzo dużą rozdzielczość.",
+    "size": "320 cm",
+    "media": [["poliester", "od 100g do 300g,"], ["filc", "(nonwoven) 150g, 300g,"], ["floorpromotor", "(poliester z czarną gumą od tyłu),"], ["dywan", "(filc z gumą od tyłu),"], ["Lightex, lightbox", ", itp."]],
+    "use": ["flagi", "floorpromotor", "dwyany", "nadruk na materiale"]
+  },
+  {
+    "id": 1,
+    "path": "eco-solvent",
+    "image": "/monitor.svg",
+    "imageHero": "/ecosolvent-hero.png",
+    "name": "Druk eko solwentowy",
+    "description": "Wykonujmy m.in backlit, canvas, folia, papier",
+    "description2":
+      "sposób druku na ploterze atramentami eko solwentowymi (na bazie rozpuszczalników organicznych). Praktyczne zastosowania druku eko solwentowego to wszelkie wydruki w mniejszym formacie przy zachowaniu najwyższej rozdzielczości. Atramenty eko solwentowe są mniej toksyczne, jednocześnie znacznie mniej odporne na działanie warunków atmosferycznych i uszkodzenia mechaniczne, dlatego często wydruki pokrywa się laminatami.",
+    "size": "160 cm",
+    "media": [["backlit,"], ["canvas,"], ["folia,"], ["papier,", "itp."]],
+    "use": ["grafika reklamowa", "wydruki wysokojakościowe", "fotografia"]
+  },
+  {
+    "id": 2,
+    "path": "uv",
+    "image": "/photocopy.svg",
+    "imageHero": "/uv-hero.png",
+    "name": "Druk UV",
+    "description": "Wykonujmy trwały druk na materiałach płaskich oraz rolowych",
+    "description2":
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio at voluptas similique. Minus cumque dolorem harum, distinctio, dicta magnam commodi sequi molestias praesentium maxime facilis repellat deserunt impedit voluptate optio.",
+    "size": "320 cm",
+    "media": [["spienione pcv", "(forex) od 1mm do 19mm,"], ["kappa, szkło, pp, folia,"], ["płyty z okładzinami z aluminium", "(alu sandwich),"], ["akryl, sklejka", "itp,"]],
+    "use": ["trwały druk na materiałach płaskich oraz rolowanych", "bardzo szeroka baza materiałów nadających się do druku UV"]
+  },
+  {
+    "id": 3,
+    "path": "solvent-xxl",
+    "image": "/press.svg",
+    "imageHero": "/solventxxl-hero.png",
+    "name": "Druk solwentowy XXL",
+    "description": "Wykonujmy banery, siatki, folie",
+    "description2":
+      "sposób druku na ploterze atramentami solwentowymi. Druk solwentowy można stosować wobec wszystkich podłoży z zawartością PVC. Praktyczne zastosowania druku solwentowego to wszelkie wydruki wielkoformatowe charakteryzujące się  odpornością na czynniki zewnętrzne w dłuższym czasie. Atramenty solwentowe są odporne na wiele czynników łącznie z promieniowaniem ultrafioletowym i na ogół nie wymagają laminowania.",
+    "size": "500 cm",
+    "media": [["frontilt", "(baner),"], ["mesh", "(siatka),"], ["backlit,"], ["blockout", "itp,"]],
+    "use": ["banery", "siatki", "folie"]
+  },
+  {
+    "id": 4,
+    "path": "cutting-plotter",
+    "image": "/vinyl.svg",
+    "imageHero": "/cuttingplotter-hero.png",
+    "name": "Plotery tnące",
+    "description":
+      "Nacinanie liter i innych kształtów w folii samoprzylepnej oraz płytach PCV",
+    "description2":
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio at voluptas similique. Minus cumque dolorem harum, distinctio, dicta magnam commodi sequi molestias praesentium maxime facilis repellat deserunt impedit voluptate optio.",
+    "size": "300 cm",
+    "media": [["folia samoprzylepna,"], ["spienione pcv", "(forex) od 1mm do 19mm"], ["backlit,"], ["blockout", "itp,"]],
+    "use": ["Plotery tnące są stosowane głównie do nacinania liter i kształtów w folii samoprzylepnej oraz płytach PCV."]
+  }
+]
+
+

@@ -8,7 +8,13 @@ const Technology = () => {
     <div className='technology'>
       <div className='hero' style={{ marginBottom: "8rem" }}>
         <div className='hero__img-container2'>
-          {/* <Image src='/technology.png' layout='fill' objectFit='cover' /> */}
+          <Image
+            src='/technology.png'
+            layout='fill'
+            objectFit='cover'
+            loading='eager'
+            alt={technology.name}
+          />
         </div>
         <div className='container'>
           <div className='hero__content'>
