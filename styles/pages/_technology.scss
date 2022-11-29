@@ -1,0 +1,27 @@
+.prev-page {
+    position: relative;
+    border-radius: 19px;
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 6rem;
+    
+    p {
+        z-index: 111;
+    }
+
+    .icon {
+        font-size: 2rem;
+        color: #586574;
+        z-index: 111;
+    }
+
+    &:hover .text,
+    &:hover .icon {
+        color: #000 !important;
+    }
+
+}

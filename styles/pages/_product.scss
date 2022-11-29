@@ -154,11 +154,11 @@
             border-radius: 12px;
             cursor: pointer;
             transition: .2s all ease-in-out;
+        }
 
-            &.active {
-                background-color: #194895;
-                color: #fff;
-            }
+        .active-btn {
+            background-color: #194895;
+            color: #fff;
         }
     }
 

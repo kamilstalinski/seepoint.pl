@@ -28,7 +28,7 @@ export default function ProductParams({ product }) {
         <ProductSpecs type={type} />
         <div className='params'>
           <h2>Parametry</h2>
-          <ProductDropdown type={type} />
+          <ProductDropdown parameter={type.parameter} />
         </div>
         <button className='primary-button doc-btn'>Pobierz dokumentację</button>
       </div>

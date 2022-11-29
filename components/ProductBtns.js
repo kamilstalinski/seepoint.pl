@@ -1,9 +1,20 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function ProductBtns({ product, handleClick }) {
+  const [active, setActive] = useState(null);
+
+  useEffect(() => {
+    setActive(product.type[0].name);
+  }, []);
+
   const typeBtns = product.type.map((type) => {
     return (
-      <button onClick={() => handleClick(type)} className={`type-btn`}>
+      <button
+        onClick={() => {
+          handleClick(type);
+          setActive(type.name);
+        }}
+        className={`type-btn ${active === type.name && "active-btn"}`}>
         {type.name}
       </button>
     );
