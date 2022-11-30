@@ -17,7 +17,7 @@ const Contact = () => {
           />
         </div>
         <div className='contact__details--right'>
-          <h2>Kontakt</h2>
+          <h1>Kontakt</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Perferendis porro impedit voluptatem, consequuntur culpa doloremque.
