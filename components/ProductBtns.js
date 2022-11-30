@@ -10,6 +10,7 @@ export default function ProductBtns({ product, handleClick }) {
   const typeBtns = product.type.map((type) => {
     return (
       <button
+        key={Math.random() * 100}
         onClick={() => {
           handleClick(type);
           setActive(type.name);

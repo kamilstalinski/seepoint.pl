@@ -34,8 +34,10 @@ export default function SearchbarDropdown({
         <div ref={ref} className='results'>
           {filteredResults.map((result) => {
             return (
-              <Link href={`${result.category}/${result.path}`}>
-                <div key={result.is + Math.random() * 100} id='result-item'>
+              <Link
+                key={result.id + Math.random() * 100}
+                href={`${result.category}/${result.path}`}>
+                <div id='result-item'>
                   {result.name ? <p>{result.name}</p> : <p>{result}</p>}
                   {result.image || result.linkImage ? (
                     <Image
