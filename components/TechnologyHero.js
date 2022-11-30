@@ -18,7 +18,7 @@ export default function TechnologyHero({ technology }) {
             layout='fill'
             objectFit='cover'
             alt={technology.name}
-            priority
+            priority={true}
           />
         </div>
         <div className='container'>

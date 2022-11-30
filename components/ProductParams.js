@@ -20,6 +20,7 @@ export default function ProductParams({ product }) {
           layout='fill'
           objectFit='cover'
           alt='product'
+          priority={true}
         />
       </div>
       <div className='product-type-info'>

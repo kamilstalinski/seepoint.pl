@@ -29,7 +29,7 @@ export default function ProductHero({ product, goBack }) {
           layout='fill'
           objectFit='contain'
           alt='hero section image'
-          priority
+          priority={true}
         />
       </div>
     </div>

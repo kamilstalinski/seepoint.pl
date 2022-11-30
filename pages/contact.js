@@ -13,7 +13,7 @@ const Contact = () => {
             layout='fill'
             objectFit='cover'
             alt='contact image'
-            priority
+            priority={true}
           />
         </div>
         <div className='contact__details--right'>

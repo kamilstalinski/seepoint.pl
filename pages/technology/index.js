@@ -10,7 +10,7 @@ const Technology = () => {
       <div className='hero' style={{ marginBottom: "8rem" }}>
         <div className='hero__img-container2'>
           <Image
-            priority
+            priority={true}
             src={techImage}
             layout='fill'
             objectFit='cover'

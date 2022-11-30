@@ -62,7 +62,7 @@ const Help = () => {
               layout='fill'
               objectFit='contain'
               alt='help'
-              priority
+              priority={true}
             />
           </div>
         </div>
@@ -106,7 +106,7 @@ const Help = () => {
           </div>
           <div className='image-container2'>
             <Image
-              priority
+              priority={true}
               src={help2}
               layout='fill'
               objectFit='contain'

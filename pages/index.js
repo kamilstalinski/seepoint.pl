@@ -59,7 +59,7 @@ const About = () => {
       <div className='about__us'>
         <div className='img-container'>
           <Image
-            priority
+            priority={true}
             src='/team.webp'
             layout='fill'
             objectFit='cover'

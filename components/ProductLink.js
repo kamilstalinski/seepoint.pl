@@ -16,7 +16,7 @@ const ProductLink = () => {
                   layout='fill'
                   objectFit='cover'
                   alt='product image'
-                  priority
+                  priority={true}
                 />
               </div>
             </a>

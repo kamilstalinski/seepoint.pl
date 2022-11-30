@@ -45,6 +45,7 @@ export default function SearchbarDropdown({
                       width={65}
                       height={65}
                       alt={result.name}
+                      priority={true}
                     />
                   ) : null}
                 </div>
