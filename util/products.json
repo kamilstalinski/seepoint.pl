@@ -4,8 +4,8 @@
     "category": "products",
     "name": "Banery",
     "path": "banners",
-    "linkImage": "/banner2.png",
-    "heroImage": "/banner-hero.png",
+    "linkImage": "/banner2.webp",
+    "heroImage": "/banner-hero.webp",
     "type": [
       {
         "name": "Frontilt",
@@ -29,8 +29,8 @@
     "category": "products",
     "name": "Rollupy",
     "path": "rollups",
-    "linkImage": "/rollups2.png",
-    "heroImage": "/rollup-hero.png",
+    "linkImage": "/rollups2.webp",
+    "heroImage": "/rollup-hero.webp",
     "type": [
       {
         "name": "80 Compact",
@@ -54,8 +54,8 @@
     "category": "products",
     "name": "Banery na aluframe",
     "path": "alu-banners",
-    "linkImage": "/alu-banner.png",
-    "heroImage": "/alu-banner-hero.png",
+    "linkImage": "/alu-banner.webp",
+    "heroImage": "/alu-banner-hero.webp",
     "type": [
       {
         "name": "80 Compact",
@@ -69,8 +69,8 @@
     "category": "products",
     "name": "Poduszkozwierzaki",
     "path": "animal-pillows",
-    "linkImage": "/animals.png",
-    "heroImage": "/animals-hero.png",
+    "linkImage": "/animals.webp",
+    "heroImage": "/animals-hero.webp",
     "type": [
       {
         "name": "Poduszkozwierzak",
@@ -85,8 +85,8 @@
     "category": "products",
     "name": "Obrazy",
     "path": "paintings",
-    "linkImage": "/paintings2.png",
-    "heroImage": "/paintings-hero.png",
+    "linkImage": "/paintings2.webp",
+    "heroImage": "/paintings-hero.webp",
     "type": [
       {
         "name": "Obraz",
@@ -100,8 +100,8 @@
     "category": "products",
     "name": "Beach flagi",
     "path": "beachflags",
-    "linkImage": "/beachflags2.png",
-    "heroImage": "/beachflag-hero.png",
+    "linkImage": "/beachflags2.webp",
+    "heroImage": "/beachflag-hero.webp",
     "type": [
       {
         "name": "Normal",

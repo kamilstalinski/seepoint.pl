@@ -9,13 +9,13 @@ export default function TechnologySpec({ technology }) {
       </div>
       <div className='params'>
         <div className='param-container'>
-          <Image src='/param3.svg' width={100} height={100} />
+          <Image src='/param3.svg' width={100} height={100} alt='size' />
           <h3>Wielkość</h3>
           <h4>drukujemy w jednym kawałku do szerokości</h4>
           <p>{technology.size}</p>
         </div>
         <div className='param-container'>
-          <Image src='/param2.svg' width={100} height={100} />
+          <Image src='/param2.svg' width={100} height={100} alt='media' />
           <h3>Media do druku</h3>
           {technology.media.map((media, index) => {
             return (
@@ -27,7 +27,7 @@ export default function TechnologySpec({ technology }) {
           })}
         </div>
         <div className='param-container'>
-          <Image src='/param1.svg' width={100} height={100} />
+          <Image src='/param1.svg' width={100} height={100} alt='use' />
           <h3>Zastosowanie</h3>
           {technology.use.map((use, index) => (
             <p key={index}>{use}</p>

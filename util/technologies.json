@@ -5,7 +5,7 @@
     "path": "sublimation",
     "image": "/billboard.svg",
     "name": "Druk sublimacyjny",
-    "imageHero": "/sublimation-hero.png",
+    "imageHero": "/sublimation-hero.webp",
     "description": "Wykonujemy m.in flagi, dywany, maty, banery reklamowe",
     "description2":
       "Technika druku wykorzystująca zjawisko sublimacji. Wydruk (CMYK) wykonywany jest specjalnymi atramentami na papierze transferowym, a następnie w warunkach wysokiego ciśnienia i temperatury przenoszony jest na materiał. Wydruk o dużej wytrzymałości, możliwość prania wydruków przy zachowaniu kolorów w temp. około 30 stopni. Sublimacja pozwala uzyskać szeroki gamut kolorystyczny i bardzo dużą rozdzielczość.",
@@ -18,7 +18,7 @@
     "category": "technology",
     "path": "eco-solvent",
     "image": "/monitor.svg",
-    "imageHero": "/ecosolvent-hero.png",
+    "imageHero": "/ecosolvent-hero.webp",
     "name": "Druk eko solwentowy",
     "description": "Wykonujmy m.in backlit, canvas, folia, papier",
     "description2":
@@ -32,7 +32,7 @@
     "category": "technology",
     "path": "uv",
     "image": "/photocopy.svg",
-    "imageHero": "/uv-hero.png",
+    "imageHero": "/uv-hero.webp",
     "name": "Druk UV",
     "description": "Wykonujmy trwały druk na materiałach płaskich oraz rolowych",
     "description2":
@@ -46,7 +46,7 @@
     "category": "technology",
     "path": "solvent-xxl",
     "image": "/press.svg",
-    "imageHero": "/solventxxl-hero.png",
+    "imageHero": "/solventxxl-hero.webp",
     "name": "Druk solwentowy XXL",
     "description": "Wykonujmy banery, siatki, folie",
     "description2":
@@ -60,7 +60,7 @@
     "category": "technology",
     "path": "cutting-plotter",
     "image": "/vinyl.svg",
-    "imageHero": "/cuttingplotter-hero.png",
+    "imageHero": "/cuttingplotter-hero.webp",
     "name": "Plotery tnące",
     "description":
       "Nacinanie liter i innych kształtów w folii samoprzylepnej oraz płytach PCV",

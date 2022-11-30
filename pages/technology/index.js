@@ -1,6 +1,6 @@
 import ContactForm from "../../components/ContactForm";
 import TechCarousel from "../../components/TechCarousel";
-import technology from "../../public/technology.png";
+import technology from "../../public/technology.webp";
 import Image from "next/image";
 
 const Technology = () => {
@@ -9,7 +9,7 @@ const Technology = () => {
       <div className='hero' style={{ marginBottom: "8rem" }}>
         <div className='hero__img-container2'>
           <Image
-            src='/technology.png'
+            src='/technology.webp'
             layout='fill'
             objectFit='cover'
             loading='eager'

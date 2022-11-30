@@ -25,7 +25,7 @@ const TechSwiper = ({ setSwiper }) => {
         {technologies.map((tech) => {
           return (
             <SwiperSlide key={tech.id}>
-              <img src={tech.image} alt='' />
+              <img src={tech.image} alt={tech.name} />
             </SwiperSlide>
           );
         })}

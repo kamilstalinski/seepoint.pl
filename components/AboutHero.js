@@ -6,7 +6,7 @@ const AboutHero = () => {
     <div className='hero'>
       <div className='hero__img-container2'>
         <Image
-          src='/abouthero.png'
+          src='/abouthero.webp'
           layout='fill'
           objectFit='cover'
           loading='eager'

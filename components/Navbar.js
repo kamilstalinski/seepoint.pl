@@ -9,22 +9,25 @@ const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
-    <div className="navbar__wrapper sticky-element">
-      <div className="navbar__container container">
-        <Link href="/"><a className="navbar__img"><img src='/logo.svg' alt="" /></a></Link>
-        <div className="navbar__menu">
+    <div className='navbar__wrapper sticky-element'>
+      <div className='navbar__container container'>
+        <Link href='/'>
+          <a className='navbar__img'>
+            <img src='/logo.svg' alt='' />
+          </a>
+        </Link>
+        <div className='navbar__menu'>
           <ul className={isClicked ? "active" : null}>
-            <MenuLink path="/">O nas</MenuLink>
-            <MenuLink path="/products">Produkty</MenuLink>
-            <MenuLink path="/technology">Technologia</MenuLink>
-            <MenuLink path="/help">Pomoc</MenuLink>
-            <MenuLink path="/contact">Kontakt</MenuLink>
+            <MenuLink path='/'>O nas</MenuLink>
+            <MenuLink path='/products'>Produkty</MenuLink>
+            <MenuLink path='/technology'>Technologia</MenuLink>
+            <MenuLink path='/help'>Pomoc</MenuLink>
+            <MenuLink path='/contact'>Kontakt</MenuLink>
           </ul>
           <div
             className={`navbar__language ${active ? "active" : null}`}
-            onClick={() => setActive(!active)}
-          >
-            <img src='/arrow.svg' alt="" />
+            onClick={() => setActive(!active)}>
+            <img src='/arrow.svg' alt='arrow' />
             <p>PL</p>
           </div>
           <Hamburger isClicked={isClicked} setIsClicked={setIsClicked} />
@@ -32,6 +35,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;

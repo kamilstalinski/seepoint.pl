@@ -30,25 +30,25 @@ const About = () => {
         </div>
         <div className='about__pros'>
           <div className='about__pros-item'>
-            <img src='/work.svg' alt='' />
+            <img src='/work.svg' alt='work' />
             <p>
               mamy wieloletnie doświadczenie w zakresie prowadzonej działalności
             </p>
           </div>
           <div className='about__pros-item'>
-            <img src='/date.svg' alt='' />
+            <img src='/date.svg' alt='date' />
             <p>jesteśmy dokładni, rzetelni i terminowi</p>
           </div>
           <div className='about__pros-item'>
-            <img src='task.svg' alt='' />
+            <img src='task.svg' alt='task' />
             <p>zapewniamy kompleksową obsługę</p>
           </div>
           <div className='about__pros-item'>
-            <img src='/people.svg' alt='' />
+            <img src='/people.svg' alt='people' />
             <p>elastycznie dostosowujemy się do wymagań Klienta</p>
           </div>
           <div className='about__pros-item'>
-            <img src='/pricetag.svg' alt='' />
+            <img src='/pricetag.svg' alt='pricetag' />
             <p>
               oferujemy korzystne ceny, a dla stałych klientów specjalne rabaty
               na cenę m2.
@@ -58,7 +58,7 @@ const About = () => {
       </div>
       <div className='about__us'>
         <div className='img-container'>
-          <Image src='/team.png' layout='fill' objectFit='cover' alt='team' />
+          <Image src='/team.webp' layout='fill' objectFit='cover' alt='team' />
         </div>
         <div className='about__us-description'>
           <div className='wrapper'>

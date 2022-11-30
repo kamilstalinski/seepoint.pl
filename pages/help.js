@@ -55,7 +55,12 @@ const Help = () => {
             </ul>
           </div>
           <div className='image-container'>
-            <Image src='/help1.png' layout='fill' objectFit='contain' />
+            <Image
+              src='/help1.webp'
+              layout='fill'
+              objectFit='contain'
+              alt='help'
+            />
           </div>
         </div>
         <div className='help-container2 container'>
@@ -97,7 +102,12 @@ const Help = () => {
             </ul>
           </div>
           <div className='image-container2'>
-            <Image src='/help2.png' layout='fill' objectFit='contain' />
+            <Image
+              src='/help2.webp'
+              layout='fill'
+              objectFit='contain'
+              alt='help'
+            />
           </div>
         </div>
       </div>

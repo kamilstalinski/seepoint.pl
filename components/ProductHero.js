@@ -29,6 +29,7 @@ export default function ProductHero({ product, goBack }) {
           layout='fill'
           objectFit='contain'
           loading='eager'
+          alt='hero section image'
         />
       </div>
     </div>

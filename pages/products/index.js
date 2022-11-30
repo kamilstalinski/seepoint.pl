@@ -46,10 +46,11 @@ const Products = () => {
           <h2>Dlaczego my?</h2>
           <div className='banner-container'>
             <Image
-              src='/uv-print.png'
+              src='/uv-print.webp'
               width={100}
               height={30}
               layout='responsive'
+              alt='uv print'
             />
             <div className='text-container'>
               <p>
@@ -66,10 +67,11 @@ const Products = () => {
           <h2>Nasza technologia</h2>
           <div className='banner-container'>
             <Image
-              src='/plotter.png'
+              src='/plotter.webp'
               width={100}
               height={30}
               layout='responsive'
+              alt='plotter'
             />
             <div className='text-container'>
               <p>

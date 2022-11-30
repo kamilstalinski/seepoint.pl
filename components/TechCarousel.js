@@ -21,14 +21,18 @@ const TechCarousel = ({ text, currentSavedTechnology }) => {
           onClick={() => {
             swiper.slidePrev();
           }}>
-          <img style={{ rotate: "180deg" }} src='/forward-arrow.svg' alt='' />
+          <img
+            style={{ rotate: "180deg" }}
+            src='/forward-arrow.svg'
+            alt='forward arrow'
+          />
         </button>
         <button
           className='next-btn'
           onClick={() => {
             swiper.slideNext();
           }}>
-          <img src='/forward-arrow.svg' alt='' />
+          <img src='/forward-arrow.svg' alt='forward arrow' />
         </button>
       </div>
     </div>

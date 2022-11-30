@@ -16,7 +16,7 @@ export default function ProductParams({ product }) {
     <div className='product-type'>
       <div className='type-image'>
         <Image
-          src='/temporary.png'
+          src='/temporary.webp'
           layout='fill'
           objectFit='cover'
           loading='eager'

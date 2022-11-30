@@ -18,22 +18,22 @@ const Contact = () => {
                 Skontaktuj się z nami mailowo/telefonicznie
               </p>
               <div className='call-contact'>
-                <img src='/call.png' alt='' />
+                <img src='/call.webp' alt='call icon' />
                 <p>t+48 91 418 11 91</p>
               </div>
               <div className='email-contact'>
-                <img src='/email.png' alt='' />
+                <img src='/email.webp' alt='call icon' />
                 <p>biuro@seepoint.pl</p>
               </div>
             </div>
             <div className='contact__details--container'>
               <p className='description'>Dział handlowy</p>
               <div className='call-contact'>
-                <img src='/call.png' alt='' />
+                <img src='/call.webp' alt='call icon' />
                 <p>+48 667 114 119</p>
               </div>
               <div className='email-contact'>
-                <img src='/email.png' alt='' />
+                <img src='/email.webp' alt='call icon' />
                 <p>rm@seepoint.pl</p>
               </div>
             </div>

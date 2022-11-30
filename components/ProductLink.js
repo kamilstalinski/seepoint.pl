@@ -15,6 +15,7 @@ const ProductLink = () => {
                   src={product.linkImage}
                   layout='fill'
                   objectFit='cover'
+                  alt='product image'
                 />
               </div>
             </a>
