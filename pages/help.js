@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ContactForm from "../components/ContactForm";
-import help1 from "../public/help1.webp";
-import help2 from "../public/help2.webp";
+import help1 from "../public/static/help1.webp";
+import help2 from "../public/static/help2.webp";
 
 const Help = () => {
   return (

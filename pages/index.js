@@ -5,9 +5,6 @@ import ContactForm from "../components/ContactForm";
 import Rewards from "../components/Rewards";
 import Image from "next/image";
 
-import Head from "next/head";
-import { useEffect } from "react";
-
 const About = () => {
   return (
     <div className='about'>
@@ -60,7 +57,7 @@ const About = () => {
         <div className='img-container'>
           <Image
             priority={true}
-            src='/team.webp'
+            src='/static/team.webp'
             layout='fill'
             objectFit='cover'
             alt='team'

@@ -1,7 +1,7 @@
 import Map from "../components/GoogleMap";
 import ContactForm from "../components/ContactForm";
 import Image from "next/image";
-import contact from "../public/contact.webp";
+import contact from "../public/static/contact.webp";
 
 const Contact = () => {
   return (

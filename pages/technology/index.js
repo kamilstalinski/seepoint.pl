@@ -1,8 +1,7 @@
 import ContactForm from "../../components/ContactForm";
 import TechCarousel from "../../components/TechCarousel";
-import technology from "../../public/technology.webp";
 import Image from "next/image";
-import techImage from "../../public/technology.webp";
+import techImage from "../../public/static/technology.webp";
 
 const Technology = () => {
   return (
@@ -14,7 +13,7 @@ const Technology = () => {
             src={techImage}
             layout='fill'
             objectFit='cover'
-            alt={technology.name}
+            alt='tech-image'
           />
         </div>
         <div className='container'>

@@ -46,11 +46,21 @@ const Searchbar = () => {
         </div>
         <div className='contact-items'>
           <div className='call'>
-            <Image width={23} height={20} src='/call.webp' alt='call icon' />
+            <Image
+              width={23}
+              height={20}
+              src='/static/call.webp'
+              alt='call icon'
+            />
             <p>tel. 501 501 501</p>
           </div>
           <div className='email'>
-            <Image width={23} height={20} src='/email.webp' alt='email icon' />
+            <Image
+              width={23}
+              height={20}
+              src='/static/email.webp'
+              alt='email icon'
+            />
             <p>sklep@seepoint.pl</p>
           </div>
         </div>

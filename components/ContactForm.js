@@ -29,7 +29,7 @@ const ContactForm = ({ children }) => {
                 <Image
                   width={20}
                   height={20}
-                  src='/call.webp'
+                  src='/static/call.webp'
                   alt='call icon'
                 />
                 <p>t+48 91 418 11 91</p>
@@ -38,7 +38,7 @@ const ContactForm = ({ children }) => {
                 <Image
                   width={20}
                   height={20}
-                  src='/email.webp'
+                  src='/static/email.webp'
                   alt='mail icon'
                 />
                 <p>biuro@seepoint.pl</p>
@@ -50,7 +50,7 @@ const ContactForm = ({ children }) => {
                 <Image
                   width={20}
                   height={20}
-                  src='/call.webp'
+                  src='/static/call.webp'
                   alt='call icon'
                 />
                 <p>+48 667 114 119</p>
@@ -59,7 +59,7 @@ const ContactForm = ({ children }) => {
                 <Image
                   width={20}
                   height={20}
-                  src='/email.webp'
+                  src='/static/email.webp'
                   alt='mail icon'
                 />
                 <p>rm@seepoint.pl</p>

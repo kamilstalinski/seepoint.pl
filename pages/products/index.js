@@ -47,7 +47,7 @@ const Products = () => {
           <div className='banner-container'>
             <Image
               priority={true}
-              src='/uv-print.webp'
+              src='/static/uv-print.webp'
               width={100}
               height={30}
               layout='responsive'
@@ -69,7 +69,7 @@ const Products = () => {
           <div className='banner-container'>
             <Image
               priority={true}
-              src='/plotter.webp'
+              src='/static/plotter.webp'
               width={100}
               height={30}
               layout='responsive'

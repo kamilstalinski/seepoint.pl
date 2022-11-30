@@ -14,13 +14,13 @@ const Footer = () => {
       <div className='footer__contact--container'>
         <div className='call'>
           <div className='relative'>
-            <Image src='/call.webp' layout='fill' alt='call icon' />
+            <Image src='/static/call.webp' layout='fill' alt='call icon' />
           </div>
           <p>+48 91 418 11 91</p>
         </div>
         <div className='email'>
           <div className='relative'>
-            <Image src='/email.webp' layout='fill' alt='email icon' />
+            <Image src='/static/email.webp' layout='fill' alt='email icon' />
           </div>
           <p>biuro@seepoint.pl</p>
         </div>
