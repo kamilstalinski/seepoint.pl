@@ -1,6 +1,7 @@
 import Map from "../components/GoogleMap";
 import ContactForm from "../components/ContactForm";
 import Image from "next/image";
+import contact from "../public/contact.webp";
 
 const Contact = () => {
   return (
@@ -8,7 +9,7 @@ const Contact = () => {
       <div className='contact__info'>
         <div className='img-container'>
           <Image
-            src='/contact.webp'
+            src={contact}
             layout='fill'
             objectFit='cover'
             alt='contact image'

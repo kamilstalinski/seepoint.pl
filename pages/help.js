@@ -1,5 +1,7 @@
 import Image from "next/image";
 import ContactForm from "../components/ContactForm";
+import help1 from "../public/help1.webp";
+import help2 from "../public/help2.webp";
 
 const Help = () => {
   return (
@@ -56,7 +58,7 @@ const Help = () => {
           </div>
           <div className='image-container'>
             <Image
-              src='/help1.webp'
+              src={help1}
               layout='fill'
               objectFit='contain'
               alt='help'
@@ -104,11 +106,11 @@ const Help = () => {
           </div>
           <div className='image-container2'>
             <Image
-              src='/help2.webp'
+              priority
+              src={help2}
               layout='fill'
               objectFit='contain'
               alt='help'
-              priority
             />
           </div>
         </div>

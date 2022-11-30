@@ -46,6 +46,7 @@ const Products = () => {
           <h2>Dlaczego my?</h2>
           <div className='banner-container'>
             <Image
+              priority
               src='/uv-print.webp'
               width={100}
               height={30}
@@ -67,6 +68,7 @@ const Products = () => {
           <h2>Nasza technologia</h2>
           <div className='banner-container'>
             <Image
+              priority
               src='/plotter.webp'
               width={100}
               height={30}
