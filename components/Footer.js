@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Footer = () => {
   return (
     <div className='footer'>
@@ -11,11 +13,15 @@ const Footer = () => {
       </p>
       <div className='footer__contact--container'>
         <div className='call'>
-          <img src='/call.webp' alt='call icon' />
-          <p>t+48 91 418 11 91</p>
+          <div className='relative'>
+            <Image src='/call.webp' layout='fill' alt='call icon' />
+          </div>
+          <p>+48 91 418 11 91</p>
         </div>
         <div className='email'>
-          <img src='/email.webp' alt='email icon' />
+          <div className='relative'>
+            <Image src='/email.webp' layout='fill' alt='email icon' />
+          </div>
           <p>biuro@seepoint.pl</p>
         </div>
       </div>

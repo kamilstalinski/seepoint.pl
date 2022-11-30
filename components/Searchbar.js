@@ -1,6 +1,7 @@
 import technologies from "../util/technologies.json";
 import products from "../util/products.json";
 import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 
 import SearchbarDropdown from "./SearchbarDropdown";
 
@@ -45,11 +46,11 @@ const Searchbar = () => {
         </div>
         <div className='contact-items'>
           <div className='call'>
-            <img src='/call.webp' alt='' />
+            <Image width={23} height={20} src='/call.webp' alt='call icon' />
             <p>tel. 501 501 501</p>
           </div>
           <div className='email'>
-            <img src='/email.webp' alt='' />
+            <Image width={23} height={20} src='/email.webp' alt='email icon' />
             <p>sklep@seepoint.pl</p>
           </div>
         </div>

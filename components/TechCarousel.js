@@ -24,7 +24,7 @@ const TechCarousel = ({ text, currentSavedTechnology }) => {
           <img
             style={{ rotate: "180deg" }}
             src='/forward-arrow.svg'
-            alt='forward arrow'
+            alt='backward arrow'
           />
         </button>
         <button

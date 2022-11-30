@@ -3,6 +3,7 @@ import Hamburger from "./Hamburger";
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
           <div
             className={`navbar__language ${active ? "active" : null}`}
             onClick={() => setActive(!active)}>
-            <img src='/arrow.svg' alt='arrow' />
+            <Image width={10} height={10} src='/arrow.svg' alt='arrow' />
             <p>PL</p>
           </div>
           <Hamburger isClicked={isClicked} setIsClicked={setIsClicked} />

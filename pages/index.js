@@ -58,7 +58,13 @@ const About = () => {
       </div>
       <div className='about__us'>
         <div className='img-container'>
-          <Image src='/team.webp' layout='fill' objectFit='cover' alt='team' />
+          <Image
+            src='/team.webp'
+            layout='fill'
+            objectFit='cover'
+            alt='team'
+            priority
+          />
         </div>
         <div className='about__us-description'>
           <div className='wrapper'>

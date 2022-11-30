@@ -19,7 +19,6 @@ export default function ProductParams({ product }) {
           src='/temporary.webp'
           layout='fill'
           objectFit='cover'
-          loading='eager'
           alt='product'
         />
       </div>

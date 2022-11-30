@@ -60,6 +60,7 @@ const Help = () => {
               layout='fill'
               objectFit='contain'
               alt='help'
+              priority
             />
           </div>
         </div>
@@ -107,6 +108,7 @@ const Help = () => {
               layout='fill'
               objectFit='contain'
               alt='help'
+              priority
             />
           </div>
         </div>

@@ -3,11 +3,9 @@
         margin-bottom: 8rem;
         display: flex;
         .img-container {
+            position: relative;
             width: 50%;
             min-height: 100%;
-            background-image: url('../../public/contact.webp');
-            background-size: cover;
-            background-position: center;
         }
 
         .contact__details--right {

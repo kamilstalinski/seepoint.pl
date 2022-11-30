@@ -17,8 +17,8 @@ export default function TechnologyHero({ technology }) {
             src={technology.imageHero}
             layout='fill'
             objectFit='cover'
-            loading='eager'
             alt={technology.name}
+            priority
           />
         </div>
         <div className='container'>

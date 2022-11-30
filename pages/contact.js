@@ -1,11 +1,20 @@
 import Map from "../components/GoogleMap";
 import ContactForm from "../components/ContactForm";
+import Image from "next/image";
 
 const Contact = () => {
   return (
     <div className='contact'>
       <div className='contact__info'>
-        <div className='img-container'></div>
+        <div className='img-container'>
+          <Image
+            src='/contact.webp'
+            layout='fill'
+            objectFit='cover'
+            alt='contact image'
+            priority
+          />
+        </div>
         <div className='contact__details--right'>
           <h2>Kontakt</h2>
           <p>
@@ -18,22 +27,42 @@ const Contact = () => {
                 Skontaktuj się z nami mailowo/telefonicznie
               </p>
               <div className='call-contact'>
-                <img src='/call.webp' alt='call icon' />
-                <p>t+48 91 418 11 91</p>
+                <Image
+                  width={23}
+                  height={20}
+                  src='/call.webp'
+                  alt='call icon'
+                />
+                <p>+48 91 418 11 91</p>
               </div>
               <div className='email-contact'>
-                <img src='/email.webp' alt='call icon' />
+                <Image
+                  width={23}
+                  height={20}
+                  src='/email.webp'
+                  alt='call icon'
+                />
                 <p>biuro@seepoint.pl</p>
               </div>
             </div>
             <div className='contact__details--container'>
               <p className='description'>Dział handlowy</p>
               <div className='call-contact'>
-                <img src='/call.webp' alt='call icon' />
+                <Image
+                  width={23}
+                  height={20}
+                  src='/call.webp'
+                  alt='call icon'
+                />
                 <p>+48 667 114 119</p>
               </div>
               <div className='email-contact'>
-                <img src='/email.webp' alt='call icon' />
+                <Image
+                  width={23}
+                  height={20}
+                  src='/email.webp'
+                  alt='call icon'
+                />
                 <p>rm@seepoint.pl</p>
               </div>
             </div>

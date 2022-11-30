@@ -26,22 +26,42 @@ const ContactForm = ({ children }) => {
                 Lub skontaktuj się z nami mailowo/telefonicznie
               </p>
               <div className='call'>
-                <img src='/call.webp' alt='call icon' />
+                <Image
+                  width={20}
+                  height={20}
+                  src='/call.webp'
+                  alt='call icon'
+                />
                 <p>t+48 91 418 11 91</p>
               </div>
               <div className='email'>
-                <img src='/email.webp' alt='mail icon' />
+                <Image
+                  width={20}
+                  height={20}
+                  src='/email.webp'
+                  alt='mail icon'
+                />
                 <p>biuro@seepoint.pl</p>
               </div>
             </div>
             <div className='contact__details--container'>
               <p className='description'>Dział handlowy</p>
               <div className='call'>
-                <img src='/call.webp' alt='call icon' />
+                <Image
+                  width={20}
+                  height={20}
+                  src='/call.webp'
+                  alt='call icon'
+                />
                 <p>+48 667 114 119</p>
               </div>
               <div className='email'>
-                <img src='/email.webp' alt='mail icon' />
+                <Image
+                  width={20}
+                  height={20}
+                  src='/email.webp'
+                  alt='mail icon'
+                />
                 <p>rm@seepoint.pl</p>
               </div>
             </div>

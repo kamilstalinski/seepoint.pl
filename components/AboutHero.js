@@ -9,8 +9,8 @@ const AboutHero = () => {
           src='/abouthero.webp'
           layout='fill'
           objectFit='cover'
-          loading='eager'
           alt='seepoint.pl'
+          priority
         />
       </div>
       <div className='container'>
