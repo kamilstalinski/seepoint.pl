@@ -5,20 +5,10 @@ import ContactForm from "../components/ContactForm";
 import Rewards from "../components/Rewards";
 import Image from "next/image";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 import Head from "next/head";
 import { useEffect } from "react";
 
 const About = () => {
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 1500,
-  //     delay: 1000,
-  //   });
-  // }, []);
-
   return (
     <div className='about'>
       <AboutHero />
