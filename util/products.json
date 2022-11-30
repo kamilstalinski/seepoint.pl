@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "category": "products",
     "name": "Banery",
     "path": "banners",
     "linkImage": "/banner2.png",
@@ -25,6 +26,7 @@
   },
   {
     "id": 1,
+    "category": "products",
     "name": "Rollupy",
     "path": "rollups",
     "linkImage": "/rollups2.png",
@@ -49,6 +51,7 @@
   },
   {
     "id": 2,
+    "category": "products",
     "name": "Banery na aluframe",
     "path": "alu-banners",
     "linkImage": "/alu-banner.png",
@@ -63,6 +66,7 @@
   },
   {
     "id": 3,
+    "category": "products",
     "name": "Poduszkozwierzaki",
     "path": "animal-pillows",
     "linkImage": "/animals.png",
@@ -78,6 +82,7 @@
   },
   {
     "id": 4,
+    "category": "products",
     "name": "Obrazy",
     "path": "paintings",
     "linkImage": "/paintings2.png",
@@ -92,6 +97,7 @@
   },
   {
     "id": 5,
+    "category": "products",
     "name": "Beach flagi",
     "path": "beachflags",
     "linkImage": "/beachflags2.png",

@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "category": "technology",
     "path": "sublimation",
     "image": "/billboard.svg",
     "name": "Druk sublimacyjny",
@@ -14,6 +15,7 @@
   },
   {
     "id": 1,
+    "category": "technology",
     "path": "eco-solvent",
     "image": "/monitor.svg",
     "imageHero": "/ecosolvent-hero.png",
@@ -27,6 +29,7 @@
   },
   {
     "id": 2,
+    "category": "technology",
     "path": "uv",
     "image": "/photocopy.svg",
     "imageHero": "/uv-hero.png",
@@ -40,6 +43,7 @@
   },
   {
     "id": 3,
+    "category": "technology",
     "path": "solvent-xxl",
     "image": "/press.svg",
     "imageHero": "/solventxxl-hero.png",
@@ -53,6 +57,7 @@
   },
   {
     "id": 4,
+    "category": "technology",
     "path": "cutting-plotter",
     "image": "/vinyl.svg",
     "imageHero": "/cuttingplotter-hero.png",

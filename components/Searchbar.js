@@ -1,14 +1,17 @@
 import technologies from "../util/technologies.json";
 import products from "../util/products.json";
-import { useState, useEffect } from "react";
-import Image from "next/image";
+import { useState, useEffect, useRef } from "react";
+
+import SearchbarDropdown from "./SearchbarDropdown";
 
 const Searchbar = () => {
-  const [text, setText] = useState("");
+  const [isActive, setIsActive] = useState(true);
   const [filteredResults, setFilteredResult] = useState([]);
+
   const results = [...technologies, ...products];
 
   const handleChange = (e) => {
+    setIsActive(e.target.value ? true : false);
     setFilteredResult(
       results.filter((result) => {
         return result.name
@@ -17,14 +20,8 @@ const Searchbar = () => {
       }),
     );
 
-    if (e.target.value === "") setFilteredResult();
-    if (e.target.value && filteredResults === [])
-      setFilteredResult(["Brak wyników wyszukiwania"]);
+    if (e.target.value === "") setFilteredResult([]);
   };
-
-  useEffect(() => {
-    console.log(filteredResults);
-  });
 
   return (
     <div className='searchbar'>
@@ -37,24 +34,13 @@ const Searchbar = () => {
               type='text'
               placeholder='Wyszukaj...'
             />
-            {filteredResults && (
-              <div className='results'>
-                {filteredResults.map((result) => {
-                  return (
-                    <div className='result-item'>
-                      <p>{result.name}</p>
-                      {result.image || result.linkImage ? (
-                        <Image
-                          src={result.image || result.linkImage}
-                          width={50}
-                          height={50}
-                        />
-                      ) : null}
-                    </div>
-                  );
-                })}
-              </div>
-            )}
+            <SearchbarDropdown
+              results={results}
+              isActive={isActive}
+              setIsActive={setIsActive}
+              filteredResults={filteredResults}
+              setFilteredResult={setFilteredResult}
+            />
           </div>
         </div>
         <div className='contact-items'>
