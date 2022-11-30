@@ -3,6 +3,7 @@ import TechCarousel from "../components/TechCarousel";
 import ProductSlider from "../components/ProductSlider";
 import ContactForm from "../components/ContactForm";
 import Rewards from "../components/Rewards";
+import Image from "next/image";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -67,7 +68,7 @@ const About = () => {
       </div>
       <div className='about__us'>
         <div className='img-container'>
-          <img src='/team.png' alt='' />
+          <Image src='/team.png' layout='fill' objectFit='cover' alt='team' />
         </div>
         <div className='about__us-description'>
           <div className='wrapper'>
@@ -83,7 +84,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <TechCarousel />
+      <TechCarousel text={"Nasza oferta"} />
       <ProductSlider />
       <ContactForm>Kontakt</ContactForm>
       <Rewards />

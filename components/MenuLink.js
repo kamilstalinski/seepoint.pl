@@ -7,7 +7,7 @@ const MenuLink = ({ children, path }) => {
   return (
     <li>
       <Link href={path}>
-        <a className={router.pathname == path ? "active" : ""}>{children}</a>
+        <a className={router.pathname === path ? "active" : ""}>{children}</a>
       </Link>
     </li>
   );

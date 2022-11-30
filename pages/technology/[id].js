@@ -35,7 +35,7 @@ const Technology = ({ technology }) => {
       <TechnologySpec technology={technology} />
       <TechCarousel
         currentSavedTechnology={technology.id}
-        children={"Zobacz nasze inne technologie"}
+        text={"Zobacz nasze inne technologie"}
       />
     </div>
   );
