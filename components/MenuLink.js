@@ -1,13 +1,17 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const MenuLink = ({ children, path }) => {
+const MenuLink = ({ children, path, setIsClicked, isClicked }) => {
   const router = useRouter();
 
   return (
     <li>
       <Link href={path}>
-        <a className={router.pathname === path ? "active" : ""}>{children}</a>
+        <a
+          onClick={() => setIsClicked(!isClicked)}
+          className={router.pathname === path ? "active" : ""}>
+          {children}
+        </a>
       </Link>
     </li>
   );

@@ -26,6 +26,7 @@
 }
 
 .tech-spec {
+    padding: 4rem;
     margin-bottom: 12rem;
     .description {
         max-width: 70rem;
@@ -39,8 +40,6 @@
         p {
             font-weight: 300;
         }
-
-        @include lg {}
     }
 
     .params {
@@ -51,7 +50,7 @@
         margin-top: 8rem;
 
         .param-container {
-            width: 20rem;
+            max-width: 20rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -84,6 +83,14 @@
         @include lg {
             gap: 6rem;
             padding: 0 2rem;
+        }
+
+        @include md {
+            gap: 5rem;
+            flex-wrap: wrap;
+            .param-container {
+                width: 100%;
+            }
         }
     }
 }

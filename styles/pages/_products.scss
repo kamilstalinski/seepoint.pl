@@ -2,7 +2,8 @@
     .products__hero {
         height: calc(100vh - 170px);
         max-height: 75rem;
-        background-image: url('../../public/static/product-hero.webp');
+        // background-image: url('../../public/static/product-hero.webp');
+        background-color: #000;
         background-position: center;
         background-size: cover;
 
@@ -19,7 +20,17 @@
 
             h1 {
                 color: #fff;
-                width: 400px;
+                max-width: 400px;
+            }
+        }
+
+        @include md {
+            .products__hero--info {
+                padding: 4rem;
+
+                h1 {
+                    text-align: center;
+                }
             }
         }
     }
@@ -175,14 +186,14 @@
             }
 
             @include sm {
-                gap: 2rem;
+                gap: 2.5rem;
 
                 .product-item {
-                    width: 170px;
-                    height: 240px;
+                    width: 140px;
+                    height: 200px;
 
                     h3 {
-                        font-size: 1.4rem;
+                        font-size: 1.2rem;
                     }
 
                 }

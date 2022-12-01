@@ -65,7 +65,7 @@ const About = () => {
         </div>
         <div className='about__us-description'>
           <div className='wrapper'>
-            <h1>Nasz zespół</h1>
+            <h2>Nasz zespół</h2>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
               mollitia recusandae nulla ducimus ut, cumque est nesciunt atque

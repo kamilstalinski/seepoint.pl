@@ -5,8 +5,10 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        cursor: pointer;
-        z-index: 1111;
+        border: none;
+        background: transparent;
+        z-index: 111111;
+
 
         .line {
             height: 4px;
@@ -17,6 +19,11 @@
         }
 
         &.active {
+            .line {
+                transition-delay: .1s;
+                background-color: #000;
+            }
+
             .line:first-of-type {
                 rotate: 45deg;
                 translate: 0 10px

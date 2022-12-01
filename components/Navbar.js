@@ -13,22 +13,56 @@ const Navbar = () => {
     <div className='navbar__wrapper sticky-element'>
       <div className='navbar__container container'>
         <Link href='/'>
-          <a className='navbar__img'>
+          <a className={`navbar__img ${isClicked ? "active" : null}`}>
             <img src='/logo.svg' alt='' />
           </a>
         </Link>
         <div className='navbar__menu'>
           <ul className={isClicked ? "active" : null}>
-            <MenuLink path='/'>O nas</MenuLink>
-            <MenuLink path='/products'>Produkty</MenuLink>
-            <MenuLink path='/technology'>Technologia</MenuLink>
-            <MenuLink path='/help'>Pomoc</MenuLink>
-            <MenuLink path='/contact'>Kontakt</MenuLink>
+            <MenuLink
+              setIsClicked={setIsClicked}
+              isClicked={isClicked}
+              path='/'>
+              O nas
+            </MenuLink>
+            <MenuLink
+              setIsClicked={setIsClicked}
+              isClicked={isClicked}
+              path='/products'>
+              Produkty
+            </MenuLink>
+            <MenuLink
+              setIsClicked={setIsClicked}
+              isClicked={isClicked}
+              path='/technology'>
+              Technologia
+            </MenuLink>
+            <MenuLink
+              setIsClicked={setIsClicked}
+              isClicked={isClicked}
+              path='/help'>
+              Pomoc
+            </MenuLink>
+            <MenuLink
+              setIsClicked={setIsClicked}
+              isClicked={isClicked}
+              path='/contact'>
+              Kontakt
+            </MenuLink>
+            <div className='social-media'></div>
           </ul>
           <div
-            className={`navbar__language ${active ? "active" : null}`}
+            className={`navbar__language ${active ? "active" : null} ${
+              isClicked ? "active-menu" : null
+            }`}
             onClick={() => setActive(!active)}>
-            <Image width={10} height={10} src='/arrow.svg' alt='arrow' />
+            <Image
+              className='img'
+              width={10}
+              height={10}
+              src='/arrow.svg'
+              alt='arrow'
+            />
             <p>PL</p>
           </div>
           <Hamburger isClicked={isClicked} setIsClicked={setIsClicked} />

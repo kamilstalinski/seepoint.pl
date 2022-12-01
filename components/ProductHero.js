@@ -7,14 +7,14 @@ export default function ProductHero({ product, goBack }) {
   return (
     <div className='product-hero'>
       <div className='product-info'>
-        <div className='left-icon'>
-          <FontAwesomeIcon icon={faAngleLeft} onClick={goBack} />
-        </div>
-        <p className='breadcrumbs'>
-          <Link href='/products'>Produkty</Link>{" "}
-          {<FontAwesomeIcon className='fa' icon={faAngleRight} />}{" "}
+        <button className='left-icon'>
+          {/* <FontAwesomeIcon icon={faAngleLeft} onClick={goBack} size='xs' /> */}
+        </button>
+        <button className='breadcrumbs'>
+          <Link href='/products'>Produkty</Link>
+          {/* <FontAwesomeIcon icon={faAngleRight} /> */}
           <span style={{ fontWeight: "700" }}>{product.name}</span>
-        </p>
+        </button>
         <h1>{product.name}</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
