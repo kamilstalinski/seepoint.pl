@@ -81,8 +81,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <Map />
       </div>
-      <Map />
       <ContactForm>Formularz kontaktowy</ContactForm>
     </div>
   );

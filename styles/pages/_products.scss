@@ -83,6 +83,7 @@
 
         @include md {
             flex-direction: column;
+            padding: 8rem 4rem;
 
             h2 {
                 font-size: 3rem;
@@ -98,7 +99,7 @@
         }
 
         @include sm {
-            padding: 6rem 4rem;
+            padding: 6rem 2rem;
         }
     }
 
@@ -124,7 +125,9 @@
                 .text-container {
                     width: 80%;
                     margin: 0 auto;
-                    translate: 0 -5rem;
+                    translate: 0 -2rem;
+
+
                 }
             }
         }
@@ -189,8 +192,8 @@
                 gap: 2.5rem;
 
                 .product-item {
-                    width: 140px;
-                    height: 200px;
+                    width: 127px;
+                    height: 180px;
 
                     h3 {
                         font-size: 1.2rem;
