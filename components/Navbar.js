@@ -1,13 +1,21 @@
 import MenuLink from "./MenuLink";
 import Hamburger from "./Hamburger";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
+
+  useEffect(() => {
+    if (isClicked) {
+      document.body.style.overflowY = "hidden";
+    } else {
+      document.body.style.overflowY = "scroll";
+    }
+  }, [isClicked]);
 
   return (
     <div className='navbar__wrapper sticky-element'>
