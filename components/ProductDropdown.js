@@ -13,7 +13,7 @@ export default function ProductDropdown({ parameter }) {
     <>
       <div className='dropdown-title' onClick={handleDropdown}>
         <h3>Rozmiar</h3>
-        {/* <FontAwesomeIcon className='fa2' icon={faAngleDown} /> */}
+        <FontAwesomeIcon className='fa2' icon={faAngleDown} />
       </div>
       <div className={isVisible ? "dropdown-active" : "dropdown"}>
         {parameter.map((param) => {

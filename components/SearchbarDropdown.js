@@ -19,9 +19,9 @@ export default function SearchbarDropdown({
     };
     document.addEventListener("click", clickedOutside);
     return () => {
-      document.removeEventListener("click", clickedOutside);
+      !document.removeEventListener("click", clickedOutside);
     };
-  }, []);
+  }, [setIsActive]);
 
   useEffect(() => {
     if (filteredResults.length === 0)
@@ -42,8 +42,9 @@ export default function SearchbarDropdown({
                   {result.image || result.linkImage ? (
                     <Image
                       src={result.image || result.linkImage}
-                      width={65}
-                      height={65}
+                      width={50}
+                      height={50}
+                      objectFit='contain'
                       alt={result.name}
                       priority={true}
                     />

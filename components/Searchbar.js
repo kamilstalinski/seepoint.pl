@@ -5,8 +5,8 @@ import Image from "next/image";
 
 import SearchbarDropdown from "./SearchbarDropdown";
 
-const Searchbar = () => {
-  const [isActive, setIsActive] = useState(true);
+const Searchbar = ({ isClicked }) => {
+  const [isActive, setIsActive] = useState(false);
   const [filteredResults, setFilteredResult] = useState([]);
 
   const results = [...technologies, ...products];
@@ -25,8 +25,8 @@ const Searchbar = () => {
   };
 
   return (
-    <div className='searchbar'>
-      <div className='search-wrapper container'>
+    <div className={`searchbar ${isClicked ? "active" : null}`}>
+      <div className={`search-wrapper container`}>
         <div className='search'>
           <p>Szukaj frazą</p>
           <div className='input-wrapper'>

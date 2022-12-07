@@ -12,21 +12,28 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        gap: 4rem;
+        
 
         .search {
             display: flex;
+            justify-content: flex-end;
             align-items: center;
             gap: 3rem;
+            flex-grow: 2;
     
             .input-wrapper {
                 position: relative;
+                width: 50%;
+                
                 
                 input {                
                     outline: none;
                     border: 2px solid #fff;
                     border-radius: 43px;
                     background-color: transparent;
-                    width: 500px;
+                    width: 100%;
+                    max-width: 500px;
                     padding: 1rem 2rem;
                     color: #FFF;
                     font-size: 18px;
@@ -42,24 +49,23 @@
                     display: flex;
                     flex-direction: column;
                     position: absolute;
-                    padding: 2rem 0;
+                    padding: 2rem 2rem;
                     top: 100%;
                     left: 0;
                     width: 100%;
                     background-color: #fff;
-                    z-index: 123;
                     font-size: 1.8rem;
                     border-radius:25px;
                     box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
                     transition: height .2s ease-in-out;
-                    
+                    z-index: 999999;
 
                     #result-item {
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
                         color: #000;
-                        padding: rem 2rem;
+                        padding: 1rem 2rem;
                         border-radius: 25px;
                         transition: all .2s ease-in-out;
                         cursor: pointer;
@@ -77,6 +83,7 @@
             display: flex;
             align-items: center;
             gap: 2rem;
+            flex-grow: 1;
     
             .email,
             .call {
@@ -109,5 +116,52 @@
 
     @include lg {
         display: none;
+        position: absolute;
+        top: 100px;
+        opacity: 0;
+        left: 0;
+        width: 100%;
+        height: 0px;
+        z-index: 2;
+        transition: .2s ease-in-out all;
+        transition-delay: .075s;
+        .search-wrapper {
+            .search > p {
+                display: none;
+            }
+            .contact-items {
+                display: none;
+            }
+
+            .search {
+                width: 100%;
+                .input-wrapper {
+                    width: 100%;
+                    input {
+                        display: block;
+                        width: 100%;
+                        max-width: 500px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+
+            
+        }
+
+        &.active {
+            height: 75px;
+            opacity: 1;
+            .search {
+                justify-content: center;
+                .input-wrapper {
+                    margin-right: 0;
+                    
+                    input {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
     }
 }

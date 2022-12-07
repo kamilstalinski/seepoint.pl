@@ -25,11 +25,11 @@ export default function TechnologyHero({ technology }) {
           <div className='hero__content'>
             <Link href='/technology'>
               <div className='prev-page'>
-                {/* <FontAwesomeIcon
+                <FontAwesomeIcon
                   className='icon'
                   icon={faAngleLeft}
                   onClick={goBack}
-                /> */}
+                />
                 <p className='text'>Nasza technologia</p>
               </div>
             </Link>

@@ -4,10 +4,15 @@ import ProductSlider from "../components/ProductSlider";
 import ContactForm from "../components/ContactForm";
 import Rewards from "../components/Rewards";
 import Image from "next/image";
+import Head from "next/head";
 
 const About = () => {
   return (
     <div className='about'>
+      <Head>
+        <title>Seepoint - Drukarnia wielkoformatowa</title>
+        <meta name='description' />
+      </Head>
       <AboutHero />
       <div className='container about__info'>
         <div className='about__description'>

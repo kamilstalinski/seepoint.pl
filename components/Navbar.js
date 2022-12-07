@@ -5,14 +5,14 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const Navbar = () => {
+const Navbar = ({ handleStateChange }) => {
   const [active, setActive] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
 
   useEffect(() => {
-    if (isClicked) {
+    if (isClicked === true) {
       document.body.style.overflowY = "hidden";
-    } else {
+    } else if (isClicked === false) {
       document.body.style.overflowY = "scroll";
     }
   }, [isClicked]);
@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className='navbar__wrapper sticky-element'>
       <div className='navbar__container container'>
         <Link href='/'>
-          <a className={`navbar__img ${isClicked ? "active" : null}`}>
+          <a className={`navbar__img`}>
             <img src='/logo.svg' alt='' />
           </a>
         </Link>
@@ -73,7 +73,11 @@ const Navbar = () => {
             />
             <p>PL</p>
           </div>
-          <Hamburger isClicked={isClicked} setIsClicked={setIsClicked} />
+          <Hamburger
+            isClicked={isClicked}
+            setIsClicked={setIsClicked}
+            handleStateChange={handleStateChange}
+          />
         </div>
       </div>
     </div>

@@ -2,9 +2,8 @@
     .products__hero {
         height: calc(100vh - 170px);
         max-height: 75rem;
-        // background-image: url('../../public/static/product-hero.webp');
-        background-color: #000;
-        background-position: center;
+        background:linear-gradient(240deg, transparent 40%, rgba(25,46,149,0.7) 100%), url('../../public/static/products-hero.webp') ;
+        background-position: start; 
         background-size: cover;
 
         .products__hero--info {

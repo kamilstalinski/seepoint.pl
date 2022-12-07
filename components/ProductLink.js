@@ -12,9 +12,9 @@ const ProductLink = () => {
               <h3>{product.name}</h3>
               <div className='img-container'>
                 <Image
-                  src={product.linkImage}
+                  src={product.image}
                   layout='fill'
-                  objectFit='cover'
+                  objectFit='contain'
                   alt='product image'
                   priority={true}
                 />

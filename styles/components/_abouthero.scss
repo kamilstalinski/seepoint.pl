@@ -47,6 +47,10 @@
     @include lg {
         height: calc(70vh - 100px);
 
+        .hero__img-container2 {
+            right: -20%;
+        }
+
         img {
             width: 100%;
             right: -55%;
