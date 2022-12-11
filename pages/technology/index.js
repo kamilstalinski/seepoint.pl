@@ -3,6 +3,12 @@ import TechCarousel from "../../components/TechCarousel";
 import Image from "next/image";
 import techImage from "../../public/static/technology.webp";
 
+export function getStaticProps({ locale }) {
+  return {
+    props: { locale },
+  };
+}
+
 const Technology = () => {
   return (
     <div className='technology'>

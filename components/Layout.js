@@ -3,7 +3,7 @@ import Searchbar from "./Searchbar";
 import Footer from "./Footer";
 import { useState } from "react";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, t }) => {
   const [isClicked, setIsClicked] = useState(false);
 
   const handleStateChange = (isClicked) => {
@@ -12,8 +12,8 @@ const Layout = ({ children }) => {
 
   return (
     <div className='content'>
-      <Navbar handleStateChange={handleStateChange} />
-      <Searchbar isClicked={isClicked} />
+      <Navbar handleStateChange={handleStateChange} t={t} />
+      <Searchbar isClicked={isClicked} t={t} />
       {children}
       <Footer />
     </div>

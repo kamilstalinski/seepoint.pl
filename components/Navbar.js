@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import LanguageToggle from "./LanguageToggle";
 
-const Navbar = ({ handleStateChange }) => {
+const Navbar = ({ handleStateChange, t }) => {
   const [active, setActive] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
 
@@ -32,31 +32,31 @@ const Navbar = ({ handleStateChange }) => {
               setIsClicked={setIsClicked}
               isClicked={isClicked}
               path='/'>
-              O nas
+              {t.navbar.about}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
               path='/products'>
-              Produkty
+              {t.navbar.products}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
               path='/technology'>
-              Technologia
+              {t.navbar.technology}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
               path='/help'>
-              Pomoc
+              {t.navbar.help}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
               path='/contact'>
-              Kontakt
+              {t.navbar.contact}
             </MenuLink>
             <div className='social-media'></div>
           </ul>

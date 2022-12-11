@@ -3,6 +3,12 @@ import ContactForm from "../components/ContactForm";
 import Image from "next/image";
 import contact from "../public/static/contact.webp";
 
+export function getStaticProps({ locale }) {
+  return {
+    props: { locale },
+  };
+}
+
 const Contact = () => {
   return (
     <div className='contact'>

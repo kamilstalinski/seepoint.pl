@@ -5,6 +5,12 @@ import ContactForm from "../../components/ContactForm";
 import Rewards from "../../components/Rewards";
 import ProductLink from "../../components/ProductLink";
 
+export function getStaticProps({ locale }) {
+  return {
+    props: { locale },
+  };
+}
+
 const Products = () => {
   return (
     <div className='products'>

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import SearchbarDropdown from "./SearchbarDropdown";
 
-const Searchbar = ({ isClicked }) => {
+const Searchbar = ({ isClicked, t }) => {
   const [isActive, setIsActive] = useState(false);
   const [filteredResults, setFilteredResult] = useState([]);
 
@@ -28,12 +28,12 @@ const Searchbar = ({ isClicked }) => {
     <div className={`searchbar ${isClicked ? "active" : null}`}>
       <div className={`search-wrapper container`}>
         <div className='search'>
-          <p>Szukaj frazą</p>
+          <p>{t.searchbar.searchWord}</p>
           <div className='input-wrapper'>
             <input
               onChange={(e) => handleChange(e)}
               type='text'
-              placeholder='Wyszukaj...'
+              placeholder={t.searchbar.search}
             />
             <SearchbarDropdown
               results={results}

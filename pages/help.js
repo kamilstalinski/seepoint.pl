@@ -3,6 +3,12 @@ import ContactForm from "../components/ContactForm";
 import help1 from "../public/static/help1.webp";
 import help2 from "../public/static/help2.webp";
 
+export function getStaticProps({ locale }) {
+  return {
+    props: { locale },
+  };
+}
+
 const Help = () => {
   return (
     <div className='help'>
