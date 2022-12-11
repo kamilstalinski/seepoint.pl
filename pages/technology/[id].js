@@ -1,15 +1,17 @@
 import TechnologyHero from "../../components/TechnologyHero";
 import TechnologySpec from "../../components/TechnologySpec";
 import TechCarousel from "../../components/TechCarousel";
-
 import technologies from "../../util/technologies.json";
 
-export async function getStaticPaths() {
-  const paths = technologies.map((technology) => {
-    return {
-      params: { id: technology.path.toString() },
-    };
-  });
+export async function getStaticPaths({ locales }) {
+  const paths = technologies
+    .map((technology) =>
+      locales.map((locale) => ({
+        params: { id: technology.path.toString() },
+        locale,
+      })),
+    )
+    .flat();
 
   return {
     paths,
@@ -17,14 +19,14 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params, locale, locales }) {
   const id = params.id;
-  const singleProduct = technologies.filter((technology) => {
+  const singleTech = technologies.filter((technology) => {
     return technology.path === id;
   });
 
   return {
-    props: { technology: singleProduct[0] },
+    props: { technology: singleTech[0], locale, locales },
   };
 }
 

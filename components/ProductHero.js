@@ -10,7 +10,10 @@ export default function ProductHero({ product, goBack }) {
     <div className='product-hero'>
       <div className='product-info'>
         <button className='left-icon'>
-          <FontAwesomeIcon icon={faAngleLeft} size='3x'></FontAwesomeIcon>
+          <FontAwesomeIcon
+            onClick={goBack}
+            icon={faAngleLeft}
+            size='3x'></FontAwesomeIcon>
         </button>
         <button
           onClick={() => router.push(`/products`)}

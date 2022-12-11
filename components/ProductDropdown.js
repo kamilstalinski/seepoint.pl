@@ -17,7 +17,7 @@ export default function ProductDropdown({ parameter }) {
       </div>
       <div className={isVisible ? "dropdown-active" : "dropdown"}>
         {parameter.map((param) => {
-          return <p key={param.name}>{param}</p>;
+          return <p key={Math.random() * 1231231}>{param}</p>;
         })}
       </div>
     </>

@@ -6,7 +6,13 @@ import Rewards from "../components/Rewards";
 import Image from "next/image";
 import Head from "next/head";
 
-const About = () => {
+export function getStaticProps({ locale }) {
+  return {
+    props: { locale },
+  };
+}
+
+const About = (props) => {
   return (
     <div className='about'>
       <Head>

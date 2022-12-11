@@ -4,6 +4,7 @@ import Hamburger from "./Hamburger";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import LanguageToggle from "./LanguageToggle";
 
 const Navbar = ({ handleStateChange }) => {
   const [active, setActive] = useState(false);
@@ -59,20 +60,11 @@ const Navbar = ({ handleStateChange }) => {
             </MenuLink>
             <div className='social-media'></div>
           </ul>
-          <div
-            className={`navbar__language ${active ? "active" : null} ${
-              isClicked ? "active-menu" : null
-            }`}
-            onClick={() => setActive(!active)}>
-            <Image
-              className='img'
-              width={10}
-              height={10}
-              src='/arrow.svg'
-              alt='arrow'
-            />
-            <p>PL</p>
-          </div>
+          <LanguageToggle
+            active={active}
+            setActive={setActive}
+            isClicked={isClicked}
+          />
           <Hamburger
             isClicked={isClicked}
             setIsClicked={setIsClicked}
