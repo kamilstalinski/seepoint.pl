@@ -24,10 +24,6 @@ const Contact = () => {
         </div>
         <div className='contact__details--right'>
           <h1>Kontakt</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Perferendis porro impedit voluptatem, consequuntur culpa doloremque.
-          </p>
           <div className='contact__details'>
             <div className='contact__details--container'>
               <p className='description'>
@@ -79,7 +75,6 @@ const Contact = () => {
       <div className='location__info'>
         <div className='contact__details--left'>
           <h2>Lokalizacja</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           <div className='contact__details'>
             <div className='contact__details--container'>
               <p className='description'>ul. I Brygady Legionów 15</p>

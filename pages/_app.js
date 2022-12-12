@@ -14,7 +14,7 @@ const MyApp = ({ Component, pageProps }) => {
   const t = locale === "pl" ? pl : en;
   return (
     <Layout t={t}>
-      <Component {...pageProps} />
+      <Component {...pageProps} t={t} />
     </Layout>
   );
 };
