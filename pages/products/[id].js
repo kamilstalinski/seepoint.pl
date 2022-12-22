@@ -1,5 +1,4 @@
 import { useRouter } from "next/router";
-import { useEffect } from "react";
 import ProductHero from "../../components/ProductHero";
 import ProductParams from "../../components/ProductParams";
 import ProductSlider from "../../components/ProductSlider";
