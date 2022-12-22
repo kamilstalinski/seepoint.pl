@@ -1,6 +1,5 @@
 .contact {
     .contact__info {
-        margin-bottom: 8rem;
         display: flex;
         .img-container {
             position: relative;
@@ -31,6 +30,10 @@
         color: #586574;
 
         .contact__details--left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
             h2 {
                 color: #2B64AD;
             }

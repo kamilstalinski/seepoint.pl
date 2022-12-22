@@ -32,7 +32,7 @@ const ContactForm = ({ children }) => {
                   src='/static/call.webp'
                   alt='call icon'
                 />
-                <p>t+48 91 418 11 91</p>
+                <p>+48 91 418 11 91</p>
               </div>
               <div className='email'>
                 <Image
