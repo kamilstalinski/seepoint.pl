@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
+    gap: 8rem;
     background-color: #194895;
     height: 150px;
     color: #fff;
@@ -29,8 +29,13 @@
         }
     }
 
+    .footer__description {
+        flex-basis: 30%;
+    }
+
     @include md {
         height: auto;
+        gap: 4rem;
         padding-top: 4rem;
         flex-direction: column-reverse;
         justify-content: center;
@@ -38,6 +43,12 @@
 
         .footer__logo--container {
             align-self: center;
+        }
+
+        .footer__contact--container {
+            .email {
+                margin-top: 1rem;
+            }
         }
     }
 }

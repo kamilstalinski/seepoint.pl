@@ -50,13 +50,13 @@ const About = ({ t }) => {
           </div>
         </div>
       </div>
-      <div className='about__us'>
+      <div className='about__us container full-bleed'>
         <div className='img-container'>
           <Image
             priority={true}
             src='/static/team.webp'
             layout='fill'
-            objectFit='cover'
+            objectFit='contain'
             alt='team'
           />
         </div>

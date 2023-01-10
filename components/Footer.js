@@ -6,7 +6,7 @@ const Footer = () => {
       <div className='footer__logo--container'>
         <img src='/logo.svg' alt='logo' />
       </div>
-      <p>
+      <p className='footer__description'>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ipsa
         commodi tenetur molestias asperiores maxime incidunt similique aperiam
         temporibus eaque!

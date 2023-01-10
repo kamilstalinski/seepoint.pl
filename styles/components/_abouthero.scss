@@ -67,6 +67,10 @@
     @include md {
         height: calc(100vh - 100px);
 
+        .hero__img-container2 {
+            width: 80%;
+        }
+
         img {
             top: -40%;
             left: 0;
@@ -79,7 +83,7 @@
                 width: 100%;
                 background-color: #fff;
                 border-radius: 30px;
-                padding: 2rem 1rem;
+                padding: 4rem;
 
                 p {
                     width: 100%;
