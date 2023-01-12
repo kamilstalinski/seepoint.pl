@@ -65,7 +65,6 @@ const Products = () => {
           <h2>{t("whyus")}</h2>
           <div className='banner-container'>
             <Image
-              priority={true}
               src='/static/uv-print.webp'
               width={100}
               height={30}

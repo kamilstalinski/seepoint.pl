@@ -28,11 +28,12 @@ const Technology = () => {
       <div className='hero' style={{ marginBottom: "8rem" }}>
         <div className='hero__img-container2'>
           <Image
-            priority={true}
             src={techImage}
             layout='fill'
             objectFit='cover'
             alt='tech-image'
+            loading='eager'
+            priority='true'
           />
         </div>
         <div className='container'>
