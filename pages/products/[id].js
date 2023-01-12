@@ -4,7 +4,6 @@ import ProductParams from "../../components/ProductParams";
 import ProductSlider from "../../components/ProductSlider";
 import products from "../../util/products.json";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { useTranslation } from "next-i18next";
 
 export async function getStaticPaths({ locale, locales }) {
   const productObj = locale === "pl" ? products.pl : products.en;

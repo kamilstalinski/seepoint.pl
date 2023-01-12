@@ -10,7 +10,8 @@ const AboutHero = ({ t }) => {
           layout='fill'
           objectFit='cover'
           alt='seepoint.pl'
-          priority={true}
+          loading='eager'
+          priority='true'
         />
       </div>
       <div className='container'>
