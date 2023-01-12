@@ -27,10 +27,15 @@
                 width: 20px;
             }
         }
+
+        .email {
+            margin-top: 1rem;
+        }
     }
 
     .footer__description {
         flex-basis: 30%;
+        text-align: center;
     }
 
     @include md {
