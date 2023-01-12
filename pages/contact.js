@@ -1,7 +1,6 @@
 import Map from "../components/GoogleMap";
 import ContactForm from "../components/ContactForm";
 import Image from "next/image";
-import contact from "../public/static/contact.webp";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
@@ -27,11 +26,12 @@ const Contact = () => {
       <div className='contact__info'>
         <div className='img-container'>
           <Image
-            src={contact}
+            src='https://res.cloudinary.com/dnt5pai0z/image/upload/v1673565429/contact_qehebj.webp'
             layout='fill'
             objectFit='cover'
             alt='contact image'
-            priority={true}
+            loading='eager'
+            priority='true'
           />
         </div>
         <div className='contact__details--right'>

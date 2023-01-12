@@ -1,7 +1,6 @@
 import ContactForm from "../../components/ContactForm";
 import TechCarousel from "../../components/TechCarousel";
 import Image from "next/image";
-import techImage from "../../public/static/technology.webp";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
@@ -28,7 +27,7 @@ const Technology = () => {
       <div className='hero' style={{ marginBottom: "8rem" }}>
         <div className='hero__img-container2'>
           <Image
-            src={techImage}
+            src='https://res.cloudinary.com/dnt5pai0z/image/upload/v1673565496/technology_fad5o9.webp'
             layout='fill'
             objectFit='cover'
             alt='tech-image'

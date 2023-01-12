@@ -1,7 +1,5 @@
 import Image from "next/image";
 import ContactForm from "../components/ContactForm";
-import help1 from "../public/static/help1.webp";
-import help2 from "../public/static/help2.webp";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
@@ -50,7 +48,7 @@ const Help = () => {
           </div>
           <div className='image-container'>
             <Image
-              src={help1}
+              src='https://res.cloudinary.com/dnt5pai0z/image/upload/v1673565451/help1_bumlfj.webp'
               layout='fill'
               objectFit='contain'
               alt='help'
@@ -80,7 +78,7 @@ const Help = () => {
           </div>
           <div className='image-container2'>
             <Image
-              src={help2}
+              src='https://res.cloudinary.com/dnt5pai0z/image/upload/v1673565455/help2_mkvab4.webp'
               layout='fill'
               objectFit='contain'
               alt='help'
