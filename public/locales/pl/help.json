@@ -22,5 +22,5 @@
     "pcv1": "Minimalna rozdzielczość bitmap w pracy to 150 dpi dla wydruków do ok. 10m2, 100 dpi dla 10-30m2, ok. 50 dpi dla wydruków ponad 30m2, w miarę możliwości zaleca się używanie grafik wektorowych.",
     "pcv2": "Spady powinny mieć 2cm.",
     "pcv3": "Minimalna odległość tekstów i grafik od linii cięcia to co najmniej „rozmiar wykończenia + 1cm” (np. tunel 5cm = odległość grafik od krawędzi min. 6cm). Zalecana większa odległość ze względu na elastyczność materiału.",
-    "kontakt": "Kontakt"
+    "contact": "Kontakt"
 }

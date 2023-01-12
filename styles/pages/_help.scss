@@ -100,13 +100,13 @@
     @include md {
 
         padding: 4rem 0;
-        .image-container,
-        .image-container2{
-            display: none;
+        .image-container {
+            transform: translateX(0);
+            scale: 1;
+            top: -55%;
         }
 
-        .help-container,
-        .help-container2 {
+        .help-container {
             width: 100%;
             padding-left: 0;
 
@@ -114,6 +114,35 @@
                 width: inherit;
                 padding: 0 2rem;
             }
+        }
+
+        .help-container2 {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0; 
+            margin-top: 16rem;
+
+            .help-info {
+                width: inherit;
+                padding: 0 2rem;
+            }
+        }
+    }
+
+    @include sm {
+        .image-container {
+            transform: translateX(0);
+            scale: 1;
+            top: -50%;
+            right: -10%;
+            width: 50%;
+        }
+
+        .image-container2 {
+            top: -60%;
+            width: 30%;
+            left: unset;
+            right: -25%;
         }
     }
     

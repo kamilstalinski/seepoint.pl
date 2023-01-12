@@ -81,7 +81,7 @@
                 width: 100%;
 
                 img {
-                    width: 150px;
+                    width: 120px;
                 }
             }
         }
@@ -108,6 +108,22 @@
 
         a {
             margin-top: 2rem;
+        }
+
+        @include sm {
+            margin-top: 2rem;
+
+            h2 {
+                font-size: 2rem !important;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            a {
+                margin-top: 1rem;
+            }
         }
     }
 
@@ -137,6 +153,10 @@
             &:hover {
                 background-color: #A3D9F8;
             }
+        }
+
+        @include sm {
+            margin-top: 2rem;
         }
     }
 }
