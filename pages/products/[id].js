@@ -6,8 +6,10 @@ import products from "../../util/products.json";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
-export async function getStaticPaths({ locales }) {
-  const paths = products
+export async function getStaticPaths({ locale, locales }) {
+  const productObj = locale === "pl" ? products.pl : products.en;
+
+  const paths = productObj
     .map((product) =>
       locales.map((locale) => ({
         params: { id: product.path.toString() },
@@ -23,8 +25,10 @@ export async function getStaticPaths({ locales }) {
 }
 
 export async function getStaticProps({ params, locale, locales }) {
+  const productObj = locale === "pl" ? products.pl : products.en;
+
   const id = params.id;
-  const singleProduct = products.filter((product) => {
+  const singleProduct = productObj.filter((product) => {
     return product.path === id;
   });
 
@@ -34,8 +38,7 @@ export async function getStaticProps({ params, locale, locales }) {
       locale,
       locales,
       ...(await serverSideTranslations(locale, [
-        "about",
-        "common",
+        "product",
         "navbar",
         "footer",
         "searchbar",

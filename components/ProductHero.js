@@ -3,9 +3,11 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "next-i18next";
 
 export default function ProductHero({ product, goBack }) {
   const router = useRouter();
+  const { t } = useTranslation("product");
   return (
     <div className='product-hero'>
       <div className='product-info'>
@@ -18,17 +20,13 @@ export default function ProductHero({ product, goBack }) {
         <button
           onClick={() => router.push(`/products`)}
           className='breadcrumbs'>
-          <p>Produkty</p>
+          <p>{t("breadcrumb")}</p>
           <FontAwesomeIcon icon={faAngleRight} size='lg'></FontAwesomeIcon>
           <span style={{ fontWeight: "700" }}>{product.name}</span>
         </button>
         <h1>{product.name}</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          quos, corporis asperiores ipsum nesciunt temporibus nam nihil ab
-          beatae fugit.
-        </p>
-        <button className='primary-button'>Przejdź do sklepu</button>
+        <p>{product.heroDescription}</p>
+        <button className='primary-button'>{t("button")}</button>
       </div>
       <div className='product-image'>
         <Image

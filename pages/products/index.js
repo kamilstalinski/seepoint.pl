@@ -11,8 +11,7 @@ export async function getStaticProps({ locale }) {
   return {
     props: {
       ...(await serverSideTranslations(locale, [
-        "about",
-        "common",
+        "productMain",
         "navbar",
         "footer",
         "searchbar",
@@ -23,44 +22,45 @@ export async function getStaticProps({ locale }) {
 }
 
 const Products = () => {
+  const { t } = useTranslation("productMain");
   return (
     <div className='products'>
       <div className='products__hero'>
         <div className='products__hero--info'>
-          <h1>Zobacz równiez nasz sklep</h1>
+          <h1>{t("header")}</h1>
           <a className='white-button' href='https://sklep.seepoint.pl/'>
-            Zobacz nasz sklep
+            {t("headerButton")}
           </a>
         </div>
       </div>
       <div className='wrapper container'>
         <aside className='products__links'>
           <div className='links'>
-            <h3>Nasze produkty</h3>
+            <h3>{t("products")}</h3>
             <Link href='products/beachflags'>
-              <a>Beach flagi</a>
+              <a>{t("beachflags")}</a>
             </Link>
             <Link href='productss/rollups'>
-              <a>Rollupy</a>
+              <a>{t("rollups")}</a>
             </Link>
             <Link href='products/banners'>
-              <a>Banery</a>
+              <a>{t("banners")}</a>
             </Link>
             <Link href='products/alu-banners'>
-              <a>Banery na aluframe</a>
+              <a>{t("alubanners")}</a>
             </Link>
-            <Link href='products/paintings'>
-              <a>Obrazy</a>
+            <Link href='products/pictures'>
+              <a>{t("pictures")}</a>
             </Link>
-            <Link href='products/animal-pillows'>
-              <a className='animal'>Poduszkozwierzaki</a>
+            <Link href='products/pet-pillows'>
+              <a className='animal'>{t("petpillows")}</a>
             </Link>
           </div>
         </aside>
         <section>
           {/* <h2>Najpopularniejsze produkty</h2>
           <ProductSwiper /> */}
-          <h2>Dlaczego my?</h2>
+          <h2>{t("whyus")}</h2>
           <div className='banner-container'>
             <Image
               priority={true}
@@ -78,11 +78,11 @@ const Products = () => {
               </p>
             </div>
           </div>
-          <h2>Wszystkie produkty</h2>
+          <h2>{t("allproducts")}</h2>
           <div className='products-container'>
             <ProductLink />
           </div>
-          <h2>Nasza technologia</h2>
+          <h2>{t("technology")}</h2>
           <div className='banner-container'>
             <Image
               priority={true}
@@ -102,7 +102,7 @@ const Products = () => {
           </div>
         </section>
       </div>
-      <ContactForm>Nie znalazłeś tego czego szukasz?</ContactForm>
+      <ContactForm>{t("contact")}</ContactForm>
       <Rewards />
     </div>
   );

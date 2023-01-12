@@ -11,7 +11,7 @@ const Searchbar = ({ isClicked }) => {
   const [isActive, setIsActive] = useState(false);
   const [filteredResults, setFilteredResult] = useState([]);
 
-  const results = [...technologies, ...products];
+  const results = [...technologies, ...products.pl];
 
   const handleChange = (e) => {
     setIsActive(e.target.value ? true : false);

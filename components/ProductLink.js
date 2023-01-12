@@ -1,11 +1,15 @@
 import products from "../util/products.json";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const ProductLink = () => {
+  const router = useRouter();
+
+  const productObj = router.locale === "pl" ? products.pl : products.en;
   return (
     <>
-      {products.map((product) => {
+      {productObj.map((product) => {
         return (
           <Link key={product.id} href={"products/" + product.path}>
             <a className='product-item'>

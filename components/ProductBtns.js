@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function ProductBtns({ product, handleClick }) {
+export default function ProductBtns({ product, handleClick, t }) {
   const [active, setActive] = useState(null);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function ProductBtns({ product, handleClick }) {
 
   return (
     <div className='type'>
-      <h2>Rodzaj</h2>
+      <h2>{t("type")}</h2>
       <div className='type-btns'>{typeBtns}</div>
     </div>
   );
