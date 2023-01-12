@@ -4,10 +4,21 @@ import ProductSwiper from "../../components/ProductSwiper";
 import ContactForm from "../../components/ContactForm";
 import Rewards from "../../components/Rewards";
 import ProductLink from "../../components/ProductLink";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
 
-export function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }) {
   return {
-    props: { locale },
+    props: {
+      ...(await serverSideTranslations(locale, [
+        "about",
+        "common",
+        "navbar",
+        "footer",
+        "searchbar",
+        "contactForm",
+      ])),
+    },
   };
 }
 

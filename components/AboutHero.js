@@ -16,9 +16,9 @@ const AboutHero = ({ t }) => {
       <div className='container'>
         <div className='hero__content'>
           <h1>Power of Quality</h1>
-          <p>{t.aboutPage.aboutHero}</p>
+          <p>{t("aboutHero")}</p>
           <Button className={"primary-button"} path={"/products"}>
-            {t.common.seeProducts}
+            {t("seeMore")}
           </Button>
         </div>
       </div>

@@ -5,48 +5,60 @@ import ContactForm from "../components/ContactForm";
 import Rewards from "../components/Rewards";
 import Image from "next/image";
 import Head from "next/head";
-import { useEffect } from "react";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
 
-export function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }) {
   return {
-    props: { locale },
+    props: {
+      ...(await serverSideTranslations(locale, [
+        "about",
+        "common",
+        "navbar",
+        "footer",
+        "searchbar",
+        "contactForm",
+      ])),
+    },
   };
 }
 
-const About = ({ t }) => {
+const About = () => {
+  const { t } = useTranslation(["about", "common"]);
+
   return (
     <div className='about'>
       <Head>
-        <title>{t.titles.about}</title>
+        <title></title>
         <meta name='description' />
       </Head>
       <AboutHero t={t} />
       <div className='container about__info'>
         <div className='about__description'>
-          <h2>{t.navbar.about}</h2>
-          <p>{t.aboutPage.description1}</p>
-          <p>{t.aboutPage.description2}</p>
+          <h2>{t("about")}</h2>
+          <p>{t("description1")}</p>
+          <p>{t("description2")}</p>
         </div>
         <div className='about__pros'>
           <div className='about__pros-item'>
             <img src='/work.svg' alt='work' />
-            <p>{t.aboutPage.pros1}</p>
+            <p>{t("pros1")}</p>
           </div>
           <div className='about__pros-item'>
             <img src='/date.svg' alt='date' />
-            <p>{t.aboutPage.pros2}</p>
+            <p>{t("pros2")}</p>
           </div>
           <div className='about__pros-item'>
             <img src='task.svg' alt='task' />
-            <p>{t.aboutPage.pros3}</p>
+            <p>{t("pros3")}</p>
           </div>
           <div className='about__pros-item'>
             <img src='/people.svg' alt='people' />
-            <p>{t.aboutPage.pros4}</p>
+            <p>{t("pros4")}</p>
           </div>
           <div className='about__pros-item'>
             <img src='/pricetag.svg' alt='pricetag' />
-            <p>{t.aboutPage.pros5}</p>
+            <p>{t("pros5")}</p>
           </div>
         </div>
       </div>
@@ -62,14 +74,14 @@ const About = ({ t }) => {
         </div>
         <div className='about__us-description'>
           <div className='wrapper'>
-            <h2>{t.aboutPage.team.title}</h2>
-            <p>{t.aboutPage.team.description}</p>
+            <h2>{t("teamTitle")}</h2>
+            <p>{t("teamDescription")}</p>
           </div>
         </div>
       </div>
       <TechCarousel text={"Nasza oferta"} />
       <ProductSlider />
-      <ContactForm>{t.navbar.contact}</ContactForm>
+      <ContactForm>{t("contactForm")}</ContactForm>
       <Rewards />
     </div>
   );

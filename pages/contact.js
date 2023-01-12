@@ -2,14 +2,25 @@ import Map from "../components/GoogleMap";
 import ContactForm from "../components/ContactForm";
 import Image from "next/image";
 import contact from "../public/static/contact.webp";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
 
-export function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }) {
   return {
-    props: { locale },
+    props: {
+      ...(await serverSideTranslations(locale, [
+        "contact",
+        "navbar",
+        "footer",
+        "searchbar",
+        "contactForm",
+      ])),
+    },
   };
 }
 
 const Contact = () => {
+  const { t } = useTranslation("contact");
   return (
     <div className='contact'>
       <div className='contact__info'>
@@ -23,12 +34,10 @@ const Contact = () => {
           />
         </div>
         <div className='contact__details--right'>
-          <h1>Kontakt</h1>
+          <h1>{t("contact")}</h1>
           <div className='contact__details'>
             <div className='contact__details--container'>
-              <p className='description'>
-                Skontaktuj się z nami mailowo/telefonicznie
-              </p>
+              <p className='description'>{t("con1")}</p>
               <div className='call-contact'>
                 <Image
                   width={23}
@@ -49,7 +58,7 @@ const Contact = () => {
               </div>
             </div>
             <div className='contact__details--container'>
-              <p className='description'>Dział handlowy</p>
+              <p className='description'>{t("con2")}</p>
               <div className='call-contact'>
                 <Image
                   width={23}
@@ -74,7 +83,7 @@ const Contact = () => {
       </div>
       <div className='location__info'>
         <div className='contact__details--left'>
-          <h2>Lokalizacja</h2>
+          <h2>{t("location")}</h2>
           <div className='contact__details'>
             <div className='contact__details--container'>
               <p className='description'>ul. I Brygady Legionów 15</p>
@@ -84,7 +93,7 @@ const Contact = () => {
         </div>
         <Map />
       </div>
-      <ContactForm>Formularz kontaktowy</ContactForm>
+      <ContactForm>{t("contactForm")}</ContactForm>
     </div>
   );
 };

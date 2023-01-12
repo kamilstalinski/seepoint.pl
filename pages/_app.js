@@ -3,18 +3,27 @@ import "../styles/index.scss";
 import { appWithTranslation } from "next-i18next";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import { useRouter } from "next/router";
-import { pl, en } from "../translation";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 config.autoAddCss = false;
 
-const MyApp = ({ Component, pageProps }) => {
-  const router = useRouter();
-  const { locale } = router;
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, [
+        "navbar",
+        "footer",
+        "searchbar",
+        "contactForm",
+      ])),
+    },
+  };
+}
 
-  const t = locale === "pl" ? pl : en;
+const MyApp = ({ Component, pageProps }) => {
   return (
-    <Layout t={t}>
-      <Component {...pageProps} t={t} />
+    <Layout>
+      <Component {...pageProps} />
     </Layout>
   );
 };

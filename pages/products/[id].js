@@ -3,6 +3,8 @@ import ProductHero from "../../components/ProductHero";
 import ProductParams from "../../components/ProductParams";
 import ProductSlider from "../../components/ProductSlider";
 import products from "../../util/products.json";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
 
 export async function getStaticPaths({ locales }) {
   const paths = products
@@ -27,7 +29,19 @@ export async function getStaticProps({ params, locale, locales }) {
   });
 
   return {
-    props: { product: singleProduct[0], locale, locales },
+    props: {
+      product: singleProduct[0],
+      locale,
+      locales,
+      ...(await serverSideTranslations(locale, [
+        "about",
+        "common",
+        "navbar",
+        "footer",
+        "searchbar",
+        "contactForm",
+      ])),
+    },
   };
 }
 

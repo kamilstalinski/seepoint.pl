@@ -2,10 +2,21 @@ import ContactForm from "../../components/ContactForm";
 import TechCarousel from "../../components/TechCarousel";
 import Image from "next/image";
 import techImage from "../../public/static/technology.webp";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
 
-export function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }) {
   return {
-    props: { locale },
+    props: {
+      ...(await serverSideTranslations(locale, [
+        "about",
+        "common",
+        "navbar",
+        "footer",
+        "searchbar",
+        "contactForm",
+      ])),
+    },
   };
 }
 

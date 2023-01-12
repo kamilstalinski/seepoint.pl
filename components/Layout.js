@@ -2,8 +2,10 @@ import Navbar from "./Navbar";
 import Searchbar from "./Searchbar";
 import Footer from "./Footer";
 import { useState } from "react";
+// import { useTranslation } from "next-i18next";
 
-const Layout = ({ children, t }) => {
+const Layout = ({ children }) => {
+  // const { t } = useTranslation("navigation");
   const [isClicked, setIsClicked] = useState(false);
 
   const handleStateChange = (isClicked) => {
@@ -12,8 +14,8 @@ const Layout = ({ children, t }) => {
 
   return (
     <div className='content'>
-      <Navbar handleStateChange={handleStateChange} t={t} />
-      <Searchbar isClicked={isClicked} t={t} />
+      <Navbar handleStateChange={handleStateChange} />
+      <Searchbar isClicked={isClicked} />
       {children}
       <Footer />
     </div>

@@ -3,10 +3,11 @@ import Hamburger from "./Hamburger";
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import LanguageToggle from "./LanguageToggle";
+import { useTranslation } from "next-i18next";
 
-const Navbar = ({ handleStateChange, t }) => {
+const Navbar = ({ handleStateChange }) => {
+  const { t } = useTranslation("navbar");
   const [active, setActive] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
 
@@ -23,7 +24,7 @@ const Navbar = ({ handleStateChange, t }) => {
       <div className='navbar__container container'>
         <Link href='/'>
           <a className={`navbar__img`}>
-            <img src='/logo.svg' alt='' />
+            <img src='/logo.svg' alt='seepoint logo' />
           </a>
         </Link>
         <div className='navbar__menu'>
@@ -32,31 +33,31 @@ const Navbar = ({ handleStateChange, t }) => {
               setIsClicked={setIsClicked}
               isClicked={isClicked}
               path='/'>
-              {t.navbar.about}
+              {t("nav1")}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
               path='/products'>
-              {t.navbar.products}
+              {t("nav2")}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
               path='/technology'>
-              {t.navbar.technology}
+              {t("nav3")}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
               path='/help'>
-              {t.navbar.help}
+              {t("nav4")}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
               path='/contact'>
-              {t.navbar.contact}
+              {t("nav5")}
             </MenuLink>
             <div className='social-media'></div>
           </ul>

@@ -2,64 +2,49 @@ import Image from "next/image";
 import ContactForm from "../components/ContactForm";
 import help1 from "../public/static/help1.webp";
 import help2 from "../public/static/help2.webp";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
 
-export function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }) {
   return {
-    props: { locale },
+    props: {
+      ...(await serverSideTranslations(locale, [
+        "help",
+        "navbar",
+        "footer",
+        "searchbar",
+        "contactForm",
+      ])),
+    },
   };
 }
 
 const Help = () => {
+  const { t } = useTranslation("help");
+
   return (
     <div className='help'>
       <div className='help-wrapper'>
         <div className='help-container container'>
           <div className='help-info '>
-            <h1>Pomoc</h1>
-            <h2>Ogólne</h2>
+            <h1>{t("help")}</h1>
+            <h2>{t("general")}</h2>
             <ul>
-              <li>
-                Praca powinna być dostarczona w formacie PDF. Dopuszcza się
-                również użycie plików TIFF z kompresją LZW. Niedopuszczalne jest
-                użycie plików z programów typu Word, PowerPoint etc.
-              </li>
-              <li>
-                Należy upewnić się, że wszystkie czcionki wykorzystane w
-                projekcie są zamienione na krzywe.
-              </li>
-              <li>Nie należy używać opcji ‘Overprint’ (Nadruk wypełnienia).</li>
-              <li>
-                Pojedyncze pliki nie powinny zawierać kilku grafik w postaci
-                oddzielnych projektów flag, bannerów, etc. Każda flaga, banner,
-                etc. musi być oddzielnym plikiem.
-              </li>
-              <li>Pliki prosimy przesyłać bez ukrytych warstw.</li>
-              <li>
-                Pliki PDF do wydruków o boku powyżej 5m powinny zostać
-                proporcjonalnie pomniejszone, aby żaden z boków nie przekraczał
-                długości 5m (np. wydruk 12m x 3m = plik 4m x 1m – pomniejszony 3
-                razy lub 1,2m x 0,3m – pomniejszony 10x).
-              </li>
+              <li>{t("gen1")}</li>
+              <li>{t("gen2")}</li>
+              <li>{t("gen3")}</li>
+              <li>{t("gen4")}</li>
+              <li>{t("gen5")}</li>
+              <li>{t("gen6")}</li>
             </ul>
           </div>
           <div className='help-info'>
-            <h2>Kolorystyka</h2>
+            <h2>{t("color")}</h2>
             <ul>
-              <li>
-                Pliki powinny być w trybie koloru CMYK (w przypadku stosowania
-                innych trybów kolorów typu RGB, Lab, Index kolorystyka wydruków
-                może znacznie odbiegać od oczekiwań klienta).
-              </li>
-              <li>Pliki bez osadzonych profili kolorystycznych.</li>
-              <li>
-                Czarne płaszczyzny (tzw. aple) powinny być podbite pozostałymi
-                kolorami - podbicie powinno wynosić co najmniej 20% na jedną
-                składową np. C:20% M:20% Y:20% B:100%.
-              </li>
-              <li>
-                Należy pamiętać, iż nieskalibrowany monitor, a także zwykła
-                drukarka nie przedstawia kolorów w sposób wiarygodny.
-              </li>
+              <li>{t("col1")}</li>
+              <li>{t("col2")}</li>
+              <li>{t("col3")}</li>
+              <li>{t("col4")}</li>
             </ul>
           </div>
           <div className='image-container'>
@@ -74,40 +59,21 @@ const Help = () => {
         </div>
         <div className='help-container2 container'>
           <div className='help-info'>
-            <h2>Folie i płyty</h2>
+            <h2>{t("vinyls")}</h2>
             <ul>
-              <li>
-                Minimalna rozdzielczość bitmap w pracy to 300 dpi, w miarę
-                możliwości zaleca się używanie grafik wektorowych.
-              </li>
-              <li>Spady powinny mieć 3mm.</li>
-              <li>
-                Odległość tekstów i grafik od linii cięcia to co najmniej 3mm.
-              </li>
-              <li>
-                Minimalny rozmiar wycinanych ploterowo elementów grafiki to 1mm.
-              </li>
-              <li>
-                W przypadku cięcia produktu do kształtu innego niż prostokąt
-                należy dostarczyć wektorowy szablon cięcia.
-              </li>
+              <li>{t("vin1")}</li>
+              <li>{t("vin2")}</li>
+              <li>{t("vin3")}</li>
+              <li>{t("vin4")}</li>
+              <li>{t("vin5")}</li>
             </ul>
           </div>
           <div className='help-info'>
-            <h2>Tekstylia i PCV</h2>
+            <h2>{t("pcv")}</h2>
             <ul>
-              <li>
-                Minimalna rozdzielczość bitmap w pracy to 150 dpi dla wydruków
-                do ok. 10m2, 100 dpi dla 10-30m2, ok. 50 dpi dla wydruków ponad
-                30m2, w miarę możliwości zaleca się używanie grafik wektorowych.
-              </li>
-              <li>Spady powinny mieć 2cm.</li>
-              <li>
-                Minimalna odległość tekstów i grafik od linii cięcia to co
-                najmniej „rozmiar wykończenia + 1cm” (np. tunel 5cm = odległość
-                grafik od krawędzi min. 6cm). Zalecana większa odległość ze
-                względu na elastyczność materiału.
-              </li>
+              <li>{t("pcv1")}</li>
+              <li>{t("pcv2")}</li>
+              <li>{t("pcv3")}</li>
             </ul>
           </div>
           <div className='image-container2'>
@@ -121,7 +87,7 @@ const Help = () => {
           </div>
         </div>
       </div>
-      <ContactForm>Kontakt</ContactForm>
+      <ContactForm>{t("contact")}</ContactForm>
     </div>
   );
 };

@@ -1,30 +1,27 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 const ContactForm = ({ children }) => {
+  const { t } = useTranslation("contactForm");
   return (
     <div className='form'>
       <div className='form__wrapper container'>
         <h2>{children}</h2>
         <div className='form__form'>
           <form action='submit'>
-            <p>
-              Wypełnij formularz i skontaktuj się z nami w sprawe indywidualngeo
-              projektu.
-            </p>
+            <p>{t("contactHeader")}</p>
             <div className='input-container'>
-              <input type='name' name='name' placeholder='Imię' />
+              <input type='name' name='name' placeholder={t("name")} />
               <input type='email' name='email' id='email' placeholder='Email' />
             </div>
-            <textarea name='message' placeholder='Wiadomość'></textarea>
+            <textarea name='message' placeholder={t("message")}></textarea>
             <button className='primary-button' type='submit'>
-              Wyślij
+              {t("send")}
             </button>
           </form>
           <div className='contact__details'>
             <div className='contact__details--container'>
-              <p className='description'>
-                Lub skontaktuj się z nami mailowo/telefonicznie
-              </p>
+              <p className='description'>{t("con1")}</p>
               <div className='call'>
                 <Image
                   width={20}
@@ -45,7 +42,7 @@ const ContactForm = ({ children }) => {
               </div>
             </div>
             <div className='contact__details--container'>
-              <p className='description'>Dział handlowy</p>
+              <p className='description'>{t("con2")}</p>
               <div className='call'>
                 <Image
                   width={20}

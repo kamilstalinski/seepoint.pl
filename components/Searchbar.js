@@ -2,10 +2,12 @@ import technologies from "../util/technologies.json";
 import products from "../util/products.json";
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 import SearchbarDropdown from "./SearchbarDropdown";
 
-const Searchbar = ({ isClicked, t }) => {
+const Searchbar = ({ isClicked }) => {
+  const { t } = useTranslation("searchbar");
   const [isActive, setIsActive] = useState(false);
   const [filteredResults, setFilteredResult] = useState([]);
 
@@ -28,12 +30,12 @@ const Searchbar = ({ isClicked, t }) => {
     <div className={`searchbar ${isClicked ? "active" : null}`}>
       <div className={`search-wrapper container`}>
         <div className='search'>
-          <p>{t.searchbar.searchWord}</p>
+          <p>{t("searchWord")}</p>
           <div className='input-wrapper'>
             <input
               onChange={(e) => handleChange(e)}
               type='text'
-              placeholder={t.searchbar.search}
+              placeholder={t("search")}
             />
             <SearchbarDropdown
               results={results}
