@@ -1,16 +1,13 @@
 import Image from "next/image";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <div className='footer'>
       <div className='footer__logo--container'>
         <img src='/logo.svg' alt='logo' />
       </div>
-      <p className='footer__description'>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ipsa
-        commodi tenetur molestias asperiores maxime incidunt similique aperiam
-        temporibus eaque!
-      </p>
+      <p className='footer__description'>©{year} Seepoint</p>
       <div className='footer__contact--container'>
         <div className='call'>
           <div className='relative'>

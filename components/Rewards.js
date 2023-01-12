@@ -1,7 +1,11 @@
+import { useTranslation } from "next-i18next";
+
 const Rewards = () => {
+  const { t } = useTranslation("rewards");
+
   return (
     <div className='rewards container'>
-      <h2>Nasze nagrody</h2>
+      <h2>{t("rewards")}</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
         aspernatur similique consectetur veniam nisi consequuntur quidem laborum

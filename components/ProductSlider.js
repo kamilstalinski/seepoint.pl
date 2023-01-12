@@ -1,15 +1,19 @@
-import Link from "next/link"
-
-import ProductSwiper from "./ProductSwiper"
+import Link from "next/link";
+import ProductSwiper from "./ProductSwiper";
+import { useTranslation } from "next-i18next";
 
 const ProductSlider = () => {
-    return (
-        <div className="product-slider container">
-            <h2>Najpopularniejsze produkty</h2>
-            <ProductSwiper />
-            <Link href="/products" ><a className="primary-button">Zobacz Produkty</a></Link>
-        </div>
-    )
-}
+  const { t } = useTranslation("slider");
 
-export default ProductSlider
+  return (
+    <div className='product-slider container'>
+      <h2>{t("header")}</h2>
+      <ProductSwiper t={t} />
+      <Link href='/products'>
+        <a className='primary-button'>{t("seeProducts")}</a>
+      </Link>
+    </div>
+  );
+};
+
+export default ProductSlider;

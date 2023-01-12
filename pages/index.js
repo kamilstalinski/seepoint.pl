@@ -18,13 +18,16 @@ export async function getStaticProps({ locale }) {
         "footer",
         "searchbar",
         "contactForm",
+        "slider",
+        "rewards",
+        "carousel",
       ])),
     },
   };
 }
 
 const About = () => {
-  const { t } = useTranslation(["about", "common"]);
+  const { t } = useTranslation(["about"]);
 
   return (
     <div className='about'>
@@ -79,7 +82,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <TechCarousel text={"Nasza oferta"} />
+      <TechCarousel text={t("ourOffer")} />
       <ProductSlider />
       <ContactForm>{t("contactForm")}</ContactForm>
       <Rewards />

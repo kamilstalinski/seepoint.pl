@@ -6,6 +6,7 @@
       "name": "Banery",
       "path": "banners",
       "image": "/static/banner-seepoint.webp",
+      "sliderImage": "/banners.webp",
       "heroDescription": "Najpopularniejszy nośnik reklamy wykorzystywany głównie w dekoracji witryn sklepowych i wnętrza. Od wielu lat z powodzeniem funkcjonuje na rynku skandynawskim i od niedawna możemy go spotkać w polskich sklepach.",
       "type": [
         {
@@ -31,6 +32,7 @@
       "name": "Rollupy",
       "path": "rollups",
       "image": "/static/rollup-seepoint.webp",
+      "sliderImage": "/rollups.webp",
       "heroDescription": "Jeśli chcesz się zareklamować, możesz potrzebować również przenośnych rozwiązań. Roll up’y to mobilne konstrukcje, które można łatwo rozstawić tam, gdzie chcesz zaprezentować swoją działalność. Klienci często zamawiają je u nas, gdy planują udział w targach, konferencjach lub innych wydarzeniach odbywających się poza siedzibą firmy.",
       "type": [
         {
@@ -56,6 +58,7 @@
       "name": "Banery na aluframe",
       "path": "alu-banners",
       "image": "/static/alu-banner-seepoint.webp",
+      "sliderImage": "/alu-banners.webp",
       "heroDescription": "Banery na aluframe stworzone do eksponowania banerów wewnętrznych. Lekka konstrukcja jest elementem stałym reklamy, odpowiedni system „rowków” umożliwia łatwą i szybką wymianę baneru. System bardzo popularny na zachodzie, dedykowany dla ekskluzywnych sklepów, hoteli, restauracji oraz do domu.",
       "type": [
         {
@@ -71,6 +74,7 @@
       "name": "Poduszkozwierzaki",
       "path": "pet-pillows",
       "image": "/static/animals-seepoint.webp",
+      "sliderImage": "/animals.webp",
       "heroDescription": "Poduszki w kształcie zwierząt to nietypowy pomysł na upominek lub ozdobę do wnętrz. Prowadzisz działalność związaną z dziećmi? Taki dodatek sprawi, że miejsce to stanie się bardziej przytulne, a najmłodsi poczują się w nim komfortowo. Zamów poduszki do gabinetu lekarskiego, poradni lub wszędzie tam, gdzie organizujesz kącik dla najmłodszych. Nasze poduszki prezentują się bardzo atrakcyjnie.",
       "type": [
         {
@@ -87,6 +91,7 @@
       "name": "Obrazy",
       "path": "pictures",
       "image": "/static/paintings-seepoint.webp",
+      "sliderImage": "/paintings.webp",
       "heroDescription": "Chcesz zaprezentować unikatowy styl wieszając swoje własne ",
       "type": [
         {
@@ -102,6 +107,7 @@
       "name": "Beach flagi",
       "path": "beachflags",
       "image": "/static/beachflags-seepoint.webp",
+      "sliderImage": "/beachflag.webp",
       "heroDescription": "Chcesz zareklamować się podczas eventu, targów lub innego wydarzenia odbywającego się na świeżym powietrzu. Ciekawą formą, na którą możesz się zdecydować są tzw. beachflagi. Ich konstrukcja składa się z lekkiego, aluminiowego stelażu i przytwierdzonej do niego płachty materiału. Całość przypomina w formie żagiel.",
       "type": [
         {
@@ -134,6 +140,7 @@
       "name": "Banners",
       "path": "banners",
       "image": "/static/banner-seepoint.webp",
+      "sliderImage": "/banners.webp",
       "heroDescription": "The most popular advertising medium used mainly in the decoration of shop windows and interiors. For many years, it has been successfully operating on the Scandinavian market and recently we can meet it in Polish stores.",
       "type": [
         {
@@ -159,6 +166,7 @@
       "name": "Roll-up",
       "path": "rollups",
       "image": "/static/rollup-seepoint.webp",
+      "sliderImage": "/rollups.webp",
       "heroDescription": "If you want to advertise, you may also need portable solutions. Roll ups are mobile structures that can be easily set up where you want to present your business. Customers often order them from us when they plan to participate in fairs, conferences or other events taking place outside the company's headquarters.",
       "type": [
         {
@@ -181,9 +189,10 @@
     {
       "id": 2,
       "category": "products",
-      "name": "Alu-system banners",
+      "name": "Alu-banners",
       "path": "alu-banners",
       "image": "/static/alu-banner-seepoint.webp",
+      "sliderImage": "/alu-banners.webp",
       "heroDescription": "Aluframe banners designed to display internal banners. The light structure is a permanent element of advertising, the appropriate system of 'grooves' allows for easy and quick replacement of the banner. The system is very popular in the West, dedicated to exclusive shops, hotels, restaurants and home.",
       "type": [
         {
@@ -196,15 +205,16 @@
     {
       "id": 3,
       "category": "products",
-      "name": "Pet pillows",
+      "name": "Petpillows",
       "path": "pet-pillows",
       "image": "/static/animals-seepoint.webp",
+      "sliderImage": "/animals.webp",
       "heroDescription": "Poduszki w kształcie zwierząt to nietypowy pomysł na upominek lub ozdobę do wnętrz. Prowadzisz działalność związaną z dziećmi? Taki dodatek sprawi, że miejsce to stanie się bardziej przytulne, a najmłodsi poczują się w nim komfortowo. Zamów poduszki do gabinetu lekarskiego, poradni lub wszędzie tam, gdzie organizujesz kącik dla najmłodszych. Nasze poduszki prezentują się bardzo atrakcyjnie.",
       "type": [
         {
           "name": "Pet pillow",
           "description": "Decorative pillow with an original print in the shape of your pet's head! Possibility to order a pillow with the image of your pet's head. Available in size 50x50cm. *Products with your own design are not returnable.",
-          "material": ["Pet pillow"],
+          "material": ["Petpillow"],
           "parameter": ["50x50cm"]
         }
       ]
@@ -215,6 +225,7 @@
       "name": "Pictures",
       "path": "pictures",
       "image": "/static/paintings-seepoint.webp",
+      "sliderImage": "/paintings.webp",
       "heroDescription": "Najpopularniejszy nośnik reklamy wykorzystywany głównie w dekoracji witryn sklepowych i wnętrza. Od wielu lat z powodzeniem funkcjonuje na rynku skandynawskim i od niedawna możemy go spotkać w polskich sklepach.",
       "type": [
         {
@@ -230,6 +241,7 @@
       "name": "Beach flags",
       "path": "beachflags",
       "image": "/static/beachflags-seepoint.webp",
+      "sliderImage": "/beachflag.webp",
       "heroDescription": "You want to advertise during an event, fair or other outdoor event. An interesting form that you can choose are the so-called. beachflags. Their construction consists of a light aluminum frame and a sheet of fabric attached to it. The whole thing resembles a sail.",
       "type": [
         {

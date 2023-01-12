@@ -1,15 +1,16 @@
 import { useState } from "react";
-
+import { useTranslation } from "next-i18next";
 import TechSwiper from "./TechSwiper";
 
 const TechCarousel = ({ text, currentSavedTechnology }) => {
   const [swiper, setSwiper] = useState("");
+  const { t } = useTranslation("carousel");
 
   return (
     <div className='carousel'>
       <div className='offer'>
         <h2>{text}</h2>
-        <p>Drukujemy w następujących technologiach</p>
+        <p>{t("technologies")}</p>
       </div>
       <TechSwiper
         setSwiper={setSwiper}

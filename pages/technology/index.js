@@ -9,18 +9,20 @@ export async function getStaticProps({ locale }) {
   return {
     props: {
       ...(await serverSideTranslations(locale, [
-        "about",
-        "common",
+        "technologies",
         "navbar",
         "footer",
         "searchbar",
         "contactForm",
+        "slider",
+        "carousel",
       ])),
     },
   };
 }
 
 const Technology = () => {
+  const { t } = useTranslation("technologies");
   return (
     <div className='technology'>
       <div className='hero' style={{ marginBottom: "8rem" }}>
@@ -35,18 +37,13 @@ const Technology = () => {
         </div>
         <div className='container'>
           <div className='hero__content'>
-            <h1 style={{ color: "#6B7786" }}>Nasza Technologia</h1>
-            <p>
-              Firma została założona w 2006r. wchodząc na rynek jako producent
-              flag metodą sitodrukową. W krótkim czasie przeprowadzono
-              inwestycje w nowe technologie i dziś jest cyfrową drukarnią
-              wielkoformatową, oferującą druk sublimacyjny, solwentowy, uv.
-            </p>
+            <h1 style={{ color: "#6B7786" }}>{t("ourTech")}</h1>
+            <p>{t("description")}</p>
           </div>
         </div>
       </div>
       <TechCarousel />
-      <ContactForm>Kontakt</ContactForm>
+      <ContactForm>{t("contact")}</ContactForm>
     </div>
   );
 };

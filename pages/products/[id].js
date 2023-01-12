@@ -43,6 +43,7 @@ export async function getStaticProps({ params, locale, locales }) {
         "footer",
         "searchbar",
         "contactForm",
+        "slider",
       ])),
     },
   };

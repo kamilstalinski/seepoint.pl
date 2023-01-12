@@ -1,7 +1,9 @@
 import { useRouter } from "next/router";
+import { useTranslation } from "next-i18next";
 
 const TechSwiperDestails = ({ currentTechnology }) => {
   const router = useRouter();
+  const { t } = useTranslation("carousel");
 
   return (
     <div className='description'>
@@ -10,7 +12,7 @@ const TechSwiperDestails = ({ currentTechnology }) => {
       <a
         onClick={() => router.push(`/technology/${currentTechnology.path}`)}
         className='primary-button'>
-        Dowiedz się więcej
+        {t("findMore")}
       </a>
     </div>
   );

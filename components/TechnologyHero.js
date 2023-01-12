@@ -4,7 +4,7 @@ import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-export default function TechnologyHero({ technology }) {
+export default function TechnologyHero({ technology, t }) {
   const router = useRouter();
 
   const goBack = () => router.back();
@@ -30,7 +30,7 @@ export default function TechnologyHero({ technology }) {
                   icon={faAngleLeft}
                   onClick={goBack}
                 />
-                <p className='text'>Nasza technologia</p>
+                <p className='text'>{t("backBtn")}</p>
               </div>
             </Link>
             <h1 style={{ color: "#6B7786" }}>{technology.name}</h1>
@@ -40,7 +40,7 @@ export default function TechnologyHero({ technology }) {
               asperiores? Lorem ipsum dolor sit amet consectetur adipisicing
               elit. Aspernatur, possimus.
             </p>
-            <button className='primary-button'>Zobacz Produkty</button>
+            <button className='primary-button'>{t("seeProducts")}</button>
           </div>
         </div>
       </div>

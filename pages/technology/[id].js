@@ -5,8 +5,10 @@ import technologies from "../../util/technologies.json";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
-export async function getStaticPaths({ locales }) {
-  const paths = technologies
+export async function getStaticPaths({ locales, locale }) {
+  const technologiesObj = locale === "pl" ? technologies.pl : technologies.en;
+
+  const paths = technologiesObj
     .map((technology) =>
       locales.map((locale) => ({
         params: { id: technology.path.toString() },
@@ -22,8 +24,10 @@ export async function getStaticPaths({ locales }) {
 }
 
 export async function getStaticProps({ params, locale, locales }) {
+  const technologiesObj = locale === "pl" ? technologies.pl : technologies.en;
+
   const id = params.id;
-  const singleTech = technologies.filter((technology) => {
+  const singleTech = technologiesObj.filter((technology) => {
     return technology.path === id;
   });
 
@@ -33,25 +37,27 @@ export async function getStaticProps({ params, locale, locales }) {
       locale,
       locales,
       ...(await serverSideTranslations(locale, [
-        "about",
-        "common",
         "navbar",
         "footer",
         "searchbar",
         "contactForm",
+        "slider",
+        "technology",
+        "carousel",
       ])),
     },
   };
 }
 
 const Technology = ({ technology }) => {
+  const { t } = useTranslation("technology");
   return (
     <div className='tech-element'>
-      <TechnologyHero technology={technology} />
-      <TechnologySpec technology={technology} />
+      <TechnologyHero technology={technology} t={t} />
+      <TechnologySpec technology={technology} t={t} />
       <TechCarousel
         currentSavedTechnology={technology.id}
-        text={"Zobacz nasze inne technologie"}
+        text={t("seeMore")}
       />
     </div>
   );

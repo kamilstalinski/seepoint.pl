@@ -3,15 +3,20 @@ import products from "../util/products.json";
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
+import { useRouter } from "next/router";
 
 import SearchbarDropdown from "./SearchbarDropdown";
 
 const Searchbar = ({ isClicked }) => {
+  const router = useRouter();
   const { t } = useTranslation("searchbar");
   const [isActive, setIsActive] = useState(false);
   const [filteredResults, setFilteredResult] = useState([]);
+  const technologiesObj =
+    router.locale === "pl" ? technologies.pl : technologies.en;
+  const productObj = router.locale === "pl" ? products.pl : products.en;
 
-  const results = [...technologies, ...products.pl];
+  const results = [...technologiesObj, ...productObj];
 
   const handleChange = (e) => {
     setIsActive(e.target.value ? true : false);
