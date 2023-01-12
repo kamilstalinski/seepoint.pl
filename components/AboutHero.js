@@ -6,7 +6,7 @@ const AboutHero = ({ t }) => {
     <div className='hero'>
       <div className='hero__img-container2'>
         <Image
-          src='/static/abouthero.webp'
+          src='https://res.cloudinary.com/dnt5pai0z/image/upload/v1673550073/abouthero_lsfgd9.webp'
           layout='fill'
           objectFit='cover'
           alt='seepoint.pl'
