@@ -5,9 +5,12 @@ const AboutHero = ({ t }) => {
   return (
     <div className='hero'>
       <div className='hero__img-container2'>
-        <img
+        <Image
           src='https://res.cloudinary.com/dnt5pai0z/image/upload/v1673550073/abouthero_lsfgd9.webp'
-          alt=''
+          layout='fill'
+          objectFit='cover'
+          alt='seepoint.pl'
+          priority={true}
         />
       </div>
       <div className='container'>

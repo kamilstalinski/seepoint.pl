@@ -8,20 +8,13 @@
         background-size: cover;
         background-position: center;
         height: 100%;
-        width: 60%;
+        width: 50%;
         position: absolute;
-        // top: 15%;
-        // right: -10%;
-
-
-        scale: 1.7;
+        top: 15%;
+        right: -10%;
+        border-radius: 50%;
+        scale: 1.5;
         overflow: hidden;
-        bottom: -32%;
-        right: -18%;
-
-        img {
-            width: 100%;
-        }
     }
 
     .container {
