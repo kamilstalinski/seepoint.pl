@@ -8,6 +8,7 @@ import products from "../util/products.json";
 const ProductSwiper = ({ t }) => {
   const router = useRouter();
   const productObj = router.locale === "pl" ? products.pl : products.en;
+  console.log(router);
 
   return (
     <>
@@ -23,7 +24,7 @@ const ProductSwiper = ({ t }) => {
         className='product-swiper'>
         {productObj.map((product) => (
           <SwiperSlide key={product.id} style={{ maxWidth: "310px" }}>
-            <Link href={`products/${product.path}`}>
+            <Link href={product.path}>
               <a className='link-container'>
                 <Image
                   width={300}
