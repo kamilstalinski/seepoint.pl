@@ -32,7 +32,7 @@ const About = () => {
   return (
     <div className='about'>
       <Head>
-        <title></title>
+        <title>Seepoint.pl</title>
         <meta name='description' />
       </Head>
       <AboutHero t={t} />

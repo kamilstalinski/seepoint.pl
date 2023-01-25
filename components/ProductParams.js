@@ -16,7 +16,7 @@ export default function ProductParams({ product }) {
 
   return (
     <div className='product-type'>
-      <div className='type-image'>
+      {/* <div className='type-image'>
         <Image
           src='/static/temporary.webp'
           layout='fill'
@@ -24,7 +24,7 @@ export default function ProductParams({ product }) {
           alt='product'
           priority={true}
         />
-      </div>
+      </div> */}
       <div className='product-type-info'>
         <ProductBtns product={product} handleClick={handleClick} t={t} />
         <ProductSpecs type={type} t={t} />
