@@ -26,7 +26,14 @@ export default function ProductHero({ product, goBack }) {
         </button>
         <h1>{product.name}</h1>
         <p>{product.heroDescription}</p>
-        <button className='primary-button'>{t("button")}</button>
+        <button className='primary-button'>
+          <a
+            className='aclass'
+            href='https://sklep.seepoint.pl/'
+            target='_blank'>
+            {t("button")}
+          </a>
+        </button>
       </div>
       <div className='product-image'>
         <Image

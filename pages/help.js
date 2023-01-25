@@ -25,7 +25,7 @@ const Help = () => {
   return (
     <div className='help'>
       <Head>
-        <title>Seepoint.pl | Pomoc</title>
+        <title>Pomoc | Seepoint</title>
         <meta name='description' content='Pomoc' />
       </Head>
       <div className='help-wrapper'>

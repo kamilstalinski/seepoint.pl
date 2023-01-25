@@ -40,7 +40,14 @@ export default function TechnologyHero({ technology, t }) {
               asperiores? Lorem ipsum dolor sit amet consectetur adipisicing
               elit. Aspernatur, possimus.
             </p>
-            <button className='primary-button'>{t("seeProducts")}</button>
+            <button className='primary-button'>
+              <a
+                className='aclass'
+                href='https://sklep.seepoint.pl/'
+                target='_blank'>
+                {t("seeProducts")}
+              </a>
+            </button>
           </div>
         </div>
       </div>

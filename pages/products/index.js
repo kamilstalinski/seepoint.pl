@@ -29,13 +29,16 @@ const Products = () => {
   return (
     <div className='products'>
       <Head>
-        <title>Seepoint.pl | Produkty</title>
+        <title>Produkty | Seepoint</title>
         <meta name='description' content='Produkty' />
       </Head>
       <div className='products__hero'>
         <div className='products__hero--info'>
           <h1>{t("header")}</h1>
-          <a className='white-button' href='https://sklep.seepoint.pl/'>
+          <a
+            className='white-button'
+            href='https://sklep.seepoint.pl/'
+            target='_blank'>
             {t("headerButton")}
           </a>
         </div>

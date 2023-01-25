@@ -32,7 +32,7 @@ const About = () => {
   return (
     <div className='about'>
       <Head>
-        <title>Seepoint.pl | Strona Główna</title>
+        <title>Strona Główna | Seepoint</title>
         <meta
           name='description'
           content='Wielkoformatowa drukarnia dopasowana do Twoich potrzeb!'

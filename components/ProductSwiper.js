@@ -9,7 +9,7 @@ const ProductSwiper = ({ t }) => {
   const router = useRouter();
   const productObj = router.locale === "pl" ? products.pl : products.en;
 
-  // const path = router.components.products.route ? "" : "products";
+  const path = router.pathname === "/products/[id]" ? "/products" : "/products";
 
   return (
     <>
@@ -25,7 +25,7 @@ const ProductSwiper = ({ t }) => {
         className='product-swiper'>
         {productObj.map((product) => (
           <SwiperSlide key={product.id} style={{ maxWidth: "310px" }}>
-            <Link href={`/${product.path}`}>
+            <Link href={`${path}/${product.path}`}>
               <a className='link-container'>
                 <Image
                   width={300}

@@ -54,6 +54,10 @@ const Technology = ({ technology }) => {
   const { t } = useTranslation("technology");
   return (
     <div className='tech-element'>
+      <Head>
+        <title>{technology.name} | Seepoint</title>
+        <meta name='description' content={technologies.name} />
+      </Head>
       <TechnologyHero technology={technology} t={t} />
       <TechnologySpec technology={technology} t={t} />
       <TechCarousel

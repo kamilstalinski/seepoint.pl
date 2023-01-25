@@ -9,9 +9,13 @@ import SearchbarDropdown from "./SearchbarDropdown";
 
 const Searchbar = ({ isClicked }) => {
   const router = useRouter();
+  const inputRef = useRef(null);
+
   const { t } = useTranslation("searchbar");
+
   const [isActive, setIsActive] = useState(false);
   const [filteredResults, setFilteredResult] = useState([]);
+
   const technologiesObj =
     router.locale === "pl" ? technologies.pl : technologies.en;
   const productObj = router.locale === "pl" ? products.pl : products.en;
@@ -34,6 +38,7 @@ const Searchbar = ({ isClicked }) => {
   useEffect(() => {
     document.addEventListener("click", () => {
       setIsActive(false);
+      inputRef.current.value = "";
     });
   }, [setIsActive]);
 
@@ -44,6 +49,7 @@ const Searchbar = ({ isClicked }) => {
           <p>{t("searchWord")}</p>
           <div className='input-wrapper'>
             <input
+              ref={inputRef}
               onChange={(e) => handleChange(e)}
               type='text'
               placeholder={t("search")}

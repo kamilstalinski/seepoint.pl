@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <div className='contact'>
       <Head>
-        <title>Seepoint.pl | Kontakt</title>
+        <title>Kontakt | Seepoint</title>
         <meta name='description' content='Kontakt' />
       </Head>
       <div className='contact__info'>
