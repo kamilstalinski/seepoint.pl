@@ -92,7 +92,7 @@
       "path": "pictures",
       "image": "/static/paintings.png",
       "sliderImage": "/paintings.webp",
-      "heroDescription": "Chcesz zaprezentować unikatowy styl wieszając swoje własne ",
+      "heroDescription": "Chcesz zaprezentować unikatowy styl wieszając swoje własne obrazy? Wszystkie obrazy drukowane są z najwyższą jakością i precyzją, zapewniając piękne i trwałe wydruki, które mogą być używane jako dekoracje do domu lub biura. ",
       "type": [
         {
           "name": "Obraz",
@@ -209,7 +209,7 @@
       "path": "pet-pillows",
       "image": "/static/animals-seepoint.webp",
       "sliderImage": "/animalpillows.png",
-      "heroDescription": "Poduszki w kształcie zwierząt to nietypowy pomysł na upominek lub ozdobę do wnętrz. Prowadzisz działalność związaną z dziećmi? Taki dodatek sprawi, że miejsce to stanie się bardziej przytulne, a najmłodsi poczują się w nim komfortowo. Zamów poduszki do gabinetu lekarskiego, poradni lub wszędzie tam, gdzie organizujesz kącik dla najmłodszych. Nasze poduszki prezentują się bardzo atrakcyjnie.",
+      "heroDescription": "Animal-shaped pillows are an unusual idea for a gift or interior decoration. Do you run a business related to children? Such an addition will make the place more cozy and the youngest will feel comfortable in it. Order pillows for a doctor's office, clinic or wherever you organize a corner for children. Our pillows look very attractive.",
       "type": [
         {
           "name": "Pet pillow",
@@ -226,7 +226,7 @@
       "path": "pictures",
       "image": "/static/paintings.png",
       "sliderImage": "/paintings.webp",
-      "heroDescription": "Najpopularniejszy nośnik reklamy wykorzystywany głównie w dekoracji witryn sklepowych i wnętrza. Od wielu lat z powodzeniem funkcjonuje na rynku skandynawskim i od niedawna możemy go spotkać w polskich sklepach.",
+      "heroDescription": "Do you want to present a unique style by hanging your own paintings? All images are printed with the highest quality and precision, ensuring beautiful and long-lasting prints that can be used as decorations for your home or office.",
       "type": [
         {
           "name": "Picture",

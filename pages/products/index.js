@@ -29,7 +29,7 @@ const Products = () => {
   return (
     <div className='products'>
       <Head>
-        <title>Produkty | Seepoint</title>
+        <title>{t("metaName")} | Seepoint</title>
         <meta name='description' content='Produkty' />
       </Head>
       <div className='products__hero'>

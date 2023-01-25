@@ -22,5 +22,6 @@
     "pcv1": "The minimum resolution of bitmaps in the work is 150 dpi for prints up to approx. 10m2, 100 dpi for 10-30m2, approx. 50 dpi for prints over 30m2, it is recommended to use vector graphics if possible.",
     "pcv2": "Bleeds should be 2 cm.",
     "pcv3": "The minimum distance of texts and graphics from the cutting line is at least 'finish size + 1cm' (e.g. tunnel 5cm = distance of graphics from the edge min. 6cm). A greater distance is recommended due to the flexibility of the material.",
-    "contact": "Contact"
+    "contact": "Contact",
+    "metaName": "Help"
 }

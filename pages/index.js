@@ -32,7 +32,7 @@ const About = () => {
   return (
     <div className='about'>
       <Head>
-        <title>Strona Główna | Seepoint</title>
+        <title>{t("metaName")} | Seepoint</title>
         <meta
           name='description'
           content='Wielkoformatowa drukarnia dopasowana do Twoich potrzeb!'
