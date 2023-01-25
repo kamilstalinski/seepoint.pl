@@ -1,6 +1,7 @@
 import ContactForm from "../../components/ContactForm";
 import TechCarousel from "../../components/TechCarousel";
 import Image from "next/image";
+import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
@@ -24,6 +25,10 @@ const Technology = () => {
   const { t } = useTranslation("technologies");
   return (
     <div className='technology'>
+      <Head>
+        <title>Seepoint.pl | Technologie</title>
+        <meta name='description' content='Technologie' />
+      </Head>
       <div className='hero' style={{ marginBottom: "8rem" }}>
         <div className='hero__img-container2'>
           <Image

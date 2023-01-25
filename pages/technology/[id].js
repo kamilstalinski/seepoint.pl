@@ -4,6 +4,7 @@ import TechCarousel from "../../components/TechCarousel";
 import technologies from "../../util/technologies.json";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import Head from "next/head";
 
 export async function getStaticPaths({ locales, locale }) {
   const technologiesObj = locale === "pl" ? technologies.pl : technologies.en;

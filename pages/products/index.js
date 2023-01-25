@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 import ProductSwiper from "../../components/ProductSwiper";
 import ContactForm from "../../components/ContactForm";
 import Rewards from "../../components/Rewards";
@@ -27,6 +28,10 @@ const Products = () => {
   const { t } = useTranslation("productMain");
   return (
     <div className='products'>
+      <Head>
+        <title>Seepoint.pl | Produkty</title>
+        <meta name='description' content='Produkty' />
+      </Head>
       <div className='products__hero'>
         <div className='products__hero--info'>
           <h1>{t("header")}</h1>

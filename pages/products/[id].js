@@ -4,6 +4,7 @@ import ProductParams from "../../components/ProductParams";
 import ProductSlider from "../../components/ProductSlider";
 import products from "../../util/products.json";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import Head from "next/head";
 
 export async function getStaticPaths({ locale, locales }) {
   const productObj = locale === "pl" ? products.pl : products.en;
@@ -55,6 +56,10 @@ const Product = ({ product, locale }) => {
 
   return (
     <div className='product container'>
+      <Head>
+        <title>Seepoint.pl | {product.name}</title>
+        <meta name='description' content={product.name} />
+      </Head>
       <ProductHero product={product} goBack={goBack} />
       <ProductParams product={product} />
       <ProductSlider />

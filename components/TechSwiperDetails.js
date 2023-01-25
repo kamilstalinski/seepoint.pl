@@ -9,11 +9,11 @@ const TechSwiperDestails = ({ currentTechnology }) => {
     <div className='description'>
       <h2>{currentTechnology.name}</h2>
       <p>{currentTechnology.description}</p>
-      <a
+      <button
         onClick={() => router.push(`/technology/${currentTechnology.path}`)}
         className='primary-button'>
         {t("findMore")}
-      </a>
+      </button>
     </div>
   );
 };

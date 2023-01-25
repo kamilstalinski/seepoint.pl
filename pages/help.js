@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import ContactForm from "../components/ContactForm";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
@@ -23,6 +24,10 @@ const Help = () => {
 
   return (
     <div className='help'>
+      <Head>
+        <title>Seepoint.pl | Pomoc</title>
+        <meta name='description' content='Pomoc' />
+      </Head>
       <div className='help-wrapper'>
         <div className='help-container container'>
           <div className='help-info '>

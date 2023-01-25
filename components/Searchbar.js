@@ -31,6 +31,12 @@ const Searchbar = ({ isClicked }) => {
     if (e.target.value === "") setFilteredResult([]);
   };
 
+  useEffect(() => {
+    document.addEventListener("click", () => {
+      setIsActive(false);
+    });
+  }, [setIsActive]);
+
   return (
     <div className={`searchbar ${isClicked ? "active" : null}`}>
       <div className={`search-wrapper container`}>

@@ -1,6 +1,7 @@
 import Map from "../components/GoogleMap";
 import ContactForm from "../components/ContactForm";
 import Image from "next/image";
+import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
@@ -23,6 +24,10 @@ const Contact = () => {
   const { t } = useTranslation("contact");
   return (
     <div className='contact'>
+      <Head>
+        <title>Seepoint.pl | Kontakt</title>
+        <meta name='description' content='Kontakt' />
+      </Head>
       <div className='contact__info'>
         <div className='img-container'>
           <Image

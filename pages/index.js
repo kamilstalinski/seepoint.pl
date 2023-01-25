@@ -32,8 +32,11 @@ const About = () => {
   return (
     <div className='about'>
       <Head>
-        <title>Seepoint.pl</title>
-        <meta name='description' />
+        <title>Seepoint.pl | Strona Główna</title>
+        <meta
+          name='description'
+          content='Wielkoformatowa drukarnia dopasowana do Twoich potrzeb!'
+        />
       </Head>
       <AboutHero t={t} />
       <div className='container about__info'>

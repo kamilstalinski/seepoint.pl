@@ -12,18 +12,6 @@ export default function SearchbarDropdown({
   const ref = useRef();
 
   useEffect(() => {
-    const clickedOutside = (e) => {
-      if (isActive && ref.current && !ref.current.contains(e.target)) {
-        setIsActive(false);
-      }
-    };
-    document.addEventListener("click", clickedOutside);
-    return () => {
-      !document.removeEventListener("click", clickedOutside);
-    };
-  }, [setIsActive]);
-
-  useEffect(() => {
     if (filteredResults.length === 0)
       setFilteredResult(["Brak wyników wyszukiwania"]);
   }, [filteredResults]);

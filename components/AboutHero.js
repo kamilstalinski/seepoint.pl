@@ -1,5 +1,6 @@
-import Button from "./Button";
+// import Button from "./Button";
 import Image from "next/image";
+import Link from "next/link";
 
 const AboutHero = ({ t }) => {
   return (
@@ -18,9 +19,12 @@ const AboutHero = ({ t }) => {
         <div className='hero__content'>
           <h1>Power of Quality</h1>
           <p>{t("aboutHero")}</p>
-          <Button className={"primary-button"} path={"/products"}>
+          {/* <Button className={"primary-button"} path={"/products"}>
             {t("seeMore")}
-          </Button>
+          </Button> */}
+          <Link href='/products'>
+            <a className='primary-button'>{t("seeMore")}</a>
+          </Link>
         </div>
       </div>
     </div>
