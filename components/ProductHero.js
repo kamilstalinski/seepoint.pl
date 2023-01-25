@@ -30,6 +30,7 @@ export default function ProductHero({ product, goBack }) {
           <a
             className='aclass'
             href='https://sklep.seepoint.pl/'
+            rel='noreferrer'
             target='_blank'>
             {t("button")}
           </a>

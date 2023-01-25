@@ -38,6 +38,7 @@ const Products = () => {
           <a
             className='white-button'
             href='https://sklep.seepoint.pl/'
+            rel='noreferrer'
             target='_blank'>
             {t("headerButton")}
           </a>

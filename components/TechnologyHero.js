@@ -44,6 +44,7 @@ export default function TechnologyHero({ technology, t }) {
               <a
                 className='aclass'
                 href='https://sklep.seepoint.pl/'
+                rel='noreferrer'
                 target='_blank'>
                 {t("seeProducts")}
               </a>
