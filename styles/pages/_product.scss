@@ -53,6 +53,12 @@
             position: relative;
             width: 60%;
             height: 100%;
+
+            span {
+                img {
+                    padding: 4rem;
+                }
+            }
         }
     
         @include md {

@@ -57,7 +57,7 @@
       "category": "products",
       "name": "Banery na aluframe",
       "path": "alu-banners",
-      "image": "/static/alu-banner-seepoint.webp",
+      "image": "/static/alu-banner-sp.png",
       "sliderImage": "/alu-banners.webp",
       "heroDescription": "Banery na aluframe stworzone do eksponowania banerów wewnętrznych. Lekka konstrukcja jest elementem stałym reklamy, odpowiedni system „rowków” umożliwia łatwą i szybką wymianę baneru. System bardzo popularny na zachodzie, dedykowany dla ekskluzywnych sklepów, hoteli, restauracji oraz do domu.",
       "type": [
@@ -74,7 +74,7 @@
       "name": "Poduszkozwierzaki",
       "path": "pet-pillows",
       "image": "/static/animals-seepoint.webp",
-      "sliderImage": "/animals.webp",
+      "sliderImage": "/animalpillows.png",
       "heroDescription": "Poduszki w kształcie zwierząt to nietypowy pomysł na upominek lub ozdobę do wnętrz. Prowadzisz działalność związaną z dziećmi? Taki dodatek sprawi, że miejsce to stanie się bardziej przytulne, a najmłodsi poczują się w nim komfortowo. Zamów poduszki do gabinetu lekarskiego, poradni lub wszędzie tam, gdzie organizujesz kącik dla najmłodszych. Nasze poduszki prezentują się bardzo atrakcyjnie.",
       "type": [
         {
@@ -90,7 +90,7 @@
       "category": "products",
       "name": "Obrazy",
       "path": "pictures",
-      "image": "/static/paintings-seepoint.webp",
+      "image": "/static/paintings.png",
       "sliderImage": "/paintings.webp",
       "heroDescription": "Chcesz zaprezentować unikatowy styl wieszając swoje własne ",
       "type": [
@@ -191,7 +191,7 @@
       "category": "products",
       "name": "Alu-banners",
       "path": "alu-banners",
-      "image": "/static/alu-banner-seepoint.webp",
+      "image": "/static/alu-banner-sp.png",
       "sliderImage": "/alu-banners.webp",
       "heroDescription": "Aluframe banners designed to display internal banners. The light structure is a permanent element of advertising, the appropriate system of 'grooves' allows for easy and quick replacement of the banner. The system is very popular in the West, dedicated to exclusive shops, hotels, restaurants and home.",
       "type": [
@@ -208,7 +208,7 @@
       "name": "Petpillows",
       "path": "pet-pillows",
       "image": "/static/animals-seepoint.webp",
-      "sliderImage": "/animals.webp",
+      "sliderImage": "/animalpillows.png",
       "heroDescription": "Poduszki w kształcie zwierząt to nietypowy pomysł na upominek lub ozdobę do wnętrz. Prowadzisz działalność związaną z dziećmi? Taki dodatek sprawi, że miejsce to stanie się bardziej przytulne, a najmłodsi poczują się w nim komfortowo. Zamów poduszki do gabinetu lekarskiego, poradni lub wszędzie tam, gdzie organizujesz kącik dla najmłodszych. Nasze poduszki prezentują się bardzo atrakcyjnie.",
       "type": [
         {
@@ -224,7 +224,7 @@
       "category": "products",
       "name": "Pictures",
       "path": "pictures",
-      "image": "/static/paintings-seepoint.webp",
+      "image": "/static/paintings.png",
       "sliderImage": "/paintings.webp",
       "heroDescription": "Najpopularniejszy nośnik reklamy wykorzystywany głównie w dekoracji witryn sklepowych i wnętrza. Od wielu lat z powodzeniem funkcjonuje na rynku skandynawskim i od niedawna możemy go spotkać w polskich sklepach.",
       "type": [
