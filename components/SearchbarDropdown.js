@@ -1,19 +1,19 @@
 import { useRef, useEffect } from "react";
-
+import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function SearchbarDropdown({
   isActive,
-  setIsActive,
   filteredResults,
   setFilteredResult,
 }) {
   const ref = useRef();
 
+  const { t } = useTranslation("searchbar");
+
   useEffect(() => {
-    if (filteredResults.length === 0)
-      setFilteredResult(["Brak wyników wyszukiwania"]);
+    if (filteredResults.length === 0) setFilteredResult([t("results")]);
   }, [filteredResults]);
 
   return (

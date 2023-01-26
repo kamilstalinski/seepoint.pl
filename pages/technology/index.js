@@ -26,7 +26,7 @@ const Technology = () => {
   return (
     <div className='technology'>
       <Head>
-        <title>Technologie | Seepoint</title>
+        <title>{t("metaName")} | Seepoint</title>
         <meta name='description' content='Technologie' />
       </Head>
       <div className='hero' style={{ marginBottom: "8rem" }}>
