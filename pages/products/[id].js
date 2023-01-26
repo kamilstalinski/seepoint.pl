@@ -57,7 +57,7 @@ const Product = ({ product, locale }) => {
   return (
     <div className='product container'>
       <Head>
-        <title>Seepoint.pl | {product.name}</title>
+        <title>{product.name} | Seepoint</title>
         <meta name='description' content={product.name} />
       </Head>
       <ProductHero product={product} goBack={goBack} />
