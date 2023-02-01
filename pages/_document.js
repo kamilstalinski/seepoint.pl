@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta name='robots' content='index, follow' />
+        <meta name='robots' content='noindex' />
         <meta charSet='UTF-8' />
       </Head>
       <body>
