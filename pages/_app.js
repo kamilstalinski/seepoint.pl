@@ -78,6 +78,11 @@ const MyApp = ({ Component, pageProps }) => {
           latitude: "53.5574121",
           longitude: "14.8476345",
         }}
+        location={{
+          logo: "https://seepoint.pl/app/themes/seepoint-theme/assets/img/logo_seepoint@2x.png",
+          url: "https://seepoint.pl/",
+          hasMap: "https://goo.gl/maps/sRHgiNPSsbgbv4h89",
+        }}
       />
       <Component {...pageProps} />
     </Layout>
