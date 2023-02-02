@@ -23,43 +23,51 @@ const ContactForm = ({ children }) => {
             <div className='contact__details--container'>
               <p className='description'>{t("con1")}</p>
               <div className='call'>
-                <Image
-                  width={20}
-                  height={20}
-                  src='/static/call.webp'
-                  alt='call icon'
-                />
-                <p>+48 91 418 11 91</p>
+                <a id='contact-link' href='tel:+48-91-418-11-91'>
+                  <Image
+                    width={23}
+                    height={20}
+                    src='/static/call.webp'
+                    alt='call icon'
+                  />
+                  <p>+48 91 418 11 91</p>
+                </a>
               </div>
               <div className='email'>
-                <Image
-                  width={20}
-                  height={20}
-                  src='/static/email.webp'
-                  alt='mail icon'
-                />
-                <p>biuro@seepoint.pl</p>
+                <a id='contact-link' href='mailto:biuro@seepoint.pl'>
+                  <Image
+                    width={23}
+                    height={20}
+                    src='/static/email.webp'
+                    alt='email icon'
+                  />
+                  <p>biuro@seepoint.pl</p>
+                </a>
               </div>
             </div>
             <div className='contact__details--container'>
               <p className='description'>{t("con2")}</p>
               <div className='call'>
-                <Image
-                  width={20}
-                  height={20}
-                  src='/static/call.webp'
-                  alt='call icon'
-                />
-                <p>+48 667 114 119</p>
+                <a id='contact-link' href='tel:+48-667-114-119'>
+                  <Image
+                    width={23}
+                    height={20}
+                    src='/static/call.webp'
+                    alt='call icon'
+                  />
+                  <p>+48 667 114 119</p>
+                </a>
               </div>
               <div className='email'>
-                <Image
-                  width={20}
-                  height={20}
-                  src='/static/email.webp'
-                  alt='mail icon'
-                />
-                <p>rm@seepoint.pl</p>
+                <a id='contact-link' href='mailto:rm@seepoint.pl'>
+                  <Image
+                    width={23}
+                    height={20}
+                    src='/static/email.webp'
+                    alt='email icon'
+                  />
+                  <p>rm@seepoint.pl</p>
+                </a>
               </div>
             </div>
           </div>

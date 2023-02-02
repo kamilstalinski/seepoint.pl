@@ -97,12 +97,10 @@
    
                 .email,
                 .call {
-                    display: flex;
-                    gap: 1rem;
-                    margin-top: 1rem;
-   
-                    img {
-                        width: 24px;
+                    #contact-link {
+                        img {
+                            filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(207deg) brightness(108%) contrast(101%);
+                        }
                     }
                 }
              }

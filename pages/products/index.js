@@ -51,7 +51,7 @@ const Products = () => {
             <Link href='products/beachflags'>
               <a>{t("beachflags")}</a>
             </Link>
-            <Link href='productss/rollups'>
+            <Link href='products/rollups'>
               <a>{t("rollups")}</a>
             </Link>
             <Link href='products/banners'>

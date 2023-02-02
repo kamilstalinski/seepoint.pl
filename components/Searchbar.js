@@ -35,12 +35,12 @@ const Searchbar = ({ isClicked }) => {
     if (e.target.value === "") setFilteredResult([]);
   };
 
-  useEffect(() => {
-    document.addEventListener("click", () => {
-      setIsActive(false);
-      inputRef.current.value = "";
-    });
-  }, [setIsActive]);
+  // useEffect(() => {
+  //   document.addEventListener("click", () => {
+  //     setIsActive(false);
+  //     inputRef.current.value = "";
+  //   });
+  // }, [setIsActive]);
 
   return (
     <div className={`searchbar ${isClicked ? "active" : null}`}>
@@ -65,22 +65,26 @@ const Searchbar = ({ isClicked }) => {
         </div>
         <div className='contact-items'>
           <div className='call'>
-            <Image
-              width={23}
-              height={20}
-              src='/static/call.webp'
-              alt='call icon'
-            />
-            <p>tel. 501 501 501</p>
+            <a id='contact-link' href='tel:+48-501-501-501'>
+              <Image
+                width={23}
+                height={20}
+                src='/static/call.webp'
+                alt='call icon'
+              />
+              <p>tel. 501 501 501</p>
+            </a>
           </div>
           <div className='email'>
-            <Image
-              width={23}
-              height={20}
-              src='/static/email.webp'
-              alt='email icon'
-            />
-            <p>sklep@seepoint.pl</p>
+            <a id='contact-link' href='mailto:sklep@seepoint.pl'>
+              <Image
+                width={23}
+                height={20}
+                src='/static/email.webp'
+                alt='email icon'
+              />
+              <p>sklep@seepoint.pl</p>
+            </a>
           </div>
         </div>
       </div>

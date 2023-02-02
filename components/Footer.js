@@ -10,16 +10,26 @@ const Footer = () => {
       <p className='footer__description'>©{year} Seepoint</p>
       <div className='footer__contact--container'>
         <div className='call'>
-          <div className='relative'>
-            <Image src='/static/call.webp' layout='fill' alt='call icon' />
-          </div>
-          <p>+48 91 418 11 91</p>
+          <a id='contact-link' href='tel:+48-501-501-501'>
+            <Image
+              width={23}
+              height={20}
+              src='/static/call.webp'
+              alt='call icon'
+            />
+            <p>tel. 501 501 501</p>
+          </a>
         </div>
         <div className='email'>
-          <div className='relative'>
-            <Image src='/static/email.webp' layout='fill' alt='email icon' />
-          </div>
-          <p>biuro@seepoint.pl</p>
+          <a id='contact-link' href='mailto:biuro@seepoint.pl'>
+            <Image
+              width={23}
+              height={20}
+              src='/static/email.webp'
+              alt='email icon'
+            />
+            <p>biuro@seepoint.pl</p>
+          </a>
         </div>
       </div>
     </div>

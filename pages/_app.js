@@ -36,6 +36,7 @@ const MyApp = ({ Component, pageProps }) => {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'UA-136347637-2');
+        gtag('config', 'G-M53GGB7HPN');
         `}
       </Script>
       <DefaultSeo

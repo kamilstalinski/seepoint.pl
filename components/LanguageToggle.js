@@ -1,10 +1,8 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRotate } from "@fortawesome/free-solid-svg-icons";
 
-const LanguageToggle = ({ active, isClicked, setActive }) => {
+const LanguageToggle = ({ active, isClicked, faRotate, FontAwesomeIcon }) => {
   const [nextLng, setNextLng] = useState("EN");
   const { locale } = useRouter();
   const router = useRouter();

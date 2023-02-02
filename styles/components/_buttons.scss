@@ -65,3 +65,25 @@
         }
     }
 }
+
+.shop-btn {
+    padding: 1rem 2rem;
+    background-color: #194895;
+    border: none;
+    outline: none;
+    border-radius: 19px;
+    transition: background-color .2s ease-in-out;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 16px;
+        display: flex;
+        gap: 1rem;
+    }
+
+    &:hover {
+        background-color: #4F96D3;
+    }
+}

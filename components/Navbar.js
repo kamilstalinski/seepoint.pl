@@ -1,10 +1,13 @@
 import MenuLink from "./MenuLink";
 import Hamburger from "./Hamburger";
+import ShopButton from "./ShopButton";
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import LanguageToggle from "./LanguageToggle";
 import { useTranslation } from "next-i18next";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRotate, faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = ({ handleStateChange }) => {
   const { t } = useTranslation("navbar");
@@ -61,10 +64,15 @@ const Navbar = ({ handleStateChange }) => {
             </MenuLink>
             <div className='social-media'></div>
           </ul>
+          <ShopButton
+            FontAwesomeIcon={FontAwesomeIcon}
+            faCartShopping={faCartShopping}
+          />
           <LanguageToggle
             active={active}
-            setActive={setActive}
+            FontAwesomeIcon={FontAwesomeIcon}
             isClicked={isClicked}
+            faRotate={faRotate}
           />
           <Hamburger
             isClicked={isClicked}
