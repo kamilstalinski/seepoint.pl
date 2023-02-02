@@ -69,10 +69,10 @@ const MyApp = ({ Component, pageProps }) => {
         ]}
         telephone={["+48914181191", "+48667114119"]}
         address={{
-          streetAdress: "ul. I Brygady Legionów 15",
-          adressLocality: "Goleniów",
+          streetAddress: "ul. I Brygady Legionów 15",
+          addressLocality: "Goleniów",
           postalCode: "72-100",
-          adressCountry: "PL",
+          addressCountry: "PL",
         }}
         geo={{
           latitude: "53.5574121",
