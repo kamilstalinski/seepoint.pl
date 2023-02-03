@@ -53,13 +53,13 @@ const Navbar = ({ handleStateChange }) => {
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
-              path='/help'>
+              path='/pomoc'>
               {t("nav4")}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
-              path='/contact'>
+              path='/kontakt'>
               {t("nav5")}
             </MenuLink>
             <div className='btn'>

@@ -9,7 +9,7 @@ import { useTranslation } from "next-i18next";
 
 export default function ProductParams({ product }) {
   const { t } = useTranslation("product");
-  const [type, setType] = useState(product.type[0]);
+  const [type, setType] = useState(product.type ? product.type[0] : null);
 
   const handleClick = (typeObj) => {
     setType(typeObj);
@@ -41,15 +41,19 @@ export default function ProductParams({ product }) {
             priority={true}
           />
         </div>
-        <div className='product-type-info'>
-          <ProductBtns product={product} handleClick={handleClick} t={t} />
-          <ProductSpecs type={type} t={t} />
-          <div className='params'>
-            <h2>{t("params")}</h2>
-            <ProductDropdown parameter={type.parameter} t={t} />
+        {type ? (
+          <div className='product-type-info'>
+            <ProductBtns product={product} handleClick={handleClick} t={t} />
+            <ProductSpecs type={type} t={t} />
+            <div className='params'>
+              <h2>{t("params")}</h2>
+              <ProductDropdown parameter={type.parameter} t={t} />
+            </div>
+            <button className='primary-button doc-btn'>{t("doc")}</button>
           </div>
-          <button className='primary-button doc-btn'>{t("doc")}</button>
-        </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

@@ -48,22 +48,22 @@ const Products = () => {
         <aside className='products__links'>
           <div className='links'>
             <h3>{t("products")}</h3>
-            <Link href='produkty/beachflags'>
+            <Link href='produkty/beachflagi'>
               <a>{t("beachflags")}</a>
             </Link>
-            <Link href='produkty/rollups'>
+            <Link href='produkty/roll-up'>
               <a>{t("rollups")}</a>
             </Link>
-            <Link href='produkty/banners'>
+            <Link href='produkty/banery-zewnetrzne-frontlit'>
               <a>{t("banners")}</a>
             </Link>
-            <Link href='produkty/alu-banners'>
+            <Link href='produkty/alu-system'>
               <a>{t("alubanners")}</a>
             </Link>
-            <Link href='produkty/pictures'>
+            <Link href='produkty/obrazy'>
               <a>{t("pictures")}</a>
             </Link>
-            <Link href='produkty/pet-pillows'>
+            <Link href='produkty/poduszkozwierzaki'>
               <a className='animal'>{t("petpillows")}</a>
             </Link>
           </div>

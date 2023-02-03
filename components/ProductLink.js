@@ -19,7 +19,7 @@ const ProductLink = () => {
                   src={product.image}
                   layout='fill'
                   objectFit='contain'
-                  alt='product image'
+                  alt={product.name}
                   priority={true}
                 />
               </div>

@@ -54,7 +54,7 @@ export default function ProductHero({ product, goBack }) {
             width={400}
             height={400}
             objectFit='contain'
-            alt='hero section image'
+            alt={product.name}
             priority={true}
           />
         </div>
