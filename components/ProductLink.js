@@ -11,7 +11,7 @@ const ProductLink = () => {
     <>
       {productObj.map((product) => {
         return (
-          <Link key={product.id} href={"products/" + product.path}>
+          <Link key={product.id} href={"produkty/" + product.path}>
             <a className='product-item'>
               <h3>{product.name}</h3>
               <div className='img-container'>

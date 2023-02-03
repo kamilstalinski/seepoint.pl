@@ -3,27 +3,22 @@
     {
       "id": 0,
       "category": "products",
-      "name": "Banery",
-      "path": "banners",
+      "name": "Banery PCV",
+      "path": "banery-zewnetrzne-frontlit",
       "image": "/static/banner-seepoint.webp",
       "sliderImage": "/banners.webp",
-      "heroDescription": "Najpopularniejszy nośnik reklamy wykorzystywany głównie w dekoracji witryn sklepowych i wnętrza. Od wielu lat z powodzeniem funkcjonuje na rynku skandynawskim i od niedawna możemy go spotkać w polskich sklepach.",
+      "innerLinkURL": "/produkty/mesh",
+      "innerLink": "siatki reklamowe na budynki",
+      "heroDescription": "Zajmujemy się produkcją banerów reklamowych. Wykonujemy je w różnych formatach, zgodnie z życzeniem klienta. Na materiał możemy nanieść dowolny nadruk lub grafikę. Taka forma reklamy jest jednym z popularniejszych i skuteczniejszych sposobów na dotarcie do szerokiego grona odbiorców. Można ją zwiesić na elewacji budynku, płocie lub rusztowaniu. Duży nadruk sprawia, że całość przekazu jest dobrze widoczna i przyciąga uwagę klientów. Na banerze drukowanym na frontlicie może znaleźć się Twoje logo, adres, dane kontaktowe lub informacja o usłudze, którą aktualnie promujesz. W zależności od przekazu możesz pomóc klientom w dotarciu do Twojej siedziby lub zbudować świadomość marki. Raz zawieszony baner reklamowy będzie widoczny w danym miejscu tak długo, jak o tym zdecydujesz. Możesz zamówić u nas również ",
+      "heroDescription2": ". Wzmocnisz tym samym przekaz i jeszcze silniej zaznaczysz swoją obecność na rynku. Wykonamy dla Ciebie taką formę reklamy, która zaprezentuje Twoją działalność i przyciągnie nowych klientów.",
       "h1": "Banery reklamowe. Laminowany i powlekany baner PCV",
+      "h2": "Trwałe banery drukowane na frontlicie",
+      "description": "W naszych wyrobach wykorzystujemy frontlit powlekany o gramaturze 440 g. Taka grubość sprawia, że materiał jest trwały i odporny na działanie czynników atmosferycznych. Wykonany z niego baner można zawiesić na zewnątrz budynku bez obaw o to, że się popsuje pod wpływem silnego wiatru czy ulewnego deszczu. Nadruk możemy wykonać również na podkładzie laminowanym. Typowe wykończenie tego produktu to wzmocnienie zastosowane dookoła reklamy oraz tunele umożliwiające jego łatwe zawieszenie. W przypadku montownia reklamy w specjalnych systemach naściennych baner obszywany jest „kederem” z góry oraz z dołu.",
       "type": [
         {
           "name": "Frontilt",
           "description": "Jeden z najpopularniejszych i najtańszych materiałów banerowych stosowanych w reklamie zewnętrznej. Doskonale znosi wilgoć, jest odporny na promieniowanie słoneczne, wiatr o średnim natężeniu i zmiany temperatur. Aby otrzymać większą powierzchnię, możliwe jest zgrzewanie mniejszych kawałków, zyskujemy wtedy bardzo dużą powierzchnię reklamy.",
           "parameter": ["Baner Frontilt 440g"]
-        },
-        {
-          "name": "Mesh",
-          "description": "Siatka mesh to materiał lekki i bardzo wytrzymały. Materiał ten przepuszcza powietrze, światło i dźwięk. Z powodzeniem może być instalowany na elewacjach budynków, ogrodzeniach i konstrukcjach.",
-          "parameter": ["Mesh 280g", "Eco 370g"]
-        },
-        {
-          "name": "Trico",
-          "description": "Wszędzie tam, gdzie wymagana jest wysoka jakość, solidność, trwałość i głębia kolorów, proponujemy zastosowanie dzianin poliestrowych. Dzięki sublimacji jako technice druku otrzymujemy produkty o dużej wytrzymałości, odporne na zmienne warunki pogodowe. Znajdują one bardzo szerokie zastosowanie zarówno w reklamie zewnętrznej jak i wewnętrznej m.in. flagi, banery na witrynach sklepowych, dekoracje w galeriach handlowych, wystawach, targach i konferencjach.",
-          "parameter": ["Trico 115g", "Trico 250g"]
         }
       ]
     },
@@ -31,10 +26,16 @@
       "id": 1,
       "category": "products",
       "name": "Rollupy",
-      "path": "rollups",
+      "path": "roll-up",
       "image": "/static/rollup-seepoint.webp",
       "sliderImage": "/rollups.webp",
-      "heroDescription": "Jeśli chcesz się zareklamować, możesz potrzebować również przenośnych rozwiązań. Roll up’y to mobilne konstrukcje, które można łatwo rozstawić tam, gdzie chcesz zaprezentować swoją działalność. Klienci często zamawiają je u nas, gdy planują udział w targach, konferencjach lub innych wydarzeniach odbywających się poza siedzibą firmy.",
+      "innerLinkURL": "/produkty/beachflagi",
+      "innerLink": "flagi plażowe",
+      "heroDescription": "Jeśli chcesz się zareklamować, możesz potrzebować również przenośnych rozwiązań. Rollup’y to mobilne konstrukcje, które można łatwo rozstawić tam, gdzie chcesz zaprezentować swoją działalność. Klienci często zamawiają je u nas, gdy planują udział w targach, konferencjach lub innych wydarzeniach odbywających się poza siedzibą firmy. Całość składa się z aluminiowego stelaża oraz materiału do rozwieszenia na drążkach. Mocowanie jest bardzo proste i może je wykonać praktycznie każdy. Plakat zwija się do kasety, przez co z reklamy można korzystać wielokrotnie. Zawsze po rozłożeniu całość prezentuje się estetycznie i pozwala na zaprezentowanie zakresu Twojej działalności w eleganckiej formie. Roll up’y, po złożeniu są lekkie i nie zajmują dużo miejsca. Możesz więc wygodnie przetransportować je samochodem lub korzystając z transportu publicznego.",
+      "h1": "Roll up’y. Mobilna reklama",
+      "h2": "Roll up’y i inne materiały reklamowe. Wyposażenie na targi i konferencje",
+      "description": "Współpracujemy z wieloma klientami ze Szczecina, okolicznych miejscowości oraz z całego kraju, dostarczając im różne formy reklamy stacjonarnej, a także przenośnej. Zajmujemy się całościowymi wizualizacjami przeznaczonymi do zaprezentowania biznesu podczas wyjazdowych eventów. Możesz zamówić u nas ",
+      "description2": " oraz przenośne roll up’y. Wykonujemy reklamy w dwóch standardowych rozmiarach: 85 × 200 cm oraz 60 × 200 cm. Każdy z nich umożliwia zaprezentowanie najważniejszych informacji o Twoim biznesie. Poza klasycznymi wymiarami wykonamy również projekty na indywidualne zamówienie. Skontaktuj się z nami, a z pewnością znajdziemy rozwiązanie.",
       "type": [
         {
           "name": "80 Compact",
@@ -56,11 +57,12 @@
     {
       "id": 2,
       "category": "products",
-      "name": "Banery na aluframe",
-      "path": "alu-banners",
+      "name": "ALU-SYSTEM",
+      "path": "alu-system",
       "image": "/static/alu-banner-sp.png",
       "sliderImage": "/alu-banners.webp",
-      "heroDescription": "Banery na aluframe stworzone do eksponowania banerów wewnętrznych. Lekka konstrukcja jest elementem stałym reklamy, odpowiedni system „rowków” umożliwia łatwą i szybką wymianę baneru. System bardzo popularny na zachodzie, dedykowany dla ekskluzywnych sklepów, hoteli, restauracji oraz do domu.",
+      "heroDescription": "ALU-SYSTEM stworzony do eksponowania banerów wewnętrznych. Lekka konstrukcja jest elementem stałym reklamy, odpowiedni system „rowków” umożliwia łatwą i szybką wymianę baneru. System bardzo popularny na zachodzie, dedykowany dla ekskluzywnych sklepów, hoteli, restauracji oraz do domu. Proponujemy zastosować następujące materiały: trico 205 g oraz lightex – świetnie nadający się do podświetleń, podkreślając głębie kolorów.",
+      "h1": "ALU-SYSTEM – wydruki do montażu na aluminiowych ramach",
       "type": [
         {
           "name": "80 Compact",
@@ -73,10 +75,16 @@
       "id": 3,
       "category": "products",
       "name": "Poduszkozwierzaki",
-      "path": "pet-pillows",
+      "path": "poduszkozwierzaki",
       "image": "/static/animals-seepoint.webp",
+      "innerLinkURL": "/produkty/obrazy",
+      "innerLink": "obraz dekoracyjny na ścianę",
       "sliderImage": "/animalpillows.png",
-      "heroDescription": "Poduszki w kształcie zwierząt to nietypowy pomysł na upominek lub ozdobę do wnętrz. Prowadzisz działalność związaną z dziećmi? Taki dodatek sprawi, że miejsce to stanie się bardziej przytulne, a najmłodsi poczują się w nim komfortowo. Zamów poduszki do gabinetu lekarskiego, poradni lub wszędzie tam, gdzie organizujesz kącik dla najmłodszych. Nasze poduszki prezentują się bardzo atrakcyjnie.",
+      "heroDescription": "Poduszki w kształcie zwierząt to nietypowy pomysł na upominek lub ozdobę do wnętrz. Prowadzisz działalność związaną z dziećmi? Taki dodatek sprawi, że miejsce to stanie się bardziej przytulne, a najmłodsi poczują się w nim komfortowo. Zamów poduszki do gabinetu lekarskiego, poradni lub wszędzie tam, gdzie organizujesz kącik dla najmłodszych. Nasze poduszki prezentują się bardzo atrakcyjnie. Są wykonane z dobrej jakości materiału. W środku znajduje się miękkie wypełnienie. Nie traci ono swojej sprężystości nawet po dłuższym użytkowaniu. Zależy Ci na ciekawej aranżacji wnętrza? Zamów również ",
+      "heroDescription2": ". Każda przestrzeń stanie się wtedy ciekawsza, a miejsca, gdzie głównym zadaniem jest wykonywanie obowiązków zawodowych zyskają bardziej domowy, przyjazny charakter.",
+      "h1": "Poduszki w kształcie zwierząt. Oryginalny element dekoracyjny",
+      "h2": "Poduszki dekoracyjne, jako wyposażenie wnętrz i reklamowy gadżet",
+      "description": "Poduszki możesz wykorzystać na kilka sposobów. Użyj ich, jako elementu aranżacji wnętrz lub potraktuj, jako gadżet reklamowy dla swoich pracowników i klientów. Na poduszkach w kształcie zwierząt możemy dodatkowo umieścić Twoje logo lub inny element kojarzący się z prowadzoną przez Ciebie działalnością. Wręczając taki upominek, będziesz budował swój pozytywny wizerunek, a to, czym się zajmujesz automatycznie wzbudzi pozytywne skojarzenia. Zamów poduszki w kształcie zwierząt i zadbaj o wizerunek swojej firmy.",
       "type": [
         {
           "name": "Poduszkozwierzak",
@@ -90,10 +98,16 @@
       "id": 4,
       "category": "products",
       "name": "Obrazy",
-      "path": "pictures",
+      "path": "obrazy",
       "image": "/static/paintings.png",
       "sliderImage": "/paintings.webp",
-      "heroDescription": "Chcesz zaprezentować unikatowy styl wieszając swoje własne obrazy? Wszystkie obrazy drukowane są z najwyższą jakością i precyzją, zapewniając piękne i trwałe wydruki, które mogą być używane jako dekoracje do domu lub biura. ",
+      "innerLinkURL": "/produkty/poduszkozwierzaki",
+      "innerLink": "poduszki w kształcie zwierząt",
+      "heroDescription": "Szukasz oryginalnych dodatków do swoich wnętrz? Wykonujemy obrazy dekoracyjne na ścianę. Dysponujemy dużą bazą zdjęć oraz reprodukcji. Możesz wybrać z niej motyw, który najbardziej pasuje do Twojego wystroju lub przekazać nam własną kompozycję. Twój autorski obraz, kolaż lub fotografię wydrukujemy na wysokiej jakości materiale i umieścimy na blejtramie. Takim dodatkiem możesz wzbogacić ścianę w swoim domu, biurze, hotelu lub jakimkolwiek innym miejscu. Indywidualna konfiguracja w zakresie wielkości wydruku, ramy oraz nasycenia kolorystyki sprawiają, że dodatek ten idealnie podkreśli styl wnętrza, w którym go zawiesisz. Obraz, podobnie jak produkowane przez nas ",
+      "heroDescription2": " idealnie nadają się na prezent. Jeśli szukasz oryginalnego pomysłu na podarunek dla najbliższych, swoich współpracowników lub innych osób zapoznaj się z naszą ofertą.",
+      "h1": "Obrazy dekoracyjne na ścianę",
+      "h2": "Stylowa ozdoba do Twojego domu",
+      "description": "Czasami, nawet w minimalistycznie urządzonym wnętrzu jeden mocny akcent może całkowicie zmienić jego charakter. Nie masz pomysłu, jak odmienić białą ścianę lub wprowadzić nieco kreatywności do miejsca, w którym pracujesz? Dobrym pomysłem może być zawieszenie reprodukcji ulubionego obrazu, plakatu lub zdjęcia budzącego pozytywne skojarzenia. Zamów u nas taki dodatek, a w prosty sposób odmienisz swoje wnętrze. Postaw na przyciągający wzrok akcent i zamów dekoracyjny obraz.",
       "type": [
         {
           "name": "Obraz",
@@ -105,11 +119,17 @@
     {
       "id": 5,
       "category": "products",
-      "name": "Beach flagi",
-      "path": "beachflags",
+      "name": "Beachflagi",
+      "path": "beachflagi",
       "image": "/static/beachflags-seepoint.webp",
       "sliderImage": "/beachflag.webp",
-      "heroDescription": "Chcesz zareklamować się podczas eventu, targów lub innego wydarzenia odbywającego się na świeżym powietrzu. Ciekawą formą, na którą możesz się zdecydować są tzw. beachflagi. Ich konstrukcja składa się z lekkiego, aluminiowego stelażu i przytwierdzonej do niego płachty materiału. Całość przypomina w formie żagiel.",
+      "innerLinkURL": "/produkty/flagi",
+      "innerLink": "tradycyjne flagi reklamowe",
+      "heroDescription": "Chcesz zareklamować się podczas eventu, targów lub innego wydarzenia odbywającego się na świeżym powietrzu. Ciekawą formą, na którą możesz się zdecydować są tzw. beachflagi. Ich konstrukcja składa się z lekkiego, aluminiowego stelażu i przytwierdzonej do niego płachty materiału. Całość przypomina w formie żagiel. Takie ma również właściwości. Zastosowanie materiału o siatkowej strukturze umożliwia przepływ powietrza i falowanie pod wpływem wiatru. Sprawia to, że reklama jest bardziej dynamiczna i przyciąga wzrok potencjalnych klientów.",
+      "h1": "Flagi plażowe. Mobilna forma reklamy",
+      "h2": "Windery w różnych kształtach",
+      "description": "Oferujemy kilka różnych typów flag reklamowych. Możesz wybrać kształt pozwalający najlepiej wyeksponować Twoją nazwę oraz logo. Każdą z nich możemy wykończyć zgodnie z życzeniem klienta taśmą elastyczną lub tunelem. Dla wygody użytkowania do kompletu proponujemy akcesoria uzupełniające. Dzięki nim rozstawisz reklamę w różnych warunkach. Metalowa podstawa sprawdzi się na równym podłożu, jak beton lub kostka brukowa. Krzyżak wykorzystasz wewnątrz pomieszczeń lub wszędzie tam, gdzie maszt będzie stał stabilnie i wymagał mocniejszego wsparcia. Poduszka wodna pozwoli Ci umieścić reklamę na tafli jeziora, w basenie lub innym zbiorniku wodnym. Wkręcana śruba sprawdzi się na piasku lub innym miękkim podłożu. Windery, podobnie jak ",
+      "description2": " przyciągają wzrok i wzmacniają pozycję marki. Logo, hasło lub inne informacje umieszczone na maszcie prezentują się atrakcyjnie i budują pozytywny wizerunek, reklamującego się w ten sposób biznesu. Flagi reklamowe można stosować wewnątrz budynków, jednak najlepiej prezentują się w kampaniach outdoorowych. Umieszczone na zewnątrz dynamicznie powiewają na wietrze, skutecznie przyciągając uwagę przechodniów.",
       "type": [
         {
           "name": "Normal",
@@ -138,26 +158,22 @@
     {
       "id": 0,
       "category": "products",
-      "name": "Banners",
-      "path": "banners",
+      "name": "PCV Banners",
+      "path": "banery-zewnetrzne-frontlit",
       "image": "/static/banner-seepoint.webp",
       "sliderImage": "/banners.webp",
-      "heroDescription": "The most popular advertising medium used mainly in the decoration of shop windows and interiors. For many years, it has been successfully operating on the Scandinavian market and recently we can meet it in Polish stores.",
+      "innerLinkURL": "/produkty/mesh",
+      "innerLink": "advertising nets for buildings",
+      "heroDescription": "We produce advertising banners. We make them in various formats, according to the customer's wishes. We can apply any print or graphics on the material. This form of advertising is one of the most popular and effective ways to reach a wide audience. It can be hung on the facade of the building, fence or scaffolding. The large print makes the whole message clearly visible and attracts the attention of customers. The banner printed on the frontlit may contain your logo, address, contact details or information about the service you are currently promoting. Depending on the message, you can help customers reach your premises or build brand awareness. Once hung, the advertising banner will be visible in a given place as long as you decide. You can also order from us ",
+      "heroDescription2": ". Thus, you will strengthen the message and mark your presence on the market even stronger. We will create for you a form of advertising that will present your business and attract new customers.",
+      "h1": "Advertising banners. Laminated and coated PVC banner",
+      "h2": "Durable banners printed on the frontlit",
+      "description": "In our products, we use coated frontlit with a weight of 440 g. This thickness makes the material durable and resistant to weather conditions. A banner made of it can be hung outside the building without fear that it will break down under the influence of strong wind or heavy rain. We can also print on a laminated base. Typical finishes for this product include reinforcement around the ad and tunnels for easy hanging. In the case of advertising assembly in special wall-mounted systems, the banner is trimmed with a \"keder\" from the top and bottom.",
       "type": [
         {
           "name": "Frontilt",
           "description": "One of the most popular and cheapest banner materials used in outdoor advertising. It perfectly tolerates moisture, is resistant to solar radiation, medium wind intensity and temperature changes. To obtain a larger surface, it is possible to weld smaller pieces, then we gain a very large advertising surface.",
           "parameter": ["Baner Frontilt 440g"]
-        },
-        {
-          "name": "Mesh",
-          "description": "Mesh is a lightweight and very durable material. This material allows air, light and sound to pass through. It can be successfully installed on building facades, fences and structures.",
-          "parameter": ["Mesh 280g", "Eco 370g"]
-        },
-        {
-          "name": "Trico",
-          "description": "Wherever high quality, solidity, durability and color depth are required, we offer the use of polyester knitted fabrics. Thanks to sublimation as a printing technique, we obtain products with high durability, resistant to changing weather conditions. They are widely used in both outdoor and indoor advertising, e.g. flags, banners on shop windows, decorations in shopping malls, exhibitions, fairs and conferences.",
-          "parameter": ["Trico 115g", "Trico 250g"]
         }
       ]
     },
@@ -165,10 +181,16 @@
       "id": 1,
       "category": "products",
       "name": "Roll-up",
-      "path": "rollups",
+      "path": "roll-up",
       "image": "/static/rollup-seepoint.webp",
       "sliderImage": "/rollups.webp",
-      "heroDescription": "If you want to advertise, you may also need portable solutions. Roll ups are mobile structures that can be easily set up where you want to present your business. Customers often order them from us when they plan to participate in fairs, conferences or other events taking place outside the company's headquarters.",
+      "innerLinkURL": "/produkty/beachflagi",
+      "innerLink": "beach flags",
+      "heroDescription": "If you want to advertise, you may also need portable solutions. Rollups are mobile structures that can be easily set up where you want to present your business. Customers often order them from us when they plan to participate in fairs, conferences or other events taking place outside the company's headquarters. The whole consists of an aluminum frame and material for hanging on the bars. Mounting is very simple and can be done by virtually anyone. The poster rolls up into the cassette, which makes it possible to use the advertisement many times. Always after unfolding, the whole looks aesthetically and allows you to present the scope of your business in an elegant form. Roll ups, when folded, are light and do not take up much space. So you can conveniently transport them by car or using public transport.",
+      "h1": "Roll ups. Mobile advertising",
+      "h2": "Roll ups and other advertising materials. Equipment for fairs and conferences",
+      "description": "We cooperate with many clients from Szczecin, nearby towns and from all over the country, providing them with various forms of stationary and mobile advertising. We deal with comprehensive visualizations designed to present business during travel events. You can order from us ",
+      "description2": " and portable roll-ups. We make advertisements in two standard sizes: 85 × 200 cm and 60 × 200 cm. Each of them allows you to present the most important information about your business. In addition to the classic dimensions, we also make projects for individual orders. Contact us and we will certainly find a solution.",
       "type": [
         {
           "name": "80 Compact",
@@ -190,11 +212,11 @@
     {
       "id": 2,
       "category": "products",
-      "name": "Alu-banners",
-      "path": "alu-banners",
+      "name": "Alu-System",
+      "path": "alu-system",
       "image": "/static/alu-banner-sp.png",
       "sliderImage": "/alu-banners.webp",
-      "heroDescription": "Aluframe banners designed to display internal banners. The light structure is a permanent element of advertising, the appropriate system of 'grooves' allows for easy and quick replacement of the banner. The system is very popular in the West, dedicated to exclusive shops, hotels, restaurants and home.",
+      "heroDescription": "ALU-SYSTEM stworzony do eksponowania banerów wewnętrznych. Lekka konstrukcja jest elementem stałym reklamy, odpowiedni system „rowków” umożliwia łatwą i szybką wymianę baneru. System bardzo popularny na zachodzie, dedykowany dla ekskluzywnych sklepów, hoteli, restauracji oraz do domu. Proponujemy zastosować następujące materiały: trico 205 g oraz lightex – świetnie nadający się do podświetleń, podkreślając głębie kolorów.",
       "type": [
         {
           "name": "80 Compact",
@@ -206,11 +228,17 @@
     {
       "id": 3,
       "category": "products",
-      "name": "Petpillows",
-      "path": "pet-pillows",
+      "name": "Pet Pillows",
+      "path": "poduszkozwierzaki",
       "image": "/static/animals-seepoint.webp",
+      "innerLinkURL": "/produkty/obrazy",
+      "innerLink": "decorative picture for the wall",
       "sliderImage": "/animalpillows.png",
-      "heroDescription": "Animal-shaped pillows are an unusual idea for a gift or interior decoration. Do you run a business related to children? Such an addition will make the place more cozy and the youngest will feel comfortable in it. Order pillows for a doctor's office, clinic or wherever you organize a corner for children. Our pillows look very attractive.",
+      "heroDescription": "Animal-shaped pillows are an unusual idea for a gift or interior decoration. Do you run a business related to children? Such an addition will make the place more cozy and the youngest will feel comfortable in it. Order pillows for a doctor's office, clinic or wherever you organize a corner for children. Our pillows look very attractive. They are made of good quality material. There is a soft filling inside. It does not lose its elasticity even after prolonged use. Do you care about an interesting interior design? Order also ",
+      "heroDescription2": ". Each space will then become more interesting, and places where the main task is to perform professional duties will gain a more homely, friendly character.",
+      "h1": "Animal shaped pillows. Original decorative element",
+      "h2": "Decorative pillows as interior furnishings and an advertising gadget",
+      "description": "You can use pillows in several ways. Use them as an element of interior design or treat them as an advertising gadget for your employees and clients. On pillows in the shape of animals, we can additionally place your logo or other element associated with your business. By giving such a gift, you will build your positive image, and what you do will automatically evoke positive associations. Order pillows in the shape of animals and take care of the image of your company.",
       "type": [
         {
           "name": "Pet pillow",
@@ -223,14 +251,20 @@
     {
       "id": 4,
       "category": "products",
-      "name": "Pictures",
-      "path": "pictures",
+      "name": "Paintings",
+      "path": "obrazy",
       "image": "/static/paintings.png",
       "sliderImage": "/paintings.webp",
-      "heroDescription": "Do you want to present a unique style by hanging your own paintings? All images are printed with the highest quality and precision, ensuring beautiful and long-lasting prints that can be used as decorations for your home or office.",
+      "innerLinkURL": "/produkty/poduszkozwierzaki",
+      "innerLink": "animal shaped pillows",
+      "heroDescription": "Are you looking for original accessories for your interiors? We make decorative pictures for the wall. We have a large database of photos and reproductions. You can choose a theme from it that best suits your decor or provide us with your own composition. We will print your original image, collage or photo on high-quality material and place it on a stretcher. With such an addition, you can enrich the wall in your home, office, hotel or any other place. Individual configuration in terms of print size, frame and color saturation make this addition perfectly emphasize the style of the interior in which you will hang it. picture just like produced by us ",
+      "heroDescription2": " they are perfect for a gift. If you are looking for an original idea for a gift for your loved ones, your colleagues or other people, check out our offer.",
+      "h1": "Decorative pictures for the wall",
+      "h2": "A stylish decoration for your home",
+      "description": "Sometimes, even in a minimalist interior, one strong accent can completely change its character. You have no idea how to change a white wall or introduce some creativity to the place where you work? It may be a good idea to hang a reproduction of your favorite painting, poster or photo that evokes positive associations. Order such an accessory from us and you will easily change your interior. Bet on an eye-catching accent and order a decorative painting.",
       "type": [
         {
-          "name": "Picture",
+          "name": "Painting",
           "description": "Decorative image with a fashionable print. Mounted on a wooden frame from the inside. Available in sizes 50x50cm, 60x40cm, 75x50cm, 100x80cm.",
           "parameter": ["50x50cm", "40x60cm", "60x40cm", "75x50cm", "100x80cm"]
         }
@@ -239,11 +273,17 @@
     {
       "id": 5,
       "category": "products",
-      "name": "Beach flags",
-      "path": "beachflags",
+      "name": "Beachflags",
+      "path": "beachflagi",
       "image": "/static/beachflags-seepoint.webp",
       "sliderImage": "/beachflag.webp",
-      "heroDescription": "You want to advertise during an event, fair or other outdoor event. An interesting form that you can choose are the so-called. beachflags. Their construction consists of a light aluminum frame and a sheet of fabric attached to it. The whole thing resembles a sail.",
+      "innerLinkURL": "/produkty/flagi",
+      "innerLink": "traditional advertising flags",
+      "heroDescription": "You want to advertise during an event, fair or other outdoor event. An interesting form that you can choose are the so-called. beachflags. Their construction consists of a light aluminum frame and a sheet of fabric attached to it. The whole thing resembles a sail. It also has properties. The use of a material with a mesh structure allows air to flow and waves under the influence of the wind. This makes the ad more dynamic and catches the eye of potential customers.",
+      "h1": "Beach flags. Mobile form of advertising",
+      "h2": "Winders in various shapes",
+      "description": "We offer several different types of advertising flags. You can choose the shape that best exposes your name and logo. Each of them can be finished according to the customer's wishes with an elastic band or a tunnel. For the convenience of use, we offer complementary accessories to the set. Thanks to them, you can place your ad in various conditions. The metal base works well on an even surface, such as concrete or paving stones. You can use the cross brace indoors or wherever the mast will stand stably and require stronger support. The water cushion will allow you to place an advertisement on the surface of a lake, in a swimming pool or other body of water. The screw-in screw will work on sand or other soft ground. Winders as well ",
+      "description2": " they attract the eye and strengthen the brand's position. The logo, slogan or other information placed on the mast looks attractive and builds a positive image of the business advertising in this way. Advertising flags can be used indoors, but they look best in outdoor campaigns. Placed outside, they dynamically flutter in the wind, effectively attracting the attention of passers-by.",
       "type": [
         {
           "name": "Normal",

@@ -9,7 +9,7 @@ const ProductSlider = () => {
     <div className='product-slider container'>
       <h2>{t("header")}</h2>
       <ProductSwiper t={t} />
-      <Link href='/products'>
+      <Link href='/produkty'>
         <a className='primary-button'>{t("seeProducts")}</a>
       </Link>
     </div>

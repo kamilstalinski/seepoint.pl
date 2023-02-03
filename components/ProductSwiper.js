@@ -9,7 +9,7 @@ const ProductSwiper = ({ t }) => {
   const router = useRouter();
   const productObj = router.locale === "pl" ? products.pl : products.en;
 
-  const path = router.pathname === "/products/[id]" ? "/products" : "/products";
+  const path = router.pathname === "/produkty/[id]" ? "/produkty" : "/produkty";
 
   return (
     <>

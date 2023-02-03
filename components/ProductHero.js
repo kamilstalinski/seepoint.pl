@@ -18,14 +18,24 @@ export default function ProductHero({ product, goBack }) {
             size='3x'></FontAwesomeIcon>
         </button>
         <button
-          onClick={() => router.push(`/products`)}
+          onClick={() => router.push(`/produkty`)}
           className='breadcrumbs'>
           <p>{t("breadcrumb")}</p>
           <FontAwesomeIcon icon={faAngleRight} size='lg'></FontAwesomeIcon>
           <span style={{ fontWeight: "700" }}>{product.name}</span>
         </button>
-        <h1>{product.name}</h1>
-        <p>{product.heroDescription}</p>
+        <h1>{product.h1}</h1>
+        <p style={{ lineHeight: "22px" }}>
+          {product.heroDescription}
+          {product.heroDescription2 ? (
+            <Link href={product.innerLinkURL}>
+              <span id='inner-link'>{product.innerLink}</span>
+            </Link>
+          ) : (
+            ""
+          )}
+          {product.heroDescription2}
+        </p>
         <button className='primary-button'>
           <a
             className='aclass'
@@ -37,13 +47,17 @@ export default function ProductHero({ product, goBack }) {
         </button>
       </div>
       <div className='product-image'>
-        <Image
-          src={product.image}
-          layout='fill'
-          objectFit='contain'
-          alt='hero section image'
-          priority={true}
-        />
+        <div className='img-wrapper' style={{ display: "block" }}>
+          <Image
+            src={product.image}
+            layout='responsive'
+            width={400}
+            height={400}
+            objectFit='contain'
+            alt='hero section image'
+            priority={true}
+          />
+        </div>
       </div>
     </div>
   );

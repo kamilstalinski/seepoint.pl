@@ -48,22 +48,22 @@ const Products = () => {
         <aside className='products__links'>
           <div className='links'>
             <h3>{t("products")}</h3>
-            <Link href='products/beachflags'>
+            <Link href='produkty/beachflags'>
               <a>{t("beachflags")}</a>
             </Link>
-            <Link href='products/rollups'>
+            <Link href='produkty/rollups'>
               <a>{t("rollups")}</a>
             </Link>
-            <Link href='products/banners'>
+            <Link href='produkty/banners'>
               <a>{t("banners")}</a>
             </Link>
-            <Link href='products/alu-banners'>
+            <Link href='produkty/alu-banners'>
               <a>{t("alubanners")}</a>
             </Link>
-            <Link href='products/pictures'>
+            <Link href='produkty/pictures'>
               <a>{t("pictures")}</a>
             </Link>
-            <Link href='products/pet-pillows'>
+            <Link href='produkty/pet-pillows'>
               <a className='animal'>{t("petpillows")}</a>
             </Link>
           </div>
@@ -82,9 +82,11 @@ const Products = () => {
             />
             <div className='text-container'>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium eius placeat doloribus nobis natus. Velit ab placeat
-                iusto ipsa! Dolorem!
+                Jako firma zajmująca się produkcją rozmaitych typów materiałów
+                reklamowych w swojej działalności wykorzystujemy rozmaite
+                techniki. Sprawia to, że nasza oferta jest różnorodna i dociera
+                do szerokiego grona klientów. Możemy wydrukować nieduże banery,
+                jak i przygotować dla Ciebie reklamę wielkoformatową.
               </p>
             </div>
           </div>
@@ -104,9 +106,9 @@ const Products = () => {
             />
             <div className='text-container'>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium eius placeat doloribus nobis natus. Velit ab placeat
-                iusto ipsa! Dolorem!
+                Bez względu na to, na którą z nich się zdecydujesz, za każdym
+                razem będzie ona estetyczna i wyrazista. Taki efekt uzyskujemy
+                dzięki temu, że stosujemy różne typy druku.
               </p>
             </div>
           </div>

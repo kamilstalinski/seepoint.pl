@@ -22,7 +22,7 @@ const AboutHero = ({ t }) => {
           {/* <Button className={"primary-button"} path={"/products"}>
             {t("seeMore")}
           </Button> */}
-          <Link href='/products'>
+          <Link href='/produkty'>
             <a className='primary-button'>{t("seeMore")}</a>
           </Link>
         </div>

@@ -52,7 +52,7 @@ export async function getStaticProps({ params, locale, locales }) {
 const Product = ({ product, locale }) => {
   const router = useRouter();
 
-  const goBack = () => router.push("/products");
+  const goBack = () => router.push("/produkty");
 
   return (
     <div className='product container'>

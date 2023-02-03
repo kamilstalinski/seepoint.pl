@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import ProductSpecs from "./ProductSpecs";
 import ProductBtns from "./ProductBtns";
@@ -15,24 +16,40 @@ export default function ProductParams({ product }) {
   };
 
   return (
-    <div className='product-type'>
-      {/* <div className='type-image'>
-        <Image
-          src='/static/temporary.webp'
-          layout='fill'
-          objectFit='cover'
-          alt='product'
-          priority={true}
-        />
-      </div> */}
-      <div className='product-type-info'>
-        <ProductBtns product={product} handleClick={handleClick} t={t} />
-        <ProductSpecs type={type} t={t} />
-        <div className='params'>
-          <h2>{t("params")}</h2>
-          <ProductDropdown parameter={type.parameter} t={t} />
+    <div>
+      <div className='add-description'>
+        <h2>{product.h2}</h2>
+        <p style={{ lineHeight: "22px" }}>
+          {product.description}
+          {product.description2 ? (
+            <Link href={product.innerLinkURL}>
+              <span id='inner-link'>{product.innerLink}</span>
+            </Link>
+          ) : (
+            ""
+          )}
+          {product.description2}
+        </p>
+      </div>
+      <div className='product-type'>
+        <div className='type-image'>
+          <Image
+            src='/static/temporary.webp'
+            layout='fill'
+            objectFit='cover'
+            alt='product'
+            priority={true}
+          />
         </div>
-        <button className='primary-button doc-btn'>{t("doc")}</button>
+        <div className='product-type-info'>
+          <ProductBtns product={product} handleClick={handleClick} t={t} />
+          <ProductSpecs type={type} t={t} />
+          <div className='params'>
+            <h2>{t("params")}</h2>
+            <ProductDropdown parameter={type.parameter} t={t} />
+          </div>
+          <button className='primary-button doc-btn'>{t("doc")}</button>
+        </div>
       </div>
     </div>
   );

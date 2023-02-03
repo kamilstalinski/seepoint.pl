@@ -41,13 +41,13 @@ const Navbar = ({ handleStateChange }) => {
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
-              path='/products'>
+              path='/produkty'>
               {t("nav2")}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
-              path='/technology'>
+              path='/technologie'>
               {t("nav3")}
             </MenuLink>
             <MenuLink
@@ -62,12 +62,14 @@ const Navbar = ({ handleStateChange }) => {
               path='/contact'>
               {t("nav5")}
             </MenuLink>
-            <div className='social-media'></div>
+            <div className='btn'>
+              <ShopButton
+                FontAwesomeIcon={FontAwesomeIcon}
+                faCartShopping={faCartShopping}
+              />
+            </div>
           </ul>
-          <ShopButton
-            FontAwesomeIcon={FontAwesomeIcon}
-            faCartShopping={faCartShopping}
-          />
+
           <LanguageToggle
             active={active}
             FontAwesomeIcon={FontAwesomeIcon}
