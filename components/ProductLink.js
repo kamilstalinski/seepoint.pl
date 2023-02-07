@@ -11,7 +11,13 @@ const ProductLink = () => {
     <>
       {productObj.map((product) => {
         return (
-          <Link key={product.id} href={"produkty/" + product.path}>
+          <Link
+            key={product.id}
+            href={
+              router.locale === "pl"
+                ? "/produkty/" + product.path
+                : "/products/" + product.altPath
+            }>
             <a className='product-item'>
               <h3>{product.name}</h3>
               <div className='img-container'>
@@ -20,7 +26,7 @@ const ProductLink = () => {
                   layout='fill'
                   objectFit='contain'
                   alt={product.name}
-                  priority={true}
+                  priority='true'
                 />
               </div>
             </a>

@@ -8,11 +8,13 @@ import LanguageToggle from "./LanguageToggle";
 import { useTranslation } from "next-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRotate, faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { useRouter } from "next/router";
 
 const Navbar = ({ handleStateChange }) => {
   const { t } = useTranslation("navbar");
   const [active, setActive] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     if (isClicked === true) {
@@ -41,25 +43,25 @@ const Navbar = ({ handleStateChange }) => {
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
-              path='/produkty'>
+              path={router.locale === "pl" ? "/produkty" : "/products"}>
               {t("nav2")}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
-              path='/technologie'>
+              path={router.locale === "pl" ? "/technologie" : "/technology"}>
               {t("nav3")}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
-              path='/pomoc'>
+              path={router.locale === "pl" ? "/pomoc" : "/help"}>
               {t("nav4")}
             </MenuLink>
             <MenuLink
               setIsClicked={setIsClicked}
               isClicked={isClicked}
-              path='/kontakt'>
+              path={router.locale === "pl" ? "/kontakt" : "/contact"}>
               {t("nav5")}
             </MenuLink>
             <div className='btn'>

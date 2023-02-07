@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
-import ProductSwiper from "../../components/ProductSwiper";
 import ContactForm from "../../components/ContactForm";
 import Rewards from "../../components/Rewards";
 import ProductLink from "../../components/ProductLink";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import AsideLinks from "../../components/AsideLinks";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -45,29 +45,7 @@ const Products = () => {
         </div>
       </div>
       <div className='wrapper container'>
-        <aside className='products__links'>
-          <div className='links'>
-            <h3>{t("products")}</h3>
-            <Link href='produkty/beachflagi'>
-              <a>{t("beachflags")}</a>
-            </Link>
-            <Link href='produkty/roll-up'>
-              <a>{t("rollups")}</a>
-            </Link>
-            <Link href='produkty/banery-zewnetrzne-frontlit'>
-              <a>{t("banners")}</a>
-            </Link>
-            <Link href='produkty/alu-system'>
-              <a>{t("alubanners")}</a>
-            </Link>
-            <Link href='produkty/obrazy'>
-              <a>{t("pictures")}</a>
-            </Link>
-            <Link href='produkty/poduszkozwierzaki'>
-              <a className='animal'>{t("petpillows")}</a>
-            </Link>
-          </div>
-        </aside>
+        <AsideLinks />
         <section>
           {/* <h2>Najpopularniejsze produkty</h2>
           <ProductSwiper /> */}

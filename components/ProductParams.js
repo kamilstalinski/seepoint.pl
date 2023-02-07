@@ -21,12 +21,10 @@ export default function ProductParams({ product }) {
         <h2>{product.h2}</h2>
         <p style={{ lineHeight: "22px" }}>
           {product.description}
-          {product.description2 ? (
+          {product.description2 && (
             <Link href={product.innerLinkURL}>
               <span id='inner-link'>{product.innerLink}</span>
             </Link>
-          ) : (
-            ""
           )}
           {product.description2}
         </p>
@@ -41,7 +39,7 @@ export default function ProductParams({ product }) {
             priority={true}
           />
         </div>
-        {type ? (
+        {type && (
           <div className='product-type-info'>
             <ProductBtns product={product} handleClick={handleClick} t={t} />
             <ProductSpecs type={type} t={t} />
@@ -51,8 +49,6 @@ export default function ProductParams({ product }) {
             </div>
             <button className='primary-button doc-btn'>{t("doc")}</button>
           </div>
-        ) : (
-          ""
         )}
       </div>
     </div>

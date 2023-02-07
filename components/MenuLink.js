@@ -10,7 +10,7 @@ const MenuLink = ({ children, path, setIsClicked, isClicked }) => {
         <a
           onClick={() => setIsClicked(!true)}
           className={
-            router.pathname === path || router.pathname === `${path}/[id]`
+            router.asPath === path || router.asPath.includes(`${path}/`)
               ? "active"
               : ""
           }>
@@ -22,3 +22,5 @@ const MenuLink = ({ children, path, setIsClicked, isClicked }) => {
 };
 
 export default MenuLink;
+
+// router.asPath === `${path}/[id]'

@@ -49,10 +49,11 @@ export async function getStaticProps({ params, locale, locales }) {
   };
 }
 
-const Product = ({ product, locale }) => {
+const Product = ({ product }) => {
   const router = useRouter();
 
-  const goBack = () => router.push("/produkty");
+  const goBack = () =>
+    router.push(router.locale === "pl" ? "/produkty" : "/products");
 
   return (
     <div className='product container'>

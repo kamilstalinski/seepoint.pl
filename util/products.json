@@ -196,7 +196,29 @@
       "h1": "Reklama na siatce mesh",
       "h2": "Siatka wielkoformatowa dająca wiele możliwości",
       "description": "Siatka z perforacją może znaleźć zastosowanie w różnych sytuacjach. Zamów lekką siatkę z większą przepuszczalnością powietrza i dźwięku, gdy chcesz zawiesić ją na scenie podczas koncertu. Nie zakłócisz wtedy muzyki, a Twoja reklama będzie doskonale widoczna z każdego punktu na widowni. Gdy zależy Ci na jak najlepszej ekspozycji grafiki, zamów siatkę mesh o grubszym splocie. Dzięki temu zwiększy się czytelność nadrukowanych na niej elementów. Tego typu produkty sprawdzają się najlepiej, jako siatki reklamowe na budynki. Są alternatywą dla tradycyjnych ",
-      "description2": " Można pokryć nimi nawet bardzo dużą powierzchnię. Są wytrzymałe, a co najważniejsze łatwe w montażu. Największym plusem oraz tym, co odróżnia je od innych oferowanych przez nas produktów, jest jej niewielka waga. Można zatem bezpiecznie zamontować reklamę na siatce mesh bez obaw o obciążenie konstrukcji budynku lub innego miejsca, w którym zostanie ona umieszczona.",
+      "description2": "Można pokryć nimi nawet bardzo dużą powierzchnię. Są wytrzymałe, a co najważniejsze łatwe w montażu. Największym plusem oraz tym, co odróżnia je od innych oferowanych przez nas produktów, jest jej niewielka waga. Można zatem bezpiecznie zamontować reklamę na siatce mesh bez obaw o obciążenie konstrukcji budynku lub innego miejsca, w którym zostanie ona umieszczona.",
+      "type": [
+        {
+          "name": "Mesh",
+          "description": "Reklama wykonana na siatce może znaleźć zastosowanie wszędzie tam, gdzie nie sprawdziłyby się inne rozwiązania. Można zawiesić ją na rusztowaniu, płocie lub specjalnie przygotowanym stelażu. Nawet jeśli będzie bardzo dużych rozmiarów, to dzięki przepuszczalności powietrza nie ma ryzyka, że przerwie się pod wpływem wiatru. Płachta będzie lekko falować, ale nie ulegnie uszkodzeniu. Przepuszczalność światła powoduje, że możesz zamontować reklamę na siatce mesh na froncie budynku, nawet jeśli są tam umieszczone okna. Baner nie przysłoni widoku na zewnątrz, a jedynie delikatnie go przyciemni. Takie rozwiązanie nie będzie ograniczało Cię, jeśli chcesz zareklamować się w centrum miasta, w bardzo ruchliwym punkcie. Ten typ materiału sprawdzi się również doskonale na otwartej przestrzeni, zamontowany na płocie okalającym duży plac budowy lub terenie należący do firmy. Można umieścić na nim logo i w wyraźny sposób oznaczyć miejsce, w którym prowadzisz działalność.",
+          "parameter": ["Mesh 280g", "Eco 370g"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "products",
+      "name": "Baner dwustronny",
+      "path": "blockout",
+      "image": "",
+      "sliderImage": "",
+      "innerLinkURL": "/produkty/banery-zewnetrzne-frontlit",
+      "innerLink": "banerów reklamowych",
+      "heroDescription": "Zajmuje się wydrukiem banerów dwustronnych na specjalnym podkładzie blockout. Pozwala on na zamieszczenie informacji zarówno z przodu, jak i z tyłu materiału. Dzięki temu mocniej wyeksponujesz swoją ofertę i sprawisz, że będzie lepiej widoczna dla potencjalnych klientów. Rozwiązanie to przydaje się szczególnie wtedy, gdy nie masz zbyt wiele miejsca na przygotowanie ekspozycji. Obie strony banera mogą być takie same lub każda nich może prezentować inny przekaz. Umieść go na stelażu lub w każdym innym miejscu, w którym będzie on dobrze widoczny. Nasze banery dwustronne są wytrzymałe i odporne na zmienne warunki atmosferyczne. Nie jest są w stanie zniszczyć wiatr, deszcz, śnieg, wysoka temperatura oraz promienie UV. Podobnie, jak ",
+      "heroDescription2": " doskonale nadają się do wykorzystania na zewnątrz. Jest to forma reklamy, która po zwieszeniu może być eksponowana przez długi czas. Zainwestuj raz w wizualizację i czerp długofalowe korzyści ze skutecznej reklamy.",
+      "h1": "Baner dwustronny. Postaw na widoczność swojej reklamy",
+      "h2": "Banery dwustronne. Reklama przydatna w wielu różnych działalnościach",
+      "description": "Banery z wydrukiem widocznym po dwóch stronach są chętnie wybierane przez właścicieli punktów gastronomicznych, salonów fryzjerskich oraz innych punktów usługowych. Zawieszone na płocie lub umieszczone na stelażu są widoczne dla klientów poruszających się w różnych kierunkach. Warto zatem zadbać o wizualizację swojej firmy i do innych form reklamy dołączyć również baner dwustronny. ",
       "type": [
         {
           "name": "Mesh",
@@ -210,8 +232,9 @@
     {
       "id": 0,
       "category": "products",
-      "name": "PCV Banners",
+      "name": "Frontilt Banners",
       "path": "banery-zewnetrzne-frontlit",
+      "altPath": "frontlit-banners-laminated-and-coated-pvc-banner",
       "image": "/static/banner-seepoint.webp",
       "sliderImage": "/banners.webp",
       "innerLinkURL": "/produkty/mesh",
@@ -234,6 +257,7 @@
       "category": "products",
       "name": "Roll-up",
       "path": "roll-up",
+      "altPath": "roll-up-exhibition-system",
       "image": "/static/rollup-seepoint.webp",
       "sliderImage": "/rollups.webp",
       "innerLinkURL": "/produkty/beachflagi",
@@ -266,6 +290,7 @@
       "category": "products",
       "name": "Alu-System",
       "path": "alu-system",
+      "altPath": "alu-system-printouts-for-mounting-on-aluminum-frames",
       "image": "/static/alu-banner-sp.png",
       "sliderImage": "/alu-banners.webp",
       "h1": "ALU-SYSTEM – printouts for mounting on aluminum frames",
@@ -283,6 +308,7 @@
       "category": "products",
       "name": "Pet Pillows",
       "path": "poduszkozwierzaki",
+      "altPath": "petpillows",
       "image": "/static/animals-seepoint.webp",
       "innerLinkURL": "/produkty/obrazy",
       "innerLink": "decorative picture for the wall",
@@ -306,6 +332,7 @@
       "category": "products",
       "name": "Paintings",
       "path": "obrazy",
+      "altPath": "images-paintings-prints",
       "image": "/static/paintings.png",
       "sliderImage": "/paintings.webp",
       "innerLinkURL": "/produkty/poduszkozwierzaki",
@@ -328,6 +355,7 @@
       "category": "products",
       "name": "Beachflags",
       "path": "beachflagi",
+      "altPath": "beach-flags",
       "image": "/static/beachflags-seepoint.webp",
       "sliderImage": "/beachflag.webp",
       "innerLinkURL": "/produkty/flagi",
@@ -365,6 +393,7 @@
       "category": "products",
       "name": "Advertising walls",
       "path": "scianki-reklamowe",
+      "altPath": "advertising-walls-exhibition-items",
       "image": "",
       "sliderImage": "",
       "innerLinkURL": "/produkty/roll-up",
@@ -380,6 +409,7 @@
       "category": "products",
       "name": "Flags",
       "path": "flagi",
+      "altPath": "flags",
       "image": "",
       "sliderImage": "",
       "innerLinkURL": "/produkty",
@@ -395,6 +425,7 @@
       "category": "products",
       "name": "Mesh Banners",
       "path": "mesh",
+      "altPath": "mesh",
       "image": "",
       "sliderImage": "",
       "innerLinkURL": "/produkty/banery-zewnetrzne-frontlit",
@@ -411,6 +442,22 @@
           "parameter": ["Mesh 280g", "Eco 370g"]
         }
       ]
+    },
+    {
+      "id": 9,
+      "category": "products",
+      "name": "Blockout Banners",
+      "path": "blockout",
+      "altPath": "blockout",
+      "image": "",
+      "sliderImage": "",
+      "innerLinkURL": "/produkty/banery-zewnetrzne-frontlit",
+      "innerLink": "banerów reklamowych",
+      "heroDescription": "It prints double-sided banners on a special blockout base. It allows you to place information both on the front and back of the material. Thanks to this, you will expose your offer more and make it more visible to potential customers. This solution is especially useful when you do not have much space to prepare the exhibition. Both sides of the banner can be the same or each of them can present a different message. Place it on a frame or in any other place where it will be clearly visible. Our double-sided banners are durable and resistant to changing weather conditions. They are not able to destroy wind, rain, snow, high temperature and UV rays. Same as ",
+      "heroDescription2": " they are perfect for outdoor use. It is a form of advertising that can be displayed for a long time after hanging. Invest once in visualization and reap the long-term benefits of effective advertising.",
+      "h1": "Double-sided banner. Bet on the visibility of your ad",
+      "h2": "Double-sided banners. Advertising useful in many different activities",
+      "description": "Banners with print visible on both sides are often chosen by owners of catering outlets, hair salons and other service outlets. Suspended on a fence or placed on a frame, they are visible to customers moving in different directions. It is therefore worth taking care of the visualization of your company and attaching a double-sided banner to other forms of advertising."
     }
   ]
 }

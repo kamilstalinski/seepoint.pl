@@ -10,6 +10,8 @@ const ProductSwiper = ({ t }) => {
   const productObj = router.locale === "pl" ? products.pl : products.en;
 
   const path = router.pathname === "/produkty/[id]" ? "/produkty" : "/produkty";
+  const pathEn =
+    router.pathname === "/produkty/[id]" ? "/products" : "/products";
 
   return (
     <>
@@ -23,9 +25,12 @@ const ProductSwiper = ({ t }) => {
         }}
         modules={[Scrollbar, Navigation, Mousewheel]}
         className='product-swiper'>
-        {productObj.map((product) => (
+        {productObj.slice(0, 6).map((product) => (
           <SwiperSlide key={product.id} style={{ maxWidth: "310px" }}>
-            <Link href={`${path}/${product.path}`}>
+            <Link
+              href={`${router.locale === "pl" ? path : pathEn}/${
+                router.locale === "pl" ? product.path : product.altPath
+              }`}>
               <a className='link-container'>
                 <Image
                   width={300}
