@@ -68,6 +68,7 @@ const Navbar = ({ handleStateChange }) => {
               <ShopButton
                 FontAwesomeIcon={FontAwesomeIcon}
                 faCartShopping={faCartShopping}
+                text={t("store")}
               />
             </div>
           </ul>

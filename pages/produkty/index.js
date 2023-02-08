@@ -1,6 +1,6 @@
-import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
+import TechCarousel from "../../components/TechCarousel";
 import ContactForm from "../../components/ContactForm";
 import Rewards from "../../components/Rewards";
 import ProductLink from "../../components/ProductLink";
@@ -90,6 +90,7 @@ const Products = () => {
               </p>
             </div>
           </div>
+          <TechCarousel />
         </section>
       </div>
       <ContactForm>{t("contact")}</ContactForm>
