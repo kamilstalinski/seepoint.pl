@@ -18,7 +18,7 @@ export default function AsideLinks() {
             router.locale === "pl" ? product.path : product.altPath;
 
           return (
-            <Link href={`${mainPath}/${productPath}`}>
+            <Link href={`${mainPath}/${productPath}`} key={product.id}>
               <a className={product.id === 3 ? "animal" : null}>
                 {product.name}
               </a>
