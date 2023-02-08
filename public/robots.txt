@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://seepoint-pl.vercel.app/sitemap.xml
