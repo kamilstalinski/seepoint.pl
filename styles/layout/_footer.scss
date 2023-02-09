@@ -3,12 +3,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8rem;
+    // gap: 8rem;
     background-color: #194895;
     height: 150px;
     color: #fff;
 
+    div {
+        width: 310px;
+    }
+
     .footer__logo--container {
+        
         background-color: #fff;
         align-self: flex-end;
         padding: 3rem 2rem;
@@ -19,6 +24,7 @@
         .email,
         .call {
             display: flex;
+            justify-content: center;
             gap: 1rem;
 
             .relative {
