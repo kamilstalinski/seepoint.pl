@@ -6,9 +6,9 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    height: 150px;
+height: fit-content;
     width: 100%;
-    padding: 0 4rem;
+    padding: 4rem 4rem;
     background-color: #051E47;
     color: #fff;
     z-index: 999999;
@@ -72,6 +72,7 @@
     }
 
     @include sm {
+        gap: 2rem;
         .info {
             h2 {
                 font-size: 1.2rem !important;
