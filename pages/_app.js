@@ -28,49 +28,29 @@ export async function getStaticProps({ locale }) {
 
 const MyApp = ({ Component, pageProps }) => {
   const [consent, setConsent] = useState();
-
-  // useEffect(() => {
-  //   if (Cookies.get("Consent") === undefined) {
-  //     console.log("Wchodzę na stronę pierwszy raz");
-  //     if (window.ga) window.ga("remove");
-  //   }
-  //   if (Cookies.get("Consent") === "false") {
-  //     // document.cookie.split(";").forEach(function (c) {
-  //     //   document.cookie = c
-  //     //     .replace(/^ +/, "")
-  //     //     .replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
-  //     // });
-  //     Cookies.remove("_ga");
-  //     Cookies.remove("_gid");
-  //     Cookies.remove("_gat");
-  //     console.log("Ciasteczko Straciło wazność");
-  //   }
-  //   if (Cookies.get("Consent") === "true") {
-  //     console.log("ciasteczko jest wazne");
-  //   }
-  // }, [consent]);
+  const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
-    setConsent(Cookies.get("Consent"));
-    console.log("pobieram informację o cookie");
+    const consentCookie = Cookies.get("Consent");
+    if (!consentCookie) {
+      setShowPopup(true);
+    }
   }, []);
-
-  useEffect(() => {
-    console.log(consent);
-  }, [consent]);
 
   const handleAccept = () => {
     setConsent(true);
     Cookies.set("Consent", true, { expires: 365 });
+    setShowPopup(false);
   };
 
   const handleReject = () => {
     setConsent(false);
     Cookies.set("Consent", false, { expires: 365 });
+    setShowPopup(false);
   };
 
   return (
-    <ConsentContext.Provider value={{ handleAccept, handleReject, consent }}>
+    <ConsentContext.Provider value={{ handleAccept, handleReject, showPopup }}>
       <Layout>
         {consent && (
           <Script id='google-analytics' strategy='afterInteractive'>
@@ -83,7 +63,28 @@ const MyApp = ({ Component, pageProps }) => {
         `}
           </Script>
         )}
-
+        <meta
+          name='google-site-verification'
+          content='HyyuNRLZYF3X4Rw04vbdOaA_OYyVMK8Pkizldz5_b9E'
+        />
+        <Script
+          strategy='afterInteractive'
+          src={`https://www.googletagmanager.com/gtag/js?id=UA-136347637-2`}
+        />
+        <Script
+          type='text/javascript'
+          async=''
+          src='https://www.gstatic.com/recaptcha/releases/gEr-ODersURoIfof1hiDm7R5/recaptcha__pl.js'
+          crossorigin='anonymous'
+          integrity='sha384-zV7KOdyNuEZ1w0HyTRh+6LEJkIW5fZ2Vh0nz5pAmAyebXK73tFSmDeyk50mQfJCi'></Script>
+        <Script
+          type='text/javascript'
+          async=''
+          src='https://www.googletagmanager.com/gtag/js?id=G-M53GGB7HPN&amp;l=dataLayer&amp;cx=c'></Script>
+        <Script
+          type='text/javascript'
+          async=''
+          src='https://www.googletagmanager.com/gtag/js?id=UA-230795706-1&amp;l=dataLayer&amp;cx=c'></Script>
         <DefaultSeo
           openGraph={{
             type: "website",

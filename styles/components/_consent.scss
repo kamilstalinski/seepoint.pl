@@ -1,29 +1,54 @@
 .consent {
     display: flex;
-    display: none;
     align-items: center;
     justify-content: space-between;
+    gap: 4rem;
     position: fixed;
     bottom: 0;
     left: 0;
     height: 150px;
     width: 100%;
     padding: 0 4rem;
-    background-color: #fff;
-    color: #000;
+    background-color: #051E47;
+    color: #fff;
     z-index: 999999;
-    box-shadow:  -5px 0px 10px rgb(0 0 0 / 16%);    
+    box-shadow:  -5px 0px 10px rgb(0 0 0 / 16%);
+    
+    .info {
+        max-width: 1000px;
+        text-align: justify;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+    
+        p {
+            margin-top: 1rem;
+            
+            a {
+                color: #4dc1ff;
+                font-size: inherit;
+            }
+        }
+    }
 
     .button-wrapper {
-        
-
         button {
             border: none;
             outline: none;
-            padding: 1.5rem 2rem;
+            padding: 1.5rem 3rem;
             color: #fff;
             margin-right: 2rem;
+            border-radius: 19px;
+            cursor: pointer;
+            transition: .2s ease-in all;
+
+            &:hover {
+                background-color: #32a032;
+           }
         }
+
+        
 
         .accept {
             background-color: green;
@@ -34,7 +59,27 @@
         }
     }
 
-    &.active {
-        display: block !important;
+    @include lg {
+        .info {
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    @include sm {
+        .info {
+            h2 {
+                font-size: 1.2rem !important;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
     }
 }
