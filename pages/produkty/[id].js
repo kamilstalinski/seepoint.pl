@@ -58,7 +58,7 @@ const Product = ({ product }) => {
   return (
     <div className='product container'>
       <Head>
-        <title>{product.name} | Seepoint</title>
+        <title>{product.name}</title>
         <meta name='description' content={product.name} />
       </Head>
       <ProductHero product={product} goBack={goBack} />

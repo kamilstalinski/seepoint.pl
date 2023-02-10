@@ -29,7 +29,7 @@ const Products = () => {
   return (
     <div className='products'>
       <Head>
-        <title>{t("metaName")} | Seepoint</title>
+        <title>{t("metaName")}</title>
         <meta name='description' content='Produkty' />
       </Head>
       <div className='products__hero'>
@@ -90,7 +90,6 @@ const Products = () => {
               </p>
             </div>
           </div>
-          <TechCarousel />
         </section>
       </div>
       <ContactForm>{t("contact")}</ContactForm>

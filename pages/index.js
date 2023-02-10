@@ -32,7 +32,7 @@ const About = () => {
   return (
     <div className='about'>
       <Head>
-        <title>{t("metaName")} | Seepoint</title>
+        <title>{t("metaName")}</title>
         <meta
           name='description'
           content='Wielkoformatowa drukarnia dopasowana do Twoich potrzeb!'
@@ -73,8 +73,9 @@ const About = () => {
           <Image
             priority={true}
             src='/static/team.webp'
-            layout='fill'
-            objectFit='contain'
+            layout='responsive'
+            width={1036}
+            height={703}
             alt='team'
           />
         </div>

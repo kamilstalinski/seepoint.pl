@@ -25,7 +25,7 @@ const Help = () => {
   return (
     <div className='help'>
       <Head>
-        <title>{t("metaName")} | Seepoint</title>
+        <title>{t("metaName")}</title>
         <meta name='description' content='Pomoc' />
       </Head>
       <div className='help-wrapper'>
