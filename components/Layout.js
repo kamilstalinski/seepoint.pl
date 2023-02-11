@@ -3,10 +3,8 @@ import Searchbar from "./Searchbar";
 import Footer from "./Footer";
 import { useState } from "react";
 import ConsentPopup from "./ConsentPopup";
-// import { useTranslation } from "next-i18next";
 
 const Layout = ({ children }) => {
-  // const { t } = useTranslation("navigation");
   const [isClicked, setIsClicked] = useState(false);
 
   const handleStateChange = (isClicked) => {

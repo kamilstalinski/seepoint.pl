@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Head from "next/head";
-import TechCarousel from "../../components/TechCarousel";
 import ContactForm from "../../components/ContactForm";
 import Rewards from "../../components/Rewards";
 import ProductLink from "../../components/ProductLink";

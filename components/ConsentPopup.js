@@ -23,9 +23,9 @@ export default function ConsentPopup() {
           <button className='accept' onClick={() => handleAccept()}>
             Zgoda
           </button>
-          {/* <button className='reject' onClick={() => handleReject()}>
-          Reject
-        </button> */}
+          <button className='reject' onClick={() => handleReject()}>
+            Odrzuć
+          </button>
         </div>
       </div>
     )

@@ -22,5 +22,3 @@ const MenuLink = ({ children, path, setIsClicked, isClicked }) => {
 };
 
 export default MenuLink;
-
-// router.asPath === `${path}/[id]'

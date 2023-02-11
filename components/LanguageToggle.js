@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
@@ -10,7 +9,7 @@ const LanguageToggle = ({ active, isClicked, faRotate, FontAwesomeIcon }) => {
   useEffect(() => {
     if (locale === "en") setNextLng("PL");
     else if (locale === "pl") setNextLng("EN");
-  });
+  }, [locale]);
 
   const handleLanguageToggle = () => {
     switch (locale) {
