@@ -21,11 +21,14 @@
     }
 
     .footer__contact--container {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
         .email,
         .call {
             display: flex;
-            justify-content: center;
-            gap: 1rem;
+            justify-content: flex-start;
 
             .relative {
                 position: relative;
@@ -33,9 +36,11 @@
                 width: 20px;
             }
         }
-
-        .email {
-            margin-top: 1rem;
+        
+        a {
+            color: inherit;
+            text-decoration: underline;
+            font-size: 1.6rem;
         }
     }
 

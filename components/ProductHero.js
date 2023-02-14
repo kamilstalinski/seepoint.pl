@@ -28,9 +28,9 @@ export default function ProductHero({ product, goBack }) {
         <p style={{ lineHeight: "22px" }}>
           {product.heroDescription}
           {product.heroDescription2 ? (
-            <Link href={product.innerLinkURL}>
+            <a href={product.innerLinkURL}>
               <span id='inner-link'>{product.innerLink}</span>
-            </Link>
+            </a>
           ) : (
             ""
           )}

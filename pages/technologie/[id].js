@@ -45,6 +45,7 @@ export async function getStaticProps({ params, locale, locales }) {
         "slider",
         "technology",
         "carousel",
+        "consentPopup",
       ])),
     },
   };

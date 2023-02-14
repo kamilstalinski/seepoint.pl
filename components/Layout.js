@@ -13,11 +13,11 @@ const Layout = ({ children }) => {
 
   return (
     <div className='content'>
-      <ConsentPopup />
       <Navbar handleStateChange={handleStateChange} />
       <Searchbar isClicked={isClicked} />
       {children}
       <Footer />
+      <ConsentPopup />
     </div>
   );
 };

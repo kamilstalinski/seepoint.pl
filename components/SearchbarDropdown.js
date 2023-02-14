@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "react";
 import { useTranslation } from "next-i18next";
+import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +10,7 @@ export default function SearchbarDropdown({
   setFilteredResult,
 }) {
   const ref = useRef();
-
+  const router = useRouter();
   const { t } = useTranslation("searchbar");
 
   useEffect(() => {

@@ -7,7 +7,8 @@ import Link from "next/link";
 export default function TechnologyHero({ technology, t }) {
   const router = useRouter();
 
-  const goBack = () => router.back();
+  const goBack = () =>
+    router.push(router.locale === "pl" ? "technologie" : "technologies");
 
   return (
     <>
@@ -23,7 +24,8 @@ export default function TechnologyHero({ technology, t }) {
         </div>
         <div className='container'>
           <div className='hero__content'>
-            <Link href='/technology'>
+            <Link
+              href={router.locale === "pl" ? "/technologie" : "/technologies"}>
               <div className='prev-page'>
                 <FontAwesomeIcon
                   className='icon'

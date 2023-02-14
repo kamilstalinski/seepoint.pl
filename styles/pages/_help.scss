@@ -11,7 +11,7 @@
     
         .help-info {
             width: 60%;
-            padding: 0 6rem;
+            padding: 0 2rem;
 
             h1 {
                 font-size: 5rem;
@@ -100,15 +100,14 @@
     @include md {
 
         padding: 4rem 0;
-        .image-container {
-            transform: translateX(0);
-            scale: 1;
-            top: -55%;
+        .image-container,
+        .image-container2 {
+            display: none;
         }
 
         .help-container {
             width: 100%;
-            padding-left: 0;
+            padding-left: 0 ;
 
             .help-info {
                 width: inherit;
@@ -120,7 +119,7 @@
             width: 100%;
             padding-left: 0;
             padding-right: 0; 
-            margin-top: 16rem;
+            margin-top: 6rem;
 
             .help-info {
                 width: inherit;
@@ -129,21 +128,5 @@
         }
     }
 
-    @include sm {
-        .image-container {
-            transform: translateX(0);
-            scale: 1;
-            top: -50%;
-            right: -10%;
-            width: 50%;
-        }
-
-        .image-container2 {
-            top: -60%;
-            width: 30%;
-            left: unset;
-            right: -25%;
-        }
-    }
     
 }

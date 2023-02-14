@@ -80,6 +80,46 @@ const nextConfig = {
         destination: "/en/produkty/scianki-reklamowe",
         locale: false,
       },
+      {
+        source: "/en/technologies",
+        destination: "/en/technologie",
+        locale: false,
+      },
+      {
+        source: "/en/technologies/sublimation",
+        destination: "/en/technologie/sublimacja",
+        locale: false,
+      },
+      {
+        source: "/en/technologies/eco-solvent",
+        destination: "/en/technologie/druk-eco-solvent",
+        locale: false,
+      },
+      {
+        source: "/en/technologies/uv-print",
+        destination: "/en/technologie/druk-uv",
+        locale: false,
+      },
+      {
+        source: "/en/technologies/solvent-xxl",
+        destination: "/en/technologie/druk-solvent-xxl",
+        locale: false,
+      },
+      {
+        source: "/en/technologies/cutting-plotters",
+        destination: "/en/technologie/plotery-tnace",
+        locale: false,
+      },
+      {
+        source: "/en/privacy-policy",
+        destination: "/en/polityka-prywatnosci",
+        locale: false,
+      },
+      {
+        source: "/en/information-obligation",
+        destination: "/en/obowiazek-informacyjny",
+        locale: false,
+      },
     ];
   },
 };

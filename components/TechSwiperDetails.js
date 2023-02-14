@@ -5,12 +5,16 @@ const TechSwiperDestails = ({ currentTechnology }) => {
   const router = useRouter();
   const { t } = useTranslation("carousel");
 
+  const mainPath = router.locale === "pl" ? "technologie" : "technologies";
+  const currentPath =
+    router.locale === "pl" ? currentTechnology.path : currentTechnology.altPath;
+
   return (
     <div className='description'>
       <h2>{currentTechnology.name}</h2>
       <p>{currentTechnology.description}</p>
       <button
-        onClick={() => router.push(`/technology/${currentTechnology.path}`)}
+        onClick={() => router.push(`/${mainPath}/${currentPath}`)}
         className='primary-button'>
         {t("findMore")}
       </button>

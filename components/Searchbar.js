@@ -35,12 +35,12 @@ const Searchbar = ({ isClicked }) => {
     if (e.target.value === "") setFilteredResult([]);
   };
 
-  // useEffect(() => {
-  //   document.addEventListener("click", () => {
-  //     setIsActive(false);
-  //     inputRef.current.value = "";
-  //   });
-  // }, [setIsActive]);
+  useEffect(() => {
+    document.addEventListener("click", () => {
+      setIsActive(false);
+      inputRef.current.value = "";
+    });
+  }, [setIsActive]);
 
   return (
     <div className={`searchbar ${isClicked ? "active" : null}`}>

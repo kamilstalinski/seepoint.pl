@@ -6,10 +6,12 @@ import ProductSpecs from "./ProductSpecs";
 import ProductBtns from "./ProductBtns";
 import ProductDropdown from "./ProductDropdown";
 import { useTranslation } from "next-i18next";
+import { useRouter } from "next/router";
 
 export default function ProductParams({ product }) {
   const { t } = useTranslation("product");
   const [type, setType] = useState(product.type ? product.type[0] : null);
+  const router = useRouter();
 
   const handleClick = (typeObj) => {
     setType(typeObj);
@@ -22,9 +24,9 @@ export default function ProductParams({ product }) {
         <p style={{ lineHeight: "22px" }}>
           {product.description}
           {product.description2 && (
-            <Link href={product.innerLinkURL}>
+            <a href={product.innerLinkURL}>
               <span id='inner-link'>{product.innerLink}</span>
-            </Link>
+            </a>
           )}
           {product.description2}
         </p>

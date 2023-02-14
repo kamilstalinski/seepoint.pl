@@ -21,6 +21,7 @@ export async function getStaticProps({ locale }) {
         "slider",
         "rewards",
         "carousel",
+        "consentPopup",
       ])),
     },
   };

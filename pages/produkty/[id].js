@@ -44,6 +44,7 @@ export async function getStaticProps({ params, locale, locales }) {
         "searchbar",
         "contactForm",
         "slider",
+        "consentPopup",
       ])),
     },
   };

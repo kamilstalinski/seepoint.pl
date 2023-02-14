@@ -7,19 +7,21 @@ export default function ProductBtns({ product, handleClick, t }) {
     setActive(product.type[0].name);
   }, []);
 
-  const typeBtns = product.type.map((type) => {
-    return (
-      <button
-        key={Math.random() * 100}
-        onClick={() => {
-          handleClick(type);
-          setActive(type.name);
-        }}
-        className={`type-btn ${active === type.name && "active-btn"}`}>
-        {type.name}
-      </button>
-    );
-  });
+  const typeBtns =
+    product.type &&
+    product.type.map((type) => {
+      return (
+        <button
+          key={Math.random() * 100}
+          onClick={() => {
+            handleClick(type);
+            setActive(type.name);
+          }}
+          className={`type-btn ${active === type.name && "active-btn"}`}>
+          {type.name}
+        </button>
+      );
+    });
 
   return (
     <div className='type'>

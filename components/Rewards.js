@@ -6,12 +6,6 @@ const Rewards = () => {
   return (
     <div className='rewards container'>
       <h2>{t("rewards")}</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-        aspernatur similique consectetur veniam nisi consequuntur quidem laborum
-        numquam minima dolore animi explicabo, molestias ullam eaque alias in
-        voluptates ex officia!
-      </p>
       <div className='rewards__container'>
         <img className='img1' src='/static/gazele2011.webp' alt='gazele 2011' />
         <img className='img2' src='/static/gazele2013.webp' alt='gazele 2013' />

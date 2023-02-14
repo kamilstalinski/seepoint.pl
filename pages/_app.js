@@ -21,6 +21,7 @@ export async function getStaticProps({ locale }) {
         "searchbar",
         "contactForm",
         "slider",
+        "consentPopup",
       ])),
     },
   };

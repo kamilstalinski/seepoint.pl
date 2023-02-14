@@ -25,6 +25,10 @@
 
             @include xl {
                 margin-right: 2rem;
+
+                img {
+                    width: 220px;
+                }
             }
 
             @include md {

@@ -18,6 +18,7 @@ export async function getStaticProps({ locale }) {
         "contactForm",
         "slider",
         "rewards",
+        "consentPopup",
       ])),
     },
   };
@@ -58,13 +59,7 @@ const Products = () => {
               alt='uv print'
             />
             <div className='text-container'>
-              <p>
-                Jako firma zajmująca się produkcją rozmaitych typów materiałów
-                reklamowych w swojej działalności wykorzystujemy rozmaite
-                techniki. Sprawia to, że nasza oferta jest różnorodna i dociera
-                do szerokiego grona klientów. Możemy wydrukować nieduże banery,
-                jak i przygotować dla Ciebie reklamę wielkoformatową.
-              </p>
+              <p>{t("whyusdesc")}</p>
             </div>
           </div>
           <h2>{t("allproducts")}</h2>
@@ -82,11 +77,7 @@ const Products = () => {
               alt='plotter'
             />
             <div className='text-container'>
-              <p>
-                Bez względu na to, na którą z nich się zdecydujesz, za każdym
-                razem będzie ona estetyczna i wyrazista. Taki efekt uzyskujemy
-                dzięki temu, że stosujemy różne typy druku.
-              </p>
+              <p>{t("technologydesc")}</p>
             </div>
           </div>
         </section>

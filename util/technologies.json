@@ -3,7 +3,7 @@
     {
       "id": 0,
       "category": "technology",
-      "path": "sublimation",
+      "path": "sublimacja",
       "image": "/billboard.svg",
       "name": "Druk sublimacyjny",
       "imageHero": "/static/sublimation-hero.webp",
@@ -17,7 +17,7 @@
     {
       "id": 1,
       "category": "technology",
-      "path": "eco-solvent",
+      "path": "druk-eco-solvent",
       "image": "/monitor.svg",
       "imageHero": "/static/ecosolvent-hero.webp",
       "name": "Druk eko solwentowy",
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "category": "technology",
-      "path": "uv",
+      "path": "druk-uv",
       "image": "/photocopy.svg",
       "imageHero": "/static/uv-hero.webp",
       "name": "Druk UV",
@@ -45,7 +45,7 @@
     {
       "id": 3,
       "category": "technology",
-      "path": "solvent-xxl",
+      "path": "druk-solvent-xxl",
       "image": "/press.svg",
       "imageHero": "/static/solventxxl-hero.webp",
       "name": "Druk solwentowy XXL",
@@ -59,7 +59,7 @@
     {
       "id": 4,
       "category": "technology",
-      "path": "cutting-plotter",
+      "path": "plotery-tnace",
       "image": "/vinyl.svg",
       "imageHero": "/static/cuttingplotter-hero.webp",
       "name": "Plotery tnące",
@@ -76,7 +76,8 @@
     {
       "id": 0,
       "category": "technology",
-      "path": "sublimation",
+      "path": "sublimacja",
+      "altPath": "sublimation",
       "image": "/billboard.svg",
       "name": "Sublimation print",
       "imageHero": "/static/sublimation-hero.webp",
@@ -90,7 +91,8 @@
     {
       "id": 1,
       "category": "technology",
-      "path": "eco-solvent",
+      "path": "druk-eco-solvent",
+      "altPath": "eco-solvent",
       "image": "/monitor.svg",
       "imageHero": "/static/ecosolvent-hero.webp",
       "name": "Eco-solvent print",
@@ -104,7 +106,8 @@
     {
       "id": 2,
       "category": "technology",
-      "path": "uv",
+      "path": "druk-uv",
+      "altPath": "uv-print",
       "image": "/photocopy.svg",
       "imageHero": "/static/uv-hero.webp",
       "name": "UV print",
@@ -118,7 +121,8 @@
     {
       "id": 3,
       "category": "technology",
-      "path": "solvent-xxl",
+      "path": "druk-solvent-xxl",
+      "altPath": "solvent-xxl",
       "image": "/press.svg",
       "imageHero": "/static/solventxxl-hero.webp",
       "name": "Solvent print XXL",
@@ -132,7 +136,8 @@
     {
       "id": 4,
       "category": "technology",
-      "path": "cutting-plotter",
+      "path": "plotery-tnace",
+      "altPath": "cutting-plotters",
       "image": "/vinyl.svg",
       "imageHero": "/static/cuttingplotter-hero.webp",
       "name": "Cutting plotters",

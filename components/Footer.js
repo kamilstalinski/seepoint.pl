@@ -1,8 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Footer = () => {
+  const router = useRouter();
+
   const year = new Date().getFullYear();
+  const privacyPath =
+    router.locale === "pl" ? "/polityka-prywatnosci" : "/privacy-policy";
+  const rodoPath =
+    router.locale === "pl"
+      ? "/obowiazek-informacyjny"
+      : "/information-obligation";
   return (
     <div className='footer'>
       <div className='footer__logo--container'>
@@ -10,7 +19,6 @@ const Footer = () => {
       </div>
       <div className='info'>
         <p className='footer__description'>©{year} Seepoint</p>
-        <Link href='/rodo'>Obowiązek Informacyjny RODO</Link>
       </div>
       <div className='footer__contact--container'>
         <div className='call'>
@@ -35,6 +43,8 @@ const Footer = () => {
             <p>biuro@seepoint.pl</p>
           </a>
         </div>
+        <Link href={privacyPath}>Polityka Prywatności</Link>
+        <Link href={rodoPath}>Obowiązek Informacyjny RODO</Link>
       </div>
     </div>
   );
