@@ -5,7 +5,8 @@ export default function Document() {
     <Html>
       <Head>
         <link rel='shortcut icon' type='image/x-icon' href='/favicon.png' />
-        <meta name='robots' content='noindex, follow' />
+        <meta key='robots' name='robots' content='noindex,follow' />
+        <meta key='googlebot' name='googlebot' content='noindex,follow' />
       </Head>
       <body>
         <Main />
