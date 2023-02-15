@@ -58,6 +58,8 @@ const Technology = ({ technology }) => {
       <Head>
         <title>{technology.name}</title>
         <meta name='description' content={technologies.name} />
+        <meta key='robots' name='robots' content='noindex,nofollow' />
+        <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>
       <TechnologyHero technology={technology} t={t} />
       <TechnologySpec technology={technology} t={t} />

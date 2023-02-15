@@ -1,6 +1,7 @@
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Link from "next/link";
+import Head from "next/head";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -27,6 +28,11 @@ export default function FourOFour() {
 
   return (
     <div className='wrapper-404'>
+      <Head>
+        <title>{t("404")}</title>
+        <meta key='robots' name='robots' content='noindex,nofollow' />
+        <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
+      </Head>
       <h1>Ooops!</h1>
       <h2>{t("404")}</h2>
       <button className='primary-button'>

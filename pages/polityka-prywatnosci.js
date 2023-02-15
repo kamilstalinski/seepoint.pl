@@ -22,7 +22,9 @@ export default function PrivacyPolicy() {
   return (
     <div className='document container'>
       <Head>
-        <title>Polityka Prywatności</title>
+        <title>{t("privacyPolicy")}</title>
+        <meta key='robots' name='robots' content='noindex,nofollow' />
+        <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>
       <h1>{t("privacyPolicy")}</h1>
       <h2>{t("url")}</h2>

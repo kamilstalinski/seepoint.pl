@@ -1,5 +1,6 @@
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import Head from "next/head";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -20,6 +21,11 @@ export default function Rodo() {
 
   return (
     <div className='document container'>
+      <Head>
+        {/* <title></title> */}
+        <meta key='robots' name='robots' content='noindex,nofollow' />
+        <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
+      </Head>
       <h1>{t("h1")}</h1>
       <h2>{t("h2")}</h2>
       <h2>{t("valid")}</h2>

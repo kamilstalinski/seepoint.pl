@@ -28,6 +28,8 @@ const Contact = () => {
       <Head>
         <title>{t("metaName")}</title>
         <meta name='description' content='Kontakt' />
+        <meta key='robots' name='robots' content='noindex,nofollow' />
+        <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>
       <div className='contact__info'>
         <div className='img-container'>

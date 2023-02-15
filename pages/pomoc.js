@@ -28,6 +28,8 @@ const Help = () => {
       <Head>
         <title>{t("metaName")}</title>
         <meta name='description' content='Pomoc' />
+        <meta key='robots' name='robots' content='noindex,nofollow' />
+        <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>
       <div className='help-wrapper'>
         <div className='help-container container'>

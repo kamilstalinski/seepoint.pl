@@ -29,6 +29,8 @@ const Technology = () => {
       <Head>
         <title>{t("metaName")}</title>
         <meta name='description' content='Technologie' />
+        <meta key='robots' name='robots' content='noindex,nofollow' />
+        <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>
       <div className='hero' style={{ marginBottom: "8rem" }}>
         <div className='hero__img-container2'>

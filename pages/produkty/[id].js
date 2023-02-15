@@ -61,6 +61,8 @@ const Product = ({ product }) => {
       <Head>
         <title>{product.metaTitle}</title>
         <meta name='description' content={product.metaDescritpion} />
+        <meta key='robots' name='robots' content='noindex,nofollow' />
+        <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>
       <ProductHero product={product} goBack={goBack} />
       <ProductParams product={product} />

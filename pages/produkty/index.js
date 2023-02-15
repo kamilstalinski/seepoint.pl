@@ -31,6 +31,8 @@ const Products = () => {
       <Head>
         <title>{t("metaTitle")}</title>
         <meta name='description' content={t("metaDescription")} />
+        <meta key='robots' name='robots' content='noindex,nofollow' />
+        <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>
       <div className='products__hero'>
         <div className='products__hero--info'>
