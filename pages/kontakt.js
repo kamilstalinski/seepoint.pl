@@ -26,8 +26,8 @@ const Contact = () => {
   return (
     <div className='contact'>
       <Head>
-        <title>{t("metaName")}</title>
-        <meta name='description' content='Kontakt' />
+        <title>{t("metaTitle")}</title>
+        <meta name='description' content={t("metaDescription")} />
         <meta key='robots' name='robots' content='noindex,nofollow' />
         <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>

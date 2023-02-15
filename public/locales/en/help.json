@@ -23,5 +23,6 @@
     "pcv2": "Bleeds should be 2 cm.",
     "pcv3": "The minimum distance of texts and graphics from the cutting line is at least 'finish size + 1cm' (e.g. tunnel 5cm = distance of graphics from the edge min. 6cm). A greater distance is recommended due to the flexibility of the material.",
     "contact": "Contact",
-    "metaName": "Help"
+    "metaTitle": "Help - Seepoint",
+    "metaDescription": "Looking for Help? Check how to prepare your assets!"
 }

@@ -26,8 +26,8 @@ const Help = () => {
   return (
     <div className='help'>
       <Head>
-        <title>{t("metaName")}</title>
-        <meta name='description' content='Pomoc' />
+        <title>{t("metaTitle")}</title>
+        <meta name='description' content={t("metaDescription")} />
         <meta key='robots' name='robots' content='noindex,nofollow' />
         <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>

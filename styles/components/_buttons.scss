@@ -91,6 +91,14 @@
             background-color: #4F96D3;
         }
     }
+
+    @include lg {
+        line-height: 0;
+
+        .shop-btn {
+            transform: translate(-18px, 5px);
+        }
+    }
 }
 
 #inner-link {

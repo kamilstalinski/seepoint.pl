@@ -23,5 +23,6 @@
     "pcv2": "Spady powinny mieć 2cm.",
     "pcv3": "Minimalna odległość tekstów i grafik od linii cięcia to co najmniej „rozmiar wykończenia + 1cm” (np. tunel 5cm = odległość grafik od krawędzi min. 6cm). Zalecana większa odległość ze względu na elastyczność materiału.",
     "contact": "Kontakt",
-    "metaName": "Pomoc"
+    "metaTitle": "Pomoc - Seepoint",
+    "metaDescription": "Szukasz pomocy? Sprawdź jak przygotować projekt do druku!"
 }

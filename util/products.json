@@ -238,14 +238,116 @@
       "heroDescription2": " doskonale nadają się do wykorzystania na zewnątrz. Jest to forma reklamy, która po zwieszeniu może być eksponowana przez długi czas. Zainwestuj raz w wizualizację i czerp długofalowe korzyści ze skutecznej reklamy.",
       "h1": "Baner dwustronny. Postaw na widoczność swojej reklamy",
       "h2": "Banery dwustronne. Reklama przydatna w wielu różnych działalnościach",
-      "description": "Banery z wydrukiem widocznym po dwóch stronach są chętnie wybierane przez właścicieli punktów gastronomicznych, salonów fryzjerskich oraz innych punktów usługowych. Zawieszone na płocie lub umieszczone na stelażu są widoczne dla klientów poruszających się w różnych kierunkach. Warto zatem zadbać o wizualizację swojej firmy i do innych form reklamy dołączyć również baner dwustronny. ",
-      "type": [
-        {
-          "name": "Mesh",
-          "description": "Reklama wykonana na siatce może znaleźć zastosowanie wszędzie tam, gdzie nie sprawdziłyby się inne rozwiązania. Można zawiesić ją na rusztowaniu, płocie lub specjalnie przygotowanym stelażu. Nawet jeśli będzie bardzo dużych rozmiarów, to dzięki przepuszczalności powietrza nie ma ryzyka, że przerwie się pod wpływem wiatru. Płachta będzie lekko falować, ale nie ulegnie uszkodzeniu. Przepuszczalność światła powoduje, że możesz zamontować reklamę na siatce mesh na froncie budynku, nawet jeśli są tam umieszczone okna. Baner nie przysłoni widoku na zewnątrz, a jedynie delikatnie go przyciemni. Takie rozwiązanie nie będzie ograniczało Cię, jeśli chcesz zareklamować się w centrum miasta, w bardzo ruchliwym punkcie. Ten typ materiału sprawdzi się również doskonale na otwartej przestrzeni, zamontowany na płocie okalającym duży plac budowy lub terenie należący do firmy. Można umieścić na nim logo i w wyraźny sposób oznaczyć miejsce, w którym prowadzisz działalność.",
-          "parameter": ["Mesh 280g", "Eco 370g"]
-        }
-      ]
+      "description": "Banery z wydrukiem widocznym po dwóch stronach są chętnie wybierane przez właścicieli punktów gastronomicznych, salonów fryzjerskich oraz innych punktów usługowych. Zawieszone na płocie lub umieszczone na stelażu są widoczne dla klientów poruszających się w różnych kierunkach. Warto zatem zadbać o wizualizację swojej firmy i do innych form reklamy dołączyć również baner dwustronny. "
+    },
+    {
+      "id": 10,
+      "metaTitle": "Dywany i Floopromotory",
+      "metaDescription": "Dywany i Floorpromotory",
+      "category": "products",
+      "name": "Dywany i Floorpromotory",
+      "path": "dywany-i-floopromotory",
+      "altPath": "carpets-and-floorpromotors",
+      "image": "",
+      "heroDescription": "Podkładki pod myszki komputerowe i laptopy, wycieraczki. Wykonane metodą sublimacyjną na takich materiałach jak nonwoven z gumą (możliwość zadruku do 240 cm szerokości w jednym kawałku), bądź łatwo zmywalny floorpromotor (możliwość zadruku do 128 cm szerokości w jednym kawałku). Grubość materiałów 3 mm. Mała ścieralność druku świadczy o wysokiej jakości materiałów.",
+      "h1": "Dywany i floorpromotory"
+    },
+    {
+      "id": 11,
+      "metaTitle": "Paletcovery - pokrowce na euro palety",
+      "metaDescription": "Paletcovery - pokrowce na euro palety",
+      "category": "products",
+      "name": "Paletcovery",
+      "path": "paletcovery",
+      "altPath": "pallet-covers",
+      "image": "",
+      "heroDescription": "Paletcover to produkt przeznaczony do estetycznego przykrycia palety i tym samym przedstawienia jej jako podest pod prezentacje produktu. Jest to tanie rozwiązanie o dużej estetyce. Umieszczenie na wydruku dowolnych tekstów, kolorów będzie wspaniałą dekoracją sklepu i podkreśli promocję towaru. Z uwagi na to, że jesteśmy producentem jest możliwość zamówienia tego typu pokrowców w dowolnym rozmiarze dopasowanym do potrzeb klienta. Zapewniamy szybką realizację zamówienia.",
+      "h1": "Paletcovery - pokrowce na euro palety"
+    },
+    {
+      "id": 12,
+      "metaTitle": "X-Display - stojak reklamowy",
+      "metaDescription": "X-Display - stojak reklamowy",
+      "category": "products",
+      "name": "X-Display",
+      "path": "x-display",
+      "altPath": "x-display-advertising-stand",
+      "image": "",
+      "heroDescription": "System X-DISPLAY jest najprostszym i najtańszym sposobem na pokazanie swojej firmy lub produktu. Małe rozmiary 165×51 cm i prostota są jego wielkim zaletami. Do jego produkcji polecamy materiału i trico 115 g lub millenium. Dzięki swoim rozmiarom znajduje zastosowanie wszędzie zarówno w biurach, galeriach handlowych jak i na targach wystawców",
+      "h1": "X-Display - stojak reklamowy"
+    },
+    {
+      "id": 13,
+      "metaTitle": "Folia magnetyczna - popularne magnesy",
+      "metaDescription": "Folia magnetyczna - popularne magnesy",
+      "category": "products",
+      "name": "Folia magnetyczna",
+      "path": "folia-magnetyczna",
+      "altPath": "magnetic-foil-popular-magnets",
+      "image": "",
+      "heroDescription": "Promocja własnej firmy lub jej flagowych produktów to klucz do zwiększenia swojej sprzedaży. Znakomicie do tego nadają się wydruki na foliach magnetycznych, które oferujemy w różnych rozmiarach od małych formatów imitujących wizytówki możliwych do przyczepienia na lodówce po wydruki XXL w szerokości 100 cm i dowolnej długości. Tak duży format doskonale sprawdzi się na metalowych powierzaniach, łatwość montażu polegająca na przyłożeniu wydruku do ściany jest dziecinnie prosta i nie wymaga żadnego przygotowania podkładu.",
+      "h1": "Folia magnetyczna - popularne magnesy"
+    },
+    {
+      "id": 14,
+      "metaTitle": "Plakaty - ogłoszenia, postery",
+      "metaDescription": "Plakaty - ogłoszenia, postery",
+      "category": "products",
+      "name": "Plakaty",
+      "path": "plakaty",
+      "altPath": "posters",
+      "image": "",
+      "heroDescription": "Plakat- podstawowy wyrób poligraficzny. Druk jedno lub dwustronny. Plakaty produkujemy na papierze 150 g i 200 g. w szerokości do 160 cm.",
+      "h1": "Plakaty - ogłoszenia, postery"
+    },
+    {
+      "id": 15,
+      "metaTitle": "Naklejki - Seepoint",
+      "metaDescription": "Naklejki",
+      "category": "products",
+      "name": "Naklejki",
+      "path": "naklejki",
+      "altPath": "stickers",
+      "image": "",
+      "heroDescription": "Produkty wykonane na folii. W trosce o najwyższą jakość drukujemy na foliach renomowanych marek: Avery, Neschen, Oracal.",
+      "h1": "Naklejki",
+      "h2": "W podstawowej ofercie posiadamy następujące rodzaje folii:"
+    },
+    {
+      "id": 16,
+      "metaTitle": "Alusandwich - wydruki na płytach z aluminiową okładziną",
+      "metaDescription": "ALUSANDWICH – nadruki na płytach z okładziną aluminiową tzw. Dibond. Stosowany na tablice informacyjne, etykiety reklamowe, panele dekoracyjne.",
+      "category": "products",
+      "name": "Alusandwich",
+      "path": "alusandwich",
+      "altPath": "alusandwich-prints-on-slabs-with-aluminum-lining",
+      "image": "",
+      "heroDescription": "Alusandwich, zwany czasem płytą Dibond to podkład drukarski o dużej wytrzymałości ponieważ składa się z dwóch zewnętrznych warstw aluminium i spienionego pcv pomiędzy. Technologia druku UV pozwala tworzyć produkty o szerokim polu zastosowań od tablic informacyjnych poprzez postacie 3D, etykiety cenowo-promocyjne, panele dekoracyjne itp. Doskonałym uzupełnieniem oferty jest obróbka wydruków na tnących maszynach CNC, którą wykonujemy z dbałością o najmniejszy szczegół.",
+      "h1": "Alusandwich - wydruki na płytach z aluminiową okładziną"
+    },
+    {
+      "id": 17,
+      "metaTitle": "Backlitfilm – kalka do podświetleń",
+      "metaDescription": "BACKLITFILM - kalka do podświetleń w kasetonach z ledami. Dzięki najlepszej jakości ploterom drukującym UV jesteśmy wstanie zapewnić szybką dostawę printów.",
+      "category": "products",
+      "name": "Backlitfilm",
+      "path": "backlitfilm",
+      "altPath": "backlit-film",
+      "image": "",
+      "heroDescription": "Backlitfilm to materiał nadający się na reklamę do podświetleń, kasetonów z ledami itp. Dzięki najlepszej jakości ploterom drukującym UV jesteśmy wstanie zapewnić szybką dostawę printów. Dzięki podwójnemu nakładaniu tuszu głębia kolorów produktu jest widoczna po podświetleniu. Produkt często spotykany na stacjach paliwowych eksponujących ofertę z menu lub w ekskluzywnych butikach, gdzie liczy się zrobienie wrażenia na kliencie.",
+      "h1": "Backlitfilm – kalka do podświetleń"
+    },
+    {
+      "id": 18,
+      "metaTitle": "Forex druk - płyty, tablice z pienionego pcv",
+      "metaDescription": "FOREX druk - płyty, tablice z pienionego pcv. Wysokiej jakości wydruki, wycinane do kształtu. Postacie 3D. Dekorację przestrzenne. Tablice informacyjne.",
+      "category": "products",
+      "name": "Forex druk",
+      "path": "forex-druk",
+      "altPath": "forex-print-boards-of-foamed-pvc",
+      "image": "",
+      "heroDescription": "Technologia pozwala tworzyć produkty o szerokim polu zastosowań od tablic informacyjnych poprzez postacie 3D, etykiety cenowo-promocyjne, panele dekoracyjne itp. Doskonałym uzupełnieniem oferty jest obróbka wydruków UV na ploterach tnących i maszynach CNC, którą wykonujemy z dbałością o najmniejszy szczegół.",
+      "h1": "Forex druk - płyty, tablice z pienionego pcv"
     }
   ],
   "en": [
@@ -429,7 +531,6 @@
       "path": "scianki-reklamowe",
       "altPath": "advertising-walls-exhibition-items",
       "image": "",
-      "sliderImage": "",
       "innerLinkURL": "/produkty/roll-up",
       "innerLink": "roll-up ads",
       "heroDescription": "Are you going to a fair, exhibition or planning a new exhibition? The proposal of express printing on a portable wall seems to be the best solution. You can set such an ad anywhere. Use it as an element of the entire arrangement at your exhibition stand or place it in a visible place in the office. A large sheet of material hung on the frame allows you to put various information on it. It can be a company logo, any text or information about new products or services. The wall can be an alternative to a smaller one ",
@@ -447,7 +548,6 @@
       "path": "flagi",
       "altPath": "flags",
       "image": "",
-      "sliderImage": "",
       "innerLinkURL": "/produkty",
       "innerLink": "large-format advertising",
       "heroDescription": "Effectively promote your brand and choose printed advertising flags. This type of identification works well when set in front of the company's headquarters. The material placed on the mast is visible from a long distance, making it easier for customers to find a given place. In the smaller version, you can take the advertisement with you and place it in front of the market hall. We are a manufacturer of advertising flags operating on the market for years. We are constantly developing and investing in new technologies that allow us to produce modern and aesthetic products to identify and build the image of your business. You can order from us ",
@@ -465,7 +565,6 @@
       "path": "mesh",
       "altPath": "mesh",
       "image": "",
-      "sliderImage": "",
       "innerLinkURL": "/produkty/banery-zewnetrzne-frontlit",
       "innerLink": "advertising banners",
       "heroDescription": "Do you care about modern advertising that will allow you to present what you do in an attractive form? We recommend banners made on a large-format mesh. It is a material woven from small diameter meshes. This construction makes the whole thing light and durable at the same time. The structure lets light through and allows air to flow. Therefore, it works perfectly as a material for making advertisements of very large sizes. Its area can be from several hundred to even several thousand square meters. No one will be indifferent to this form of advertising! Printed advertising nets are most often used during mass events such as concerts, sports events or meetings organized at stadiums. By choosing a banner, you can be sure that your logo will be visible even from a distance. This is the best way to emphasize your presence. If you are a sponsor of a large event or want to present yourself to a large group during it, order a mesh print. ",
@@ -490,7 +589,6 @@
       "path": "blockout",
       "altPath": "blockout",
       "image": "",
-      "sliderImage": "",
       "innerLinkURL": "/produkty/banery-zewnetrzne-frontlit",
       "innerLink": "banerów reklamowych",
       "heroDescription": "It prints double-sided banners on a special blockout base. It allows you to place information both on the front and back of the material. Thanks to this, you will expose your offer more and make it more visible to potential customers. This solution is especially useful when you do not have much space to prepare the exhibition. Both sides of the banner can be the same or each of them can present a different message. Place it on a frame or in any other place where it will be clearly visible. Our double-sided banners are durable and resistant to changing weather conditions. They are not able to destroy wind, rain, snow, high temperature and UV rays. Same as ",
@@ -498,6 +596,115 @@
       "h1": "Double-sided banner. Bet on the visibility of your ad",
       "h2": "Double-sided banners. Advertising useful in many different activities",
       "description": "Banners with print visible on both sides are often chosen by owners of catering outlets, hair salons and other service outlets. Suspended on a fence or placed on a frame, they are visible to customers moving in different directions. It is therefore worth taking care of the visualization of your company and attaching a double-sided banner to other forms of advertising."
+    },
+    {
+      "id": 10,
+      "metaTitle": "Carpets and Floopromoters",
+      "metaDescription": "Carpets and Floopromoters",
+      "category": "products",
+      "name": "Carpets and Floopromoters",
+      "path": "dywany-i-floopromotory",
+      "altPath": "carpets-and-floorpromotors",
+      "image": "",
+      "heroDescription": "Pads for computer mouses and laptops, doormats. Made using the sublimation method on such materials as nonwoven with rubber (possibility of printing up to 240 cm wide in one piece), or easily washable floorpromotor (possibility of printing up to 128 cm wide in one piece). Material thickness 3 mm. The low abrasion of the print proves the high quality of the materials.",
+      "h1": "Carpets and Floopromoters"
+    },
+    {
+      "id": 11,
+      "metaTitle": "Paletcovers - covers for euro pallets",
+      "metaDescription": "Paletcovers - covers for euro pallets",
+      "category": "products",
+      "name": "Paletcovers",
+      "path": "paletcovery",
+      "altPath": "palet-covers",
+      "image": "",
+      "heroDescription": "Paletcover is a product designed to aesthetically cover the pallet and thus present it as a platform for product presentations. It is a cheap solution with great aesthetics. Placing any texts and colors on the printout will be a great decoration of the store and will emphasize the promotion of the goods. Due to the fact that we are a manufacturer, it is possible to order this type of covers in any size tailored to the customer's needs. We ensure fast order fulfillment.",
+      "h1": "Paletcovers - covers for euro pallets"
+    },
+    {
+      "id": 12,
+      "metaTitle": "X-Display - advertising stand",
+      "metaDescription": "X-Display - advertising stand",
+      "category": "products",
+      "name": "X-Display",
+      "path": "x-display",
+      "altPath": "x-display-advertising-stand",
+      "image": "",
+      "heroDescription": "The X-DISPLAY system is the simplest and cheapest way to show your company or product. Small dimensions of 165×51 cm and simplicity are its great advantages. For its production, we recommend the material and trico 115 g or millenium. Thanks to its size, it is used everywhere, both in offices, shopping malls and at exhibitors' fairs",
+      "h1": "X-Display - advertising stand"
+    },
+    {
+      "id": 13,
+      "metaTitle": "Magnetic foil - popular magnets",
+      "metaDescription": "Magnetic foil - popular magnets",
+      "category": "products",
+      "name": "Magnetic foil",
+      "path": "folia-magnetyczna",
+      "altPath": "magnetic-foil-popular-magnets",
+      "image": "",
+      "heroDescription": "Promoting your own company or its flagship products is the key to increasing your sales. Prints on magnetic foils, which we offer in various sizes, from small formats imitating business cards that can be attached to the fridge, to XXL prints in a width of 100 cm and any length, are perfect for this. Such a large format will be perfect for metal surfaces, the ease of assembly consisting in placing the print on the wall is child's play and does not require any preparation of the base.",
+      "h1": "Magnetic foil - popular magnets"
+    },
+    {
+      "id": 14,
+      "metaTitle": "Posters - announcements, posters",
+      "metaDescription": "Posters - announcements, posters",
+      "category": "products",
+      "name": "Posters",
+      "path": "plakaty",
+      "altPath": "posters",
+      "image": "",
+      "heroDescription": "Poster - basic printing product. Single or double sided printing. We produce posters on 150 g and 200 g paper, up to 160 cm wide.",
+      "h1": "Posters - announcements, posters"
+    },
+    {
+      "id": 15,
+      "metaTitle": "Stickers - Seepoint",
+      "metaDescription": "Stickers - Seepoint",
+      "category": "products",
+      "name": "Stickers",
+      "path": "naklejki",
+      "altPath": "stickers",
+      "image": "",
+      "heroDescription": "Produkty wykonane na folii. W trosce o najwyższą jakość drukujemy na foliach renomowanych marek: Avery, Neschen, Oracal.",
+      "h1": "Stickers - Seepoint",
+      "h2": "W podstawowej ofercie posiadamy następujące rodzaje folii:"
+    },
+    {
+      "id": 16,
+      "metaTitle": "Alusandwich - prints on plates with aluminum lining",
+      "metaDescription": "ALUSANDWICH - prints on boards with aluminum lining, the so-called Dibond. Used for information boards, advertising labels, decorative panels.",
+      "category": "products",
+      "name": "Alusandwich",
+      "path": "alusandwich",
+      "altPath": "alusandwich-prints-on-slabs-with-aluminum-lining",
+      "image": "",
+      "heroDescription": "Alusandwich, sometimes called Dibond, is a high-strength printing base because it consists of two outer layers of aluminum and foamed PVC in between. UV printing technology allows you to create products with a wide range of applications, from information boards through 3D figures, price and promotional labels, decorative panels, etc. The perfect complement to the offer is the processing of printouts on CNC cutting machines, which we make with attention to the smallest detail.",
+      "h1": "Alusandwich - prints on plates with aluminum lining"
+    },
+    {
+      "id": 17,
+      "metaTitle": "Backlitfilm - decal for backlighting",
+      "metaDescription": "BACKLITFILM - decal for backlighting in LED coffers. Thanks to the best quality UV printing plotters, we are able to ensure fast delivery of prints.",
+      "category": "products",
+      "name": "Backlitfilm",
+      "path": "backlitfilm",
+      "altPath": "backlit-film",
+      "image": "",
+      "heroDescription": "Backlitfilm is a material suitable for advertising for backlighting, LED light boxes, etc. Thanks to the best quality UV printing plotters, we are able to ensure fast delivery of prints. Thanks to the double application of ink, the color depth of the product is visible when backlit. The product is often found at gas stations displaying the menu offer or in exclusive boutiques, where it is important to impress the customer.",
+      "h1": "Backlitfilm - decal for backlighting"
+    },
+    {
+      "id": 18,
+      "metaTitle": "Forex printing - plates, boards made of foamed PVC",
+      "metaDescription": "FOREX printing - plates, boards made of foamed PVC. High quality prints, cut to shape. 3D characters. Spatial decoration. Information boards.",
+      "category": "products",
+      "name": "Forex printing",
+      "path": "forex-druk",
+      "altPath": "forex-print-boards-of-foamed-pvc",
+      "image": "",
+      "heroDescription": "The technology allows you to create products with a wide range of applications, from information boards through 3D figures, price and promotional labels, decorative panels, etc. The perfect complement to the offer is the processing of UV printouts on cutting plotters and CNC machines, which we do with attention to the smallest detail.",
+      "h1": "Forex printing - plates, boards made of foamed PVC"
     }
   ]
 }

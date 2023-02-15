@@ -81,6 +81,56 @@ const nextConfig = {
         locale: false,
       },
       {
+        source: "/en/products/carpets-and-floorpromotors",
+        destination: "/en/produkty/dywany-i-floopromotory",
+        locale: false,
+      },
+      {
+        source: "/en/products/palet-covers",
+        destination: "/en/produkty/paletcovery",
+        locale: false,
+      },
+      {
+        source: "/en/products/x-display-advertising-stand",
+        destination: "/en/produkty/x-display",
+        locale: false,
+      },
+      {
+        source: "/en/products/x-display-advertising-stand",
+        destination: "/en/produkty/x-display",
+        locale: false,
+      },
+      {
+        source: "/en/products/magnetic-foil-popular-magnets",
+        destination: "/en/produkty/folia-magnetyczna",
+        locale: false,
+      },
+      {
+        source: "/en/products/posters",
+        destination: "/en/produkty/plakaty",
+        locale: false,
+      },
+      {
+        source: "/en/products/stickers",
+        destination: "/en/produkty/naklejki",
+        locale: false,
+      },
+      {
+        source: "/en/products/alusandwich-prints-on-slabs-with-aluminum-lining",
+        destination: "/en/produkty/alusandwich",
+        locale: false,
+      },
+      {
+        source: "/en/products/forex-print-boards-of-foamed-pvc",
+        destination: "/en/produkty/forex-druk",
+        locale: false,
+      },
+      {
+        source: "/en/products/backlit-film",
+        destination: "/en/produkty/backlitfilm",
+        locale: false,
+      },
+      {
         source: "/en/technologies",
         destination: "/en/technologie",
         locale: false,

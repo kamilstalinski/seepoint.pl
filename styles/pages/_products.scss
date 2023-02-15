@@ -49,10 +49,38 @@
                 top: 120px;
                 left: 0;
                 margin-bottom: 4rem;
+                padding-left: 2rem;
                 height: fit-content;
                 display: flex;
                 flex-direction: column;
                 gap: 2rem;
+                max-height: 70vh;
+                overflow-y: auto;
+                direction:rtl;
+
+                a, h3 {
+                    direction: ltr;
+                }
+
+                &::-webkit-scrollbar {
+                    width: 5px;
+                    right: -20px;
+                }
+
+                /* Track */
+                &::-webkit-scrollbar-track {
+                    background: #f1f1f1;
+                }
+
+                /* Kciuk */
+                &::-webkit-scrollbar-thumb {
+                    background: #888;
+                }
+
+                /* Hover nad kciukiem */
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #555;
+                }
             }
 
             h3 {
@@ -185,7 +213,7 @@
                 gap: 3rem;
 
                 .product-item {
-                    width: 200px;
+                    width: 220px;
                     height: 300px;
                 }
             }
