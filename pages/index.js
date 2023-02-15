@@ -33,11 +33,8 @@ const About = () => {
   return (
     <div className='about'>
       <Head>
-        <title>{t("metaName")}</title>
-        <meta
-          name='description'
-          content='Wielkoformatowa drukarnia dopasowana do Twoich potrzeb!'
-        />
+        <title>{t("metaTitle")}</title>
+        <meta name='description' content={t("metaDescription")} />
       </Head>
       <AboutHero t={t} />
       <div className='container about__info'>

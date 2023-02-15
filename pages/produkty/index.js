@@ -29,8 +29,8 @@ const Products = () => {
   return (
     <div className='products'>
       <Head>
-        <title>{t("metaName")}</title>
-        <meta name='description' content='Produkty' />
+        <title>{t("metaTitle")}</title>
+        <meta name='description' content={t("metaDescription")} />
       </Head>
       <div className='products__hero'>
         <div className='products__hero--info'>

@@ -2,6 +2,8 @@
   "pl": [
     {
       "id": 0,
+      "metaTitle": "Banery reklamowe. Trwała reklama dla Twojego biznesu",
+      "metaDescription": "Wykonujemy różnorodne banery reklamowe. Zabezpieczamy je laminatem, przez co nasze produkty są bardzo trwałe. Pokaż klientom czym się zajmujesz i zamów baner.",
       "category": "produkty",
       "name": "Banery PCV",
       "path": "banery-zewnetrzne-frontlit",
@@ -24,6 +26,8 @@
     },
     {
       "id": 1,
+      "metaTitle": "Roll up. Mobilna reklama o wielu różnych zastosowaniach",
+      "metaDescription": "Roll up to mobilna forma reklamy. Zamów ją, gdy planujesz udział w tragach, konferencjach lub eventach. Wykonamy dla Ciebie roll up, który łatwo rozłożysz.",
       "category": "produkty",
       "name": "Rollupy",
       "path": "roll-up",
@@ -56,6 +60,8 @@
     },
     {
       "id": 2,
+      "metaTitle": "ALU-SYSTEM - wydruki do montażu na aluminiowych ramach - Seepoint",
+      "metaDescription": "ALU-SYSTEM to lekka aluminiowa konstrukcja wraz z odpowiednim system „rowków” umożliwia łatwą wymianę baneru. Doskonale sprawdzi się jako dekoracja sklepu.",
       "category": "produkty",
       "name": "Alu-System",
       "path": "alu-system",
@@ -73,6 +79,8 @@
     },
     {
       "id": 3,
+      "metaTitle": "Poduszki w kształcie zwierząt. Gadżet reklamowy i dekoracja",
+      "metaDescription": "Prowadzisz działalność związaną z dziećmi? Zamów poduszki w kształcie zwierząt. Możesz zastosować je jako element aranżacji wnętrz lub wręczyć je jako gadżet.",
       "category": "produkty",
       "name": "Poduszkozwierzaki",
       "path": "poduszkozwierzaki",
@@ -96,6 +104,8 @@
     },
     {
       "id": 4,
+      "metaTitle": "Obrazy dekoracyjne na ścianę. Ozdoba do domu i biura",
+      "metaDescription": "Zamówisz u nas obrazy dekoracyjne na ścianę. Możesz wybrać reprodukcję, czy zdjęcie z naszego katalogu lub przesłać nam swoją propozycję. Złóż zamówienie.",
       "category": "produkty",
       "name": "Obrazy",
       "path": "obrazy",
@@ -118,6 +128,8 @@
     },
     {
       "id": 5,
+      "metaTitle": "Flagi plażowe, windery. Mobilna i trwała forma reklamy",
+      "metaDescription": "Wykonujemy reklamowe flagi plażowe w różnych kształtach. Zamówisz u nas trwałe, przenośne konstrukcje do wykorzystania w wielu sytuacjach. Sprawdź ofertę",
       "category": "produkty",
       "name": "Beachflagi",
       "path": "beachflagi",
@@ -155,6 +167,8 @@
     },
     {
       "id": 6,
+      "metaTitle": "Ścianki reklamowe. Widoczna i przenośna reklama biznesu",
+      "metaDescription": "Zamów u nas trwałe i estetyczne ścianki reklamowe. Umieścimy na nich Twoje logo, dane lub inne informacje o Twojej działalności. Daj się poznać swoim klientom!",
       "category": "produkty",
       "name": "Ścianki reklamowe",
       "path": "scianki-reklamowe",
@@ -170,6 +184,8 @@
     },
     {
       "id": 7,
+      "metaTitle": "Flagi reklamowe z nadrukiem. Nowoczesna forma reklamy",
+      "metaDescription": "Produkujemy flagi reklamowe różnego typu. Zmówisz u nas flagi pionowe, czyli szturmówki oraz flagi poziome. Na każdej wykonamy wyrazisty nadruk w żywych kolorach",
       "category": "produkty",
       "name": "Flagi",
       "path": "flagi",
@@ -185,6 +201,8 @@
     },
     {
       "id": 8,
+      "metaTitle": "Reklama na siatce mesh. Duża reklama widoczna z daleka",
+      "metaDescription": "Polecamy reklamy wielkoformatowe na siatce mesh. Zamów ją jeśli chcesz zareklamować się na koncercie, wydarzeniu sportowym lub innej imprezie. Sprawdź ofertę",
       "category": "produkty",
       "name": "Banery Mesh",
       "path": "mesh",
@@ -207,6 +225,8 @@
     },
     {
       "id": 9,
+      "metaTitle": "Baner dwustronny. Reklama dobrze widoczna z różnych miejsc",
+      "metaDescription": "Drukujemy banery dwustronne. Reklamę możesz zawiesić na płocie, stelażu lub w innym widocznym miejscu. Pozwoli ona na lepszą identyfikację Twojej firmy.",
       "category": "produkty",
       "name": "Baner dwustronny",
       "path": "blockout",
@@ -231,6 +251,8 @@
   "en": [
     {
       "id": 0,
+      "metaTitle": "Advertising banners. Durable advertising for your business",
+      "metaDescription": "We make various advertising banners. We secure them with a laminate, which makes our products very durable. Show customers what you do and order a banner.",
       "category": "products",
       "name": "Frontilt Banners",
       "path": "banery-zewnetrzne-frontlit",
@@ -254,6 +276,8 @@
     },
     {
       "id": 1,
+      "metaTitle": "Roll up. Mobile advertising with many different uses",
+      "metaDescription": "Roll up is a mobile form of advertising. Order it when you plan to participate in fairs, conferences or events. We will make a roll up for you that you can easily unfold.",
       "category": "products",
       "name": "Roll-up",
       "path": "roll-up",
@@ -287,6 +311,8 @@
     },
     {
       "id": 2,
+      "metaTitle": "ALU-SYSTEM - printouts for mounting on aluminum frames - Seepoint",
+      "metaDescription": "ALU-SYSTEM is a lightweight aluminum construction with a proper \"groove\" system that allows for easy replacement of the banner. It will be perfect as a store decoration.",
       "category": "products",
       "name": "Alu-System",
       "path": "alu-system",
@@ -305,6 +331,8 @@
     },
     {
       "id": 3,
+      "metaTitle": "Animal shaped pillows. Advertising gadget and decoration",
+      "metaDescription": "Do you run a business related to children? Order animal-shaped pillows. You can use them as an element of interior design or give them as a gadget.",
       "category": "products",
       "name": "Pet Pillows",
       "path": "poduszkozwierzaki",
@@ -329,6 +357,8 @@
     },
     {
       "id": 4,
+      "metaTitle": "Decorative pictures for the wall. Decoration for home and office",
+      "metaDescription": "You can order decorative pictures for the wall from us. You can choose a reproduction or a photo from our catalog or send us your proposal. Submit your order.",
       "category": "products",
       "name": "Paintings",
       "path": "obrazy",
@@ -352,6 +382,8 @@
     },
     {
       "id": 5,
+      "metaTitle": "Beach flags, winders. A mobile and durable form of advertising",
+      "metaDescription": "We make advertising beach flags in various shapes. You can order from us durable, portable structures to be used in many situations. Check the offer",
       "category": "products",
       "name": "Beachflags",
       "path": "beachflagi",
@@ -390,6 +422,8 @@
     },
     {
       "id": 6,
+      "metaTitle": "Advertising walls. Visible and portable business advertising",
+      "metaDescription": "Order durable and aesthetic advertising walls from us. We will put your logo, data or other information about your business on them. Get to know your customers!",
       "category": "products",
       "name": "Advertising walls",
       "path": "scianki-reklamowe",
@@ -406,6 +440,8 @@
     },
     {
       "id": 7,
+      "metaTitle": "Printed advertising flags. A modern form of advertising",
+      "metaDescription": "We produce various types of advertising flags. You can order vertical flags from us, i.e. assault bags and horizontal flags. We will make an expressive print in vivid colors on each one",
       "category": "products",
       "name": "Flags",
       "path": "flagi",
@@ -422,6 +458,8 @@
     },
     {
       "id": 8,
+      "metaTitle": "Mesh advertising. A large advertisement visible from a distance",
+      "metaDescription": "We recommend large-format advertisements on a mesh grid. Order it if you want to advertise at a concert, sporting event or other event. Check the offer",
       "category": "products",
       "name": "Mesh Banners",
       "path": "mesh",
@@ -445,6 +483,8 @@
     },
     {
       "id": 9,
+      "metaTitle": "Double sided banner. Advertising clearly visible from different places",
+      "metaDescription": "We print double-sided banners. You can hang the advertisement on a fence, frame or other visible place. It will allow for better identification of your company.",
       "category": "products",
       "name": "Blockout Banners",
       "path": "blockout",

@@ -59,8 +59,8 @@ const Product = ({ product }) => {
   return (
     <div className='product container'>
       <Head>
-        <title>{product.name}</title>
-        <meta name='description' content={product.name} />
+        <title>{product.metaTitle}</title>
+        <meta name='description' content={product.metaDescritpion} />
       </Head>
       <ProductHero product={product} goBack={goBack} />
       <ProductParams product={product} />
