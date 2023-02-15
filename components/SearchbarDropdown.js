@@ -25,7 +25,9 @@ export default function SearchbarDropdown({
             return (
               <Link
                 key={result.id + Math.random() * 100}
-                href={`${result.category}/${result.path}`}>
+                href={`/${result.category}/${
+                  router.locale === "pl" ? result.path : result.altPath
+                }`}>
                 <div id='result-item'>
                   {result.name ? <p>{result.name}</p> : <p>{result}</p>}
                   {result.image || result.linkImage ? (

@@ -2,7 +2,7 @@
   "pl": [
     {
       "id": 0,
-      "category": "products",
+      "category": "produkty",
       "name": "Banery PCV",
       "path": "banery-zewnetrzne-frontlit",
       "image": "/static/banner-seepoint.webp",
@@ -24,7 +24,7 @@
     },
     {
       "id": 1,
-      "category": "products",
+      "category": "produkty",
       "name": "Rollupy",
       "path": "roll-up",
       "image": "/static/rollup-seepoint.webp",
@@ -56,7 +56,7 @@
     },
     {
       "id": 2,
-      "category": "products",
+      "category": "produkty",
       "name": "Alu-System",
       "path": "alu-system",
       "image": "/static/alu-banner-sp.png",
@@ -73,7 +73,7 @@
     },
     {
       "id": 3,
-      "category": "products",
+      "category": "produkty",
       "name": "Poduszkozwierzaki",
       "path": "poduszkozwierzaki",
       "image": "/static/animals-seepoint.webp",
@@ -96,7 +96,7 @@
     },
     {
       "id": 4,
-      "category": "products",
+      "category": "produkty",
       "name": "Obrazy",
       "path": "obrazy",
       "image": "/static/paintings.png",
@@ -118,7 +118,7 @@
     },
     {
       "id": 5,
-      "category": "products",
+      "category": "produkty",
       "name": "Beachflagi",
       "path": "beachflagi",
       "image": "/static/beachflags-seepoint.webp",
@@ -155,7 +155,7 @@
     },
     {
       "id": 6,
-      "category": "products",
+      "category": "produkty",
       "name": "Ścianki reklamowe",
       "path": "scianki-reklamowe",
       "image": "",
@@ -170,7 +170,7 @@
     },
     {
       "id": 7,
-      "category": "products",
+      "category": "produkty",
       "name": "Flagi",
       "path": "flagi",
       "image": "",
@@ -185,7 +185,7 @@
     },
     {
       "id": 8,
-      "category": "products",
+      "category": "produkty",
       "name": "Banery Mesh",
       "path": "mesh",
       "image": "",
@@ -207,7 +207,7 @@
     },
     {
       "id": 9,
-      "category": "products",
+      "category": "produkty",
       "name": "Baner dwustronny",
       "path": "blockout",
       "image": "",

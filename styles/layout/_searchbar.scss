@@ -48,14 +48,12 @@
                 .results {
                     display: flex;
                     flex-direction: column;
-                    overflow:scroll;
                     position: absolute;
                     padding: 2rem 0.5rem 2rem 0.5rem;
                     top: 100%;
                     left: 0;
                     width: 100%;
                     height: fit-content;
-                    max-height: 400px;
                     background-color: #fff;
                     font-size: 1.8rem;
                     border-radius:25px;

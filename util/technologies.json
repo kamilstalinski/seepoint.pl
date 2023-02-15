@@ -2,7 +2,7 @@
   "pl": [
     {
       "id": 0,
-      "category": "technology",
+      "category": "technologie",
       "path": "sublimacja",
       "image": "/billboard.svg",
       "name": "Druk sublimacyjny",
@@ -16,7 +16,7 @@
     },
     {
       "id": 1,
-      "category": "technology",
+      "category": "technologie",
       "path": "druk-eco-solvent",
       "image": "/monitor.svg",
       "imageHero": "/static/ecosolvent-hero.webp",
@@ -30,7 +30,7 @@
     },
     {
       "id": 2,
-      "category": "technology",
+      "category": "technologie",
       "path": "druk-uv",
       "image": "/photocopy.svg",
       "imageHero": "/static/uv-hero.webp",
@@ -44,7 +44,7 @@
     },
     {
       "id": 3,
-      "category": "technology",
+      "category": "technologie",
       "path": "druk-solvent-xxl",
       "image": "/press.svg",
       "imageHero": "/static/solventxxl-hero.webp",
@@ -58,7 +58,7 @@
     },
     {
       "id": 4,
-      "category": "technology",
+      "category": "technologie",
       "path": "plotery-tnace",
       "image": "/vinyl.svg",
       "imageHero": "/static/cuttingplotter-hero.webp",
@@ -75,7 +75,7 @@
   "en": [
     {
       "id": 0,
-      "category": "technology",
+      "category": "technologies",
       "path": "sublimacja",
       "altPath": "sublimation",
       "image": "/billboard.svg",
@@ -90,7 +90,7 @@
     },
     {
       "id": 1,
-      "category": "technology",
+      "category": "technologie",
       "path": "druk-eco-solvent",
       "altPath": "eco-solvent",
       "image": "/monitor.svg",
@@ -105,7 +105,7 @@
     },
     {
       "id": 2,
-      "category": "technology",
+      "category": "technologie",
       "path": "druk-uv",
       "altPath": "uv-print",
       "image": "/photocopy.svg",
@@ -120,7 +120,7 @@
     },
     {
       "id": 3,
-      "category": "technology",
+      "category": "technologie",
       "path": "druk-solvent-xxl",
       "altPath": "solvent-xxl",
       "image": "/press.svg",
@@ -135,7 +135,7 @@
     },
     {
       "id": 4,
-      "category": "technology",
+      "category": "technologie",
       "path": "plotery-tnace",
       "altPath": "cutting-plotters",
       "image": "/vinyl.svg",
