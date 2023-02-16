@@ -3,7 +3,7 @@
     {
       "id": 0,
       "category": "technologie",
-      "path": "sublimacja",
+      "path": "druk-sublimacyjny",
       "image": "/billboard.svg",
       "name": "Druk sublimacyjny",
       "imageHero": "/static/sublimation-hero.webp",
@@ -17,7 +17,7 @@
     {
       "id": 1,
       "category": "technologie",
-      "path": "druk-eco-solvent",
+      "path": "druk-eko-solwentowy",
       "image": "/monitor.svg",
       "imageHero": "/static/ecosolvent-hero.webp",
       "name": "Druk eko solwentowy",
@@ -45,7 +45,7 @@
     {
       "id": 3,
       "category": "technologie",
-      "path": "druk-solvent-xxl",
+      "path": "druk-solwentowy-xxl",
       "image": "/press.svg",
       "imageHero": "/static/solventxxl-hero.webp",
       "name": "Druk solwentowy XXL",
@@ -76,8 +76,8 @@
     {
       "id": 0,
       "category": "technologies",
-      "path": "sublimacja",
-      "altPath": "sublimation",
+      "path": "druk-sublimacyjny",
+      "altPath": "sublimation-print",
       "image": "/billboard.svg",
       "name": "Sublimation print",
       "imageHero": "/static/sublimation-hero.webp",
@@ -91,8 +91,8 @@
     {
       "id": 1,
       "category": "technologie",
-      "path": "druk-eco-solvent",
-      "altPath": "eco-solvent",
+      "path": "druk-eko-solwentowy",
+      "altPath": "eco-print-solvent",
       "image": "/monitor.svg",
       "imageHero": "/static/ecosolvent-hero.webp",
       "name": "Eco-solvent print",
@@ -121,8 +121,8 @@
     {
       "id": 3,
       "category": "technologie",
-      "path": "druk-solvent-xxl",
-      "altPath": "solvent-xxl",
+      "path": "druk-solwentowy-xxl",
+      "altPath": "xxl-solvent-print",
       "image": "/press.svg",
       "imageHero": "/static/solventxxl-hero.webp",
       "name": "Solvent print XXL",

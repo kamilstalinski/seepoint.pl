@@ -136,13 +136,13 @@ const nextConfig = {
         locale: false,
       },
       {
-        source: "/en/technologies/sublimation",
-        destination: "/en/technologie/sublimacja",
+        source: "/en/technologies/sublimation-print",
+        destination: "/en/technologie/druk-sublimacyjny",
         locale: false,
       },
       {
-        source: "/en/technologies/eco-solvent",
-        destination: "/en/technologie/druk-eco-solvent",
+        source: "/en/technologies/eco-print-solvent",
+        destination: "/en/technologie/druk-eko-solwentowy",
         locale: false,
       },
       {
@@ -169,6 +169,20 @@ const nextConfig = {
         source: "/en/information-obligation",
         destination: "/en/obowiazek-informacyjny",
         locale: false,
+      },
+    ];
+  },
+  async redirects() {
+    return [
+      {
+        source: "/o-nas",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/blog",
+        destination: "/",
+        permanent: true,
       },
     ];
   },
