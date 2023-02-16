@@ -22,7 +22,7 @@ export default function Rodo() {
   return (
     <div className='document container'>
       <Head>
-        {/* <title></title> */}
+        <title>{t("metaTitle")}</title>
         <meta key='robots' name='robots' content='noindex,nofollow' />
         <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>
