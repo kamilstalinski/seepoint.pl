@@ -35,8 +35,8 @@ const About = () => {
       <Head>
         <title>{t("metaTitle")}</title>
         <meta name='description' content={t("metaDescription")} />
-        <meta key='robots' name='robots' content='noindex,nofollow' />
-        <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
+        {/* <meta key='robots' name='robots' content='noindex,nofollow' />
+        <meta key='googlebot' name='googlebot' content='noindex,nofollow' /> */}
       </Head>
       <AboutHero t={t} />
       <div className='container about__info'>
