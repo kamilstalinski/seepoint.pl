@@ -180,8 +180,83 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/en/about-us",
+        destination: "/en",
+        permanent: true,
+      },
+      {
         source: "/blog",
         destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/blog/:path*",
+        destination: "/",
+        permanent: false,
+      },
+      {
+        source: "/en/blog/:path*",
+        destination: "/",
+        permanent: false,
+      },
+      {
+        source: "/blog",
+        destination: "/",
+        permanent: false,
+      },
+      {
+        source: "/en/blog",
+        destination: "/",
+        permanent: false,
+      },
+      {
+        source: "/parametry-i-typy-plikow-do-druku-cyfrowego",
+        destination: "/pomoc",
+        permanent: true,
+      },
+      {
+        source: "/en/parametry-i-typy-plikow-do-druku-cyfrowego",
+        destination: "/help",
+        permanent: true,
+      },
+      {
+        source: "/druk-uv",
+        destination: "/technologie/druk-uv",
+        permanent: true,
+      },
+      {
+        source: "/en/uv-print",
+        destination: "/en/technologies/uv-print",
+        permanent: true,
+      },
+      {
+        source: "/druk-solwentowy-xxl",
+        destination: "/technologie/druk-solwentowy-xxl",
+        permanent: true,
+      },
+      {
+        source: "/en/xxl-solvent-print",
+        destination: "/en/technologies/xxl-solvent-print",
+        permanent: true,
+      },
+      {
+        source: "/plotery-tnace",
+        destination: "/technologie/plotery-tnace",
+        permanent: true,
+      },
+      {
+        source: "/en/cutting-plotters",
+        destination: "/en/technologies/cutting-plotters",
+        permanent: true,
+      },
+      {
+        source: "/informacja-o-przetwarzaniu-danych-osobowych",
+        destination: "/obowiazek-informacyjny",
+        permanent: true,
+      },
+      {
+        source: "/en/information-on-the-processing-of-personal-data",
+        destination: "/en/information-obligation",
         permanent: true,
       },
     ];
