@@ -61,8 +61,8 @@ const Product = ({ product }) => {
       <Head>
         <title>{product.metaTitle}</title>
         <meta property='og:title' content={product.metaTitle} />
-        <meta name='description' content={product.metaDescritpion} />
-        <meta property='og:description' content={product.metaDescritpion} />
+        <meta name='description' content={product.metaDescription} />
+        <meta property='og:description' content={product.metaDescription} />
         <meta key='robots' name='robots' content='noindex,nofollow' />
         <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>

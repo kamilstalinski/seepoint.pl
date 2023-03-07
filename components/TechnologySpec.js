@@ -5,7 +5,6 @@ export default function TechnologySpec({ technology, t }) {
     <div className='tech-spec container'>
       <div className='description'>
         <h2>{t("about")}</h2>
-        <p>{technology.description2}</p>
       </div>
       <div className='params'>
         <div className='param-container'>

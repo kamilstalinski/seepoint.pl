@@ -36,12 +36,7 @@ export default function TechnologyHero({ technology, t }) {
               </div>
             </Link>
             <h1 style={{ color: "#6B7786" }}>{technology.name}</h1>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
-              fuga a alias hic voluptatum culpa modi ea animi adipisci
-              asperiores? Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Aspernatur, possimus.
-            </p>
+            <p>{technology.description2}</p>
             <button className='primary-button'>
               <a
                 className='aclass'

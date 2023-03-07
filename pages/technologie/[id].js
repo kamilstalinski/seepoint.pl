@@ -57,7 +57,8 @@ const Technology = ({ technology }) => {
     <div className='tech-element'>
       <Head>
         <title>{technology.name}</title>
-        <meta name='description' content={technologies.name} />
+        <meta name='description' content={technology.metaDescription} />
+        <meta name='og:description' content={technology.metaDescription} />
         <meta key='robots' name='robots' content='noindex,nofollow' />
         <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>
