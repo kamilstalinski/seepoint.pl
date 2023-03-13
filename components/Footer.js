@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGoogle,
+  faSquareFacebook,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   const router = useRouter();
@@ -19,6 +25,23 @@ const Footer = () => {
       </div>
       <div className='info'>
         <p className='footer__description'>©{year} Seepoint</p>
+        <div className='socialmedia__icons'>
+          <a
+            href='https://www.google.com/maps/place/Druk+wielkoformatowy+-+Seepoint/@53.557201,14.847897,15z/data=!4m2!3m1!1s0x0:0xcb2ea3d910f9bd30?sa=X&ved=2ahUKEwj-wt_8gqP4AhWRyIsKHUgwAUAQ_BJ6BAguEAU'
+            className='socialmedia__icon google'>
+            <FontAwesomeIcon icon={faGoogle} />
+          </a>
+          <a
+            href='https://www.facebook.com/SklepSeepoint'
+            className='socialmedia__icon'>
+            <FontAwesomeIcon icon={faSquareFacebook} />
+          </a>
+          <a
+            href='https://www.instagram.com/seepoint/'
+            className='socialmedia__icon'>
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+        </div>
       </div>
       <div className='footer__contact--container'>
         <div className='call'>
