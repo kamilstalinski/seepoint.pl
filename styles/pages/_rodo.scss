@@ -1,0 +1,58 @@
+.document {
+    padding: 4rem;
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        text-align: center;
+        color: rgb(97, 97, 97);
+    }
+    
+    h2:nth-child(3) {
+        font-size: 2.5rem;
+    }
+
+    hr {
+        margin-top: 2rem;
+    }
+
+    p {
+        margin-top: 2rem;
+        text-align: justify;
+    }
+
+    ol{
+        margin-top: 2rem;
+        padding-left: 2rem;
+        font-size: 1.6rem;
+        text-align: justify;
+
+        li {
+            margin-top: 1rem;
+
+            p.adress {
+                font-weight: bold;
+            }
+            
+            h2 {
+                color: black;
+                text-align: start;
+            }
+        }
+
+        #internal-letters {
+            margin-left: 2rem;
+            list-style-type: lower-latin;
+            text-align: justify;
+
+            #internal {
+                margin-left: 4rem;
+                text-align: justify;
+            }
+        }
+    }
+}

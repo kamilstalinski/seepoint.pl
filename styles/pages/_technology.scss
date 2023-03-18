@@ -1,0 +1,97 @@
+.prev-page {
+    position: relative;
+    border-radius: 19px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 6rem;
+    
+    p {
+        z-index: 111;
+    }
+
+    .icon {
+        font-size: 2rem;
+        color: #586574;
+        z-index: 111;
+    }
+
+    &:hover .text,
+    &:hover .icon {
+        color: #000 !important;
+    }
+}
+
+.tech-spec {
+    padding: 4rem;
+    margin-bottom: 12rem;
+    .description {
+        max-width: 70rem;
+        margin: 0 auto;
+        text-align: center;
+
+        h2 {
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-weight: 300;
+        }
+    }
+
+    .params {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10rem;
+        margin-top: 8rem;
+
+        .param-container {
+            width: 20rem;
+            max-width: 20rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            
+            p {
+                margin-top: 2rem;
+                font-size: 1.4rem;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            h3 {
+                color: #194895;
+                font-size: 2.2rem;
+                margin: 4rem 0 2rem 0;
+            }
+
+            h4 {
+                font-size: 1.6rem;
+                margin-top: 2rem;
+                font-weight: normal;
+            }
+
+            
+        }
+
+        @include lg {
+            gap: 6rem;
+            padding: 0 2rem;
+        }
+
+        @include md {
+            gap: 5rem;
+            flex-wrap: wrap;
+            .param-container {
+                width: 100%;
+            }
+        }
+    }
+}

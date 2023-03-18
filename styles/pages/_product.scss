@@ -1,0 +1,288 @@
+.product {
+    padding: 0;
+
+    .add-description {
+        padding: 0 60px;
+        margin-top: 30px;
+
+        p {
+            margin-top: 40px;
+            text-align: justify;
+        }
+
+        @include md {
+            padding: 0 30px;
+        }
+    }
+
+    .product-hero {
+        height: fit-content;
+        padding: 0 6rem;
+        display: flex;
+        align-items: center;
+        gap: 8rem;
+        margin-top: 3rem;
+        
+    
+        .product-info {
+            height: 100%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 4rem;
+    
+            .left-icon {
+                background-color: transparent;
+                width: fit-content;
+                border: none;
+                text-align: start;
+                color: #586574;
+                cursor: pointer;
+    
+                &:hover {
+                    color: #000;
+                }
+            }
+    
+            .breadcrumbs {
+                background: none;
+                text-align: left;
+                display: flex;
+                gap: 1rem;
+                border: none;
+                color: #586574;
+                cursor: pointer;
+                span {
+                    font-weight: 700;
+                    color: #000;
+                    font-size: 16px;
+                }
+    
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+    
+        .product-image {
+            position: relative;
+            width: 40%;
+            height: 100%;
+            scale: 1.25;
+        }
+
+        @include md {
+            flex-direction: column-reverse;
+            margin-top: 4rem;
+            padding: 0 3rem;
+            height: calc(100% - 200px);
+            gap: 0rem;
+    
+            .product-info {
+                width: 100%;
+                justify-content: center;
+                height: fit-content;
+                margin-top: 4rem;
+    
+    
+                .breadcrumbs {
+                    position: absolute;
+                    top: 12.3rem;
+                    right: 3rem;
+                }
+
+                .left-icon {
+                    position: absolute;
+                    top: 11.2rem;
+                    left: 3rem;
+                }
+    
+                .primary-button {
+                    width: 100%;
+                }
+
+                p {
+                    text-align: justify;
+                }
+            }
+    
+            .product-image {
+                width: 100%;
+                margin-top: 2rem;
+            }
+        }
+    
+        @include sm {
+    
+            h1 {
+                font-size: 3rem;
+            }
+    
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
+    
+    .product-type {
+        padding: 0 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8rem;
+        height: fit-content;
+        position: relative;
+        margin: 4rem auto;
+    
+        p {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        @include sm {
+            height: 55rem;
+        }
+        
+    
+     .type-image {
+        border-radius: 50px;
+        overflow: hidden;
+        position: relative;
+        width: 50%;
+        height: 100%;
+    
+        &>div {
+            border-radius: 50px;
+        }
+     }
+    
+        .product-type-info {
+            width: 100%;
+    
+            h2 {
+                font-size: 2.8rem;
+            }
+        }
+    
+        .type-btns {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 1rem;
+    
+            .type-btn {
+                margin: 2rem 0 4rem 0;
+                padding: 1.2rem 2rem;
+                border: none;
+                background: #DADADB;
+                border-radius: 12px;
+                cursor: pointer;
+                transition: .2s all ease-in-out;
+            }
+    
+            .active-btn {
+                background-color: #194895;
+                color: #fff;
+            }
+        }
+    
+        .specs {
+            margin-bottom: 4rem;
+    
+            p {
+                margin-top: 2rem;
+            }
+        }
+    
+        .params {
+    
+            h2 {
+                border-bottom: #000 1px dashed;
+                padding-bottom: 2rem;
+            }
+            
+            h3 {
+                font-size: 1.8rem;
+                font-weight: 500;
+            }
+    
+            .dropdown-title {
+                display: flex;
+                justify-content: space-between;
+                align-self: center;
+                margin-top: 1rem;
+                cursor: pointer;
+                
+                .fa2 {
+                    font-size: 2rem;
+                }
+    
+                transition: .2 all ease-in-out;
+            }
+            
+            .dropdown{
+                
+                height: 0;
+                opacity: 0;
+                
+            }
+    
+            .dropdown-active {
+                margin-top: 2rem;
+                height: auto;
+                opacity: 1;
+                
+            }
+        }
+    
+        .doc-btn {
+            margin-top: 4rem;
+            background-color: transparent;
+            color: #194895;
+            border: 2px solid #194895;
+            box-shadow: none;
+            font-weight: 700;
+            transition: .2s all ease-in-out;
+    
+            &:hover {
+                background-color: #194895;
+                color: #fff;
+            }
+        }
+    
+        @include md {
+            .type-btns {
+                gap: .5rem;
+                justify-content: flex-start;
+    
+                .type-btn {
+                    padding: 1rem 1.8rem;
+                }
+            }
+            
+            .type-image {
+                display: none;
+            }
+    
+            .product-type-info {
+                width: 100%;
+            }
+    
+            .doc-btn {
+                width: 100%;
+            }
+            padding: 0 3rem;
+    
+            
+        }
+    
+        @include sm {
+            margin-bottom: 6rem;
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

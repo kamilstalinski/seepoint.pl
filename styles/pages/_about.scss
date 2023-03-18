@@ -1,0 +1,162 @@
+.about__info {
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .about__description {
+        margin: 8rem 0;
+        max-width: 84rem;
+        text-align: center;
+        margin-bottom: 8rem;
+
+        p {
+            margin-top: 5rem;
+        }
+    }
+
+    .about__pros {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 2rem;
+
+        .about__pros-item {
+            position: relative;
+            width: 17%;
+            text-align: center;
+
+            img {
+                width: 40%;
+                min-width: 30%;
+                margin-bottom: 3.5rem;
+
+                path {
+                    fill: #0068e7;
+                }
+            }
+        }
+
+    }
+
+    @include lg {
+        margin: 6rem 0;
+
+
+        .about__pros {
+            justify-content: center;
+            gap: 4rem;
+
+            .about__pros-item {
+                width: 25%;
+            }
+        }
+    }
+
+    @include md {
+        p {
+            font-size: 14px;
+        }
+
+        .about__description {
+            margin-top: 2rem;
+
+
+        }
+
+        .about__pros {
+            .about__pros-item {
+                width: 70%;
+
+                img {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+.full-bleed {
+    box-shadow: 0 0 0 100vmax #194895;
+    clip-path: inset(0 -100vmax);
+}
+
+.about__us {
+    position: relative;
+    margin: 8rem auto;
+    display: flex;
+    height: fit-content;
+    background-color: #194895;
+    padding: 0;
+    
+
+    .img-container {
+        display: block;
+        width: 60%;
+        height: 100%;
+
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .about__us-description {
+        text-align: end;
+        width: 40%;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+
+        .wrapper {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 4rem;
+
+            h1 {
+                width: 100%;
+            }
+
+            p {
+                text-align: justify;
+            }
+        }
+
+
+    }
+
+    @include sm {
+        flex-direction: column;
+        margin: 2rem 0;
+        height: fit-content;
+
+        .img-container {
+            width: 100%;
+            height: fit-content;
+        }
+
+        .about__us-description {
+            width: 100%;
+            padding: 4rem 4rem;
+
+            .wrapper {
+                width: 100%;
+                text-align: center;
+
+                h1 {
+                    font-size: 35px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
