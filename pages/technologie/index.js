@@ -1,6 +1,6 @@
 import ContactForm from "../../components/ContactForm";
 import TechCarousel from "../../components/TechCarousel";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
@@ -39,8 +39,7 @@ const Technology = () => {
             layout='fill'
             objectFit='cover'
             alt='tech-image'
-            loading='eager'
-            priority='true'
+            priority={true}
           />
         </div>
         <div className='container'>

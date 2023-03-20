@@ -1,7 +1,7 @@
 import technologies from "../util/technologies.json";
 import products from "../util/products.json";
 import { useState, useEffect, useRef } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 

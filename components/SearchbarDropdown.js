@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 export default function SearchbarDropdown({
@@ -24,6 +24,7 @@ export default function SearchbarDropdown({
           {filteredResults.map((result) => {
             return (
               <Link
+                legacyBehavior
                 key={result.id + Math.random() * 100}
                 href={`/${result.category}/${
                   router.locale === "pl" ? result.path : result.altPath

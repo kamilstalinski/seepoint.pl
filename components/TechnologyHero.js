@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
@@ -25,6 +25,7 @@ export default function TechnologyHero({ technology, t }) {
         <div className='container'>
           <div className='hero__content'>
             <Link
+              legacyBehavior
               href={router.locale === "pl" ? "/technologie" : "/technologies"}>
               <div className='prev-page'>
                 <FontAwesomeIcon

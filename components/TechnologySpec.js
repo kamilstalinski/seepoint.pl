@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function TechnologySpec({ technology, t }) {
   return (
@@ -8,13 +8,25 @@ export default function TechnologySpec({ technology, t }) {
       </div>
       <div className='params'>
         <div className='param-container'>
-          <Image src='/param3.svg' width={100} height={100} alt='size' />
+          <Image
+            src='/param3.svg'
+            width={100}
+            height={100}
+            alt='size'
+            priority='true'
+          />
           <h3>{t("size")}</h3>
           <h4>{t("sizeDescription")}</h4>
           <p>{technology.size}</p>
         </div>
         <div className='param-container'>
-          <Image src='/param2.svg' width={100} height={100} alt='media' />
+          <Image
+            src='/param2.svg'
+            width={100}
+            height={100}
+            alt='media'
+            priority='true'
+          />
           <h3>{t("media")}</h3>
           {technology.media.map((media, index) => {
             return (
@@ -26,7 +38,13 @@ export default function TechnologySpec({ technology, t }) {
           })}
         </div>
         <div className='param-container'>
-          <Image src='/param1.svg' width={100} height={100} alt='use' />
+          <Image
+            src='/param1.svg'
+            width={100}
+            height={100}
+            alt='use'
+            priority='true'
+          />
           <h3>{t("use")}</h3>
           {technology.use.map((use, index) => (
             <p key={index}>{use}</p>

@@ -27,7 +27,7 @@ const Navbar = ({ handleStateChange }) => {
   return (
     <div className='navbar__wrapper sticky-element'>
       <div className='navbar__container container'>
-        <Link href='/'>
+        <Link legacyBehavior href='/'>
           <a className={`navbar__img`}>
             <img src='/logo.svg' alt='seepoint logo' />
           </a>

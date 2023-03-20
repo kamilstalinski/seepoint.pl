@@ -139,3 +139,7 @@ const MyApp = ({ Component, pageProps }) => {
 };
 
 export default appWithTranslation(MyApp);
+
+export function reportWebVitals(metric) {
+  console.log(metric);
+}

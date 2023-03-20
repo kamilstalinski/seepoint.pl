@@ -2,7 +2,6 @@ import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import products from "../util/products.json";
-import { useEffect } from "react";
 
 export default function AsideLinks() {
   const { t } = useTranslation("productMain");
@@ -22,7 +21,10 @@ export default function AsideLinks() {
             router.locale === "pl" ? product.path : product.altPath;
 
           return (
-            <Link href={`${mainPath}/${productPath}`} key={product.id}>
+            <Link
+              legacyBehavior
+              href={`${mainPath}/${productPath}`}
+              key={product.id}>
               <a className={product.id === 3 ? "animal" : null}>
                 {product.name}
               </a>

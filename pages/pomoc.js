@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Head from "next/head";
 import ContactForm from "../components/ContactForm";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -61,7 +61,7 @@ const Help = () => {
               objectFit='contain'
               alt='help'
               loading='eager'
-              priority='true'
+              priority={true}
             />
           </div>
         </div>
@@ -90,8 +90,7 @@ const Help = () => {
               layout='fill'
               objectFit='contain'
               alt='help'
-              loading='eager'
-              priority='true'
+              priority={true}
             />
           </div>
         </div>

@@ -36,7 +36,9 @@ export default function FourOFour() {
       <h1>Ooops!</h1>
       <h2>{t("404")}</h2>
       <button className='primary-button'>
-        <Link href={"/"}>{t("button")}</Link>
+        <Link legacyBehavior href={"/"}>
+          {t("button")}
+        </Link>
       </button>
       <div className='circle'></div>
       <div className='circle2'></div>

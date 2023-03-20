@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 const AboutHero = ({ t }) => {
@@ -10,15 +10,14 @@ const AboutHero = ({ t }) => {
           layout='fill'
           objectFit='cover'
           alt='seepoint.pl'
-          loading='eager'
-          priority='true'
+          priority={true}
         />
       </div>
       <div className='container'>
         <div className='hero__content'>
           <h1>Power of Quality</h1>
           <p>{t("aboutHero")}</p>
-          <Link href='/produkty'>
+          <Link legacyBehavior href='/produkty'>
             <a className='primary-button'>{t("seeMore")}</a>
           </Link>
         </div>

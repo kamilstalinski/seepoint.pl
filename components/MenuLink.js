@@ -6,7 +6,7 @@ const MenuLink = ({ children, path, setIsClicked, isClicked }) => {
 
   return (
     <li>
-      <Link href={path}>
+      <Link legacyBehavior href={path}>
         <a
           onClick={() => setIsClicked(!true)}
           className={

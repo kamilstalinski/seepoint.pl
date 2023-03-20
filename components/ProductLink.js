@@ -1,6 +1,6 @@
 import products from "../util/products.json";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useRouter } from "next/router";
 
 const ProductLink = () => {
@@ -12,6 +12,7 @@ const ProductLink = () => {
       {productObj.map((product) => {
         return (
           <Link
+            legacyBehavior
             key={product.id}
             href={
               router.locale === "pl"
@@ -26,7 +27,7 @@ const ProductLink = () => {
                   layout='fill'
                   objectFit='contain'
                   alt={product.name}
-                  priority='true'
+                  priority={true}
                 />
               </div>
             </a>

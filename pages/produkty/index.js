@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Head from "next/head";
 import ContactForm from "../../components/ContactForm";
 import Rewards from "../../components/Rewards";
@@ -59,6 +59,7 @@ const Products = () => {
               height={30}
               layout='responsive'
               alt='uv print'
+              priority={true}
             />
             <div className='text-container'>
               <p>{t("whyusdesc")}</p>
@@ -71,12 +72,12 @@ const Products = () => {
           <h2>{t("technology")}</h2>
           <div className='banner-container'>
             <Image
-              priority={true}
               src='/static/plotter.webp'
               width={100}
               height={30}
               layout='responsive'
               alt='plotter'
+              priority={true}
             />
             <div className='text-container'>
               <p>{t("technologydesc")}</p>
