@@ -34,12 +34,9 @@ const Technology = () => {
       </Head>
       <div className='hero' style={{ marginBottom: "8rem" }}>
         <div className='hero__img-container2'>
-          <Image
+          <img
             src='https://res.cloudinary.com/dnt5pai0z/image/upload/v1673565496/technology_fad5o9.webp'
-            layout='fill'
-            objectFit='cover'
             alt='tech-image'
-            priority={true}
           />
         </div>
         <div className='container'>

@@ -5,13 +5,7 @@ const AboutHero = ({ t }) => {
   return (
     <div className='hero'>
       <div className='hero__img-container2'>
-        <Image
-          src='/static/aboutHero.png'
-          layout='fill'
-          objectFit='cover'
-          alt='seepoint.pl'
-          priority={true}
-        />
+        <img src='/static/aboutHero.webp' alt='seepoint.pl' />
       </div>
       <div className='container'>
         <div className='hero__content'>

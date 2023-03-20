@@ -55,13 +55,9 @@ const Help = () => {
             </ul>
           </div>
           <div className='image-container'>
-            <Image
+            <img
               src='https://res.cloudinary.com/dnt5pai0z/image/upload/v1673565451/help1_bumlfj.webp'
-              layout='fill'
-              objectFit='contain'
               alt='help'
-              loading='eager'
-              priority={true}
             />
           </div>
         </div>
@@ -85,12 +81,9 @@ const Help = () => {
             </ul>
           </div>
           <div className='image-container2'>
-            <Image
+            <img
               src='https://res.cloudinary.com/dnt5pai0z/image/upload/v1673565455/help2_mkvab4.webp'
-              layout='fill'
-              objectFit='contain'
               alt='help'
-              priority={true}
             />
           </div>
         </div>
