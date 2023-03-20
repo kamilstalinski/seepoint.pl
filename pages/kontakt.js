@@ -1,6 +1,6 @@
 import Map from "../components/GoogleMap";
 import ContactForm from "../components/ContactForm";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";

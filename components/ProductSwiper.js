@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Scrollbar, Navigation, Mousewheel } from "swiper";
 import { useRouter } from "next/router";
@@ -28,6 +28,7 @@ const ProductSwiper = ({ t }) => {
         {productObj.slice(0, 6).map((product) => (
           <SwiperSlide key={product.id} style={{ maxWidth: "310px" }}>
             <Link
+              legacyBehavior
               href={`${router.locale === "pl" ? path : pathEn}/${
                 router.locale === "pl" ? product.path : product.altPath
               }`}>

@@ -11,7 +11,9 @@ const ProductSlider = () => {
     <div className='product-slider container'>
       <h2>{t("header")}</h2>
       <ProductSwiper t={t} />
-      <Link href={router.locale === "pl" ? "/produkty" : "/products"}>
+      <Link
+        legacyBehavior
+        href={router.locale === "pl" ? "/produkty" : "/products"}>
         <a className='primary-button'>{t("seeProducts")}</a>
       </Link>
     </div>
