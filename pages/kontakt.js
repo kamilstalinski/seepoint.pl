@@ -33,9 +33,13 @@ const Contact = () => {
       </Head>
       <div className='contact__info'>
         <div className='img-container'>
-          <img
+          <Image
             src='https://res.cloudinary.com/dnt5pai0z/image/upload/v1673565429/contact_qehebj.webp'
+            layout='fill'
+            objectFit='cover'
             alt='contact image'
+            loading='eager'
+            priority='true'
           />
         </div>
         <div className='contact__details--right'>

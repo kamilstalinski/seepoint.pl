@@ -35,11 +35,6 @@ const Products = () => {
         <meta key='googlebot' name='googlebot' content='noindex,nofollow' />
       </Head>
       <div className='products__hero'>
-        <img
-          className='products-img'
-          src='/static/products-hero.webp'
-          alt='products banner'
-        />
         <div className='products__hero--info'>
           <h1>{t("header")}</h1>
           <a
