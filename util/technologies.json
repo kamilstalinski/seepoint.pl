@@ -25,7 +25,7 @@
       "name": "Druk eko solwentowy",
       "description": "Wykonujmy m.in backlit, canvas, folia, papier",
       "description2":
-        "sposób druku na ploterze atramentami eko solwentowymi (na bazie rozpuszczalników organicznych). Praktyczne zastosowania druku eko solwentowego to wszelkie wydruki w mniejszym formacie przy zachowaniu najwyższej rozdzielczości. Atramenty eko solwentowe są mniej toksyczne, jednocześnie znacznie mniej odporne na działanie warunków atmosferycznych i uszkodzenia mechaniczne, dlatego często wydruki pokrywa się laminatami.",
+        "Sposób druku na ploterze atramentami eko solwentowymi (na bazie rozpuszczalników organicznych). Praktyczne zastosowania druku eko solwentowego to wszelkie wydruki w mniejszym formacie przy zachowaniu najwyższej rozdzielczości. Atramenty eko solwentowe są mniej toksyczne, jednocześnie znacznie mniej odporne na działanie warunków atmosferycznych i uszkodzenia mechaniczne, dlatego często wydruki pokrywa się laminatami.",
       "size": "160 cm",
       "media": [["backlit,"], ["canvas,"], ["folia,"], ["papier,", "itp."]],
       "use": ["grafika reklamowa", "wydruki wysokojakościowe", "fotografia"]
@@ -40,7 +40,7 @@
       "name": "Druk UV",
       "description": "Wykonujmy trwały druk na materiałach płaskich oraz rolowych",
       "description2":
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio at voluptas similique. Minus cumque dolorem harum, distinctio, dicta magnam commodi sequi molestias praesentium maxime facilis repellat deserunt impedit voluptate optio.",
+        "Druk tuszami utwardzanymi promieniami UV. Cechuje go wysoka trwałość kolorów, druk jest nanoszony powierzchniowo. Zaletą jest możliwość druku białym kolorem.",
       "size": "320 cm",
       "media": [["spienione pcv", "(forex) od 1mm do 19mm,"], ["kappa, szkło, pp, folia,"], ["płyty z okładzinami z aluminium", "(alu sandwich),"], ["akryl, sklejka", "itp,"]],
       "use": ["trwały druk na materiałach płaskich oraz rolowanych", "bardzo szeroka baza materiałów nadających się do druku UV"]
@@ -55,7 +55,7 @@
       "name": "Druk solwentowy XXL",
       "description": "Wykonujemy banery, siatki, folie",
       "description2":
-        "sposób druku na ploterze atramentami solwentowymi. Druk solwentowy można stosować wobec wszystkich podłoży z zawartością PVC. Praktyczne zastosowania druku solwentowego to wszelkie wydruki wielkoformatowe charakteryzujące się  odpornością na czynniki zewnętrzne w dłuższym czasie. Atramenty solwentowe są odporne na wiele czynników łącznie z promieniowaniem ultrafioletowym i na ogół nie wymagają laminowania.",
+        "Sposób druku na ploterze atramentami solwentowymi. Druk solwentowy można stosować wobec wszystkich podłoży z zawartością PVC. Praktyczne zastosowania druku solwentowego to wszelkie wydruki wielkoformatowe charakteryzujące się  odpornością na czynniki zewnętrzne w dłuższym czasie. Atramenty solwentowe są odporne na wiele czynników łącznie z promieniowaniem ultrafioletowym i na ogół nie wymagają laminowania.",
       "size": "500 cm",
       "media": [["frontilt", "(baner),"], ["mesh", "(siatka),"], ["backlit,"], ["blockout", "itp,"]],
       "use": ["banery", "siatki", "folie"]
@@ -71,7 +71,7 @@
       "description":
         "Nacinanie liter i innych kształtów w folii samoprzylepnej oraz płytach PCV",
       "description2":
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio at voluptas similique. Minus cumque dolorem harum, distinctio, dicta magnam commodi sequi molestias praesentium maxime facilis repellat deserunt impedit voluptate optio.",
+        "Sterowane komputerowo urządzenie tnące, służące do nacinania lub wycinania kształtów w arkuszach miękkich materiałów lub z rolek. Działa na zasadzie głowicy wyposażonej w ostrze, która przesuwa się nad powierzchnią wycinanego materiału. Posiadamy plotery rolowe i plotery płaskie, gdzie oprócz cięcia oferujemy również frezowanie.",
       "size": "300 cm",
       "media": [["folia samoprzylepna,"], ["spienione pcv", "(forex) od 1mm do 19mm"], ["backlit,"], ["blockout", "itp,"]],
       "use": ["Plotery tnące są stosowane głównie do nacinania liter i kształtów w folii samoprzylepnej oraz płytach PCV."]
@@ -121,7 +121,7 @@
       "name": "UV print",
       "description": "We make durable printing on flat and roll materials",
       "description2":
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio at voluptas similique. Minus cumque dolorem harum, distinctio, dicta magnam commodi sequi molestias praesentium maxime facilis repellat deserunt impedit voluptate optio.",
+        "Printing with UV cured inks. It is characterized by high color durability, the print is applied on the surface. The advantage is the ability to print in white color.",
       "size": "320 cm",
       "media": [["foamed pvc", "(forex) from 1mm to 19mm,"], ["kappa, glass, pp, foil,"], ["plates with aluminum cladding", "(alu sandwich),"], ["acrylic, plywood", "etc,"]],
       "use": ["durable printing on flat and rolled materials", "a very wide base of materials suitable for UV printing"]
@@ -154,7 +154,7 @@
       "description":
         "Cutting letters and other shapes in self-adhesive foil and PVC plates",
       "description2":
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio at voluptas similique. Minus cumque dolorem harum, distinctio, dicta magnam commodi sequi molestias praesentium maxime facilis repellat deserunt impedit voluptate optio.",
+        "A computer-controlled cutting device used to score or cut shapes in sheets of soft material or from rolls. It works on the principle of a head equipped with a blade, which moves over the surface of the cut material. We have roll plotters and flatbed plotters, where, in addition to cutting, we also offer milling.",
       "size": "300 cm",
       "media": [["sticky foil,"], ["foamed pcv", "(forex) from 1mm to 19mm"], ["backlit,"], ["blockout", "etc,"]],
       "use": ["Cutting plotters are mainly used for cutting letters and shapes in self-adhesive foil and PVC plates."]
